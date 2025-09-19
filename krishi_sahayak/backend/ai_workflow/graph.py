@@ -54,34 +54,20 @@ class AgriculturalAgentGraph:
         return workflow.compile()
     
     async def _process_input(self, state: AgentState) -> AgentState:
-        """Process user input and determine required tools"""
+        """Process user input - simplified"""
         user_input = state["user_input"]
         
-        # Determine tools needed
-        tools_needed = self.agent._determine_tools_needed(user_input)
-        
-        # Extract parameters
-        params = self.agent._extract_parameters(user_input, state.get("context", {}))
-        
-        state["tools_used"] = tools_needed
-        state["context"] = params
+        # For now, just store the input - no complex tool analysis
+        state["tools_used"] = []  # Placeholder
+        state["context"] = state.get("context", {})
         
         return state
     
     async def _execute_tools(self, state: AgentState) -> AgentState:
-        """Execute the required tools"""
-        tools_needed = state["tools_used"]
-        params = state["context"]
-        
-        tool_results = {}
-        
-        for tool_name in tools_needed:
-            if tool_name in self.agent.tools:
-                try:
-                    result = await self.agent._call_tool(tool_name, params)
-                    tool_results[tool_name] = result
-                except Exception as e:
-                    tool_results[tool_name] = f"Error: {str(e)}"
+        """Execute the required tools - placeholder for now"""
+        # Simple placeholder - just call agent's execute_tools method
+        user_input = state["user_input"]
+        tool_results = self.agent.execute_tools(user_input)
         
         state["recommendations"] = tool_results
         return state

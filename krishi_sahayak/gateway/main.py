@@ -1,1 +1,0 @@
-# API Gateway - Routes requests

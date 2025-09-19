@@ -5,6 +5,11 @@ import sys
 import os
 from pathlib import Path
 import logging
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+env_path = Path(__file__).parent / '.env'
+load_dotenv(env_path)
 
 # Set up logging
 logging.basicConfig(

@@ -1,0 +1,13 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount the current directory for live code reloading
+      - .:/app
+    environment:
+      # You can add environment variables here
+      - PYTHONPATH=/app
+    # Restart policy
+    restart: unless-stopped
