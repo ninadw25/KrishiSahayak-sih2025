@@ -1,0 +1,788 @@
+state,district,primary_soil_type,secondary_soil_type,ph_level,organic_matter_percent,nitrogen_level,phosphorus_level,potassium_level,water_holding_capacity_percent,drainage,erosion_risk,salinity_level,texture,depth_cm,elevation_meters,slope_percent,cation_exchange_capacity,bulk_density,infiltration_rate_mm_per_hour,available_water_capacity_mm,micronutrient_status,soil_temperature_celsius,major_constraints,land_use_pattern,irrigation_potential,groundwater_depth_meters
+Andhra Pradesh,Alluri Sitharama Raju,alluvial,laterite,7.7,3.4,medium,low,low,17.3,excessive,low,highly_saline,loam,174,308,29.1,34.1,1.25,10.7,102,sufficient,25.5,salinity,agriculture,high,27.2
+Andhra Pradesh,Anakapalli,alluvial,black_cotton,6.6,4.4,low,low,medium,30.3,excessive,low,moderately_saline,clay,75,646,5.1,7.3,1.76,48.4,177,deficient,15.3,waterlogging,urban,low,34.8
+Andhra Pradesh,Anantapuramu,laterite,red_yellow,6.2,1.2,medium,low,high,32,moderate,medium,highly_saline,silt_loam,170,729,13.5,18.8,1.75,36.9,119.2,sufficient,18.9,none,barren,high,15
+Andhra Pradesh,Annamayya,red_yellow,laterite,6,1.6,medium,low,high,18,good,low,highly_saline,sandy,160,471,0.4,12,1.6,39.9,152.7,sufficient,22.2,none,urban,low,42.8
+Andhra Pradesh,Bapatla,laterite,black_cotton,5.1,2,medium,medium,medium,26,good,low,moderately_saline,clay,199,461,25.5,30.3,1.27,14.3,84.9,adequate,23.6,waterlogging,urban,high,11.7
+Andhra Pradesh,Chittoor,laterite,alluvial,5.7,2.8,medium,low,medium,36.6,poor,low,highly_saline,loam,110,795,27.9,33.3,1.54,43.8,176.4,sufficient,32.7,waterlogging,urban,high,17.3
+Andhra Pradesh,Dr. B.R. Ambedkar Konaseema,red_yellow,red_yellow,5.8,2.2,high,high,low,35.4,poor,medium,normal,sandy,75,233,10.1,38,1.33,26.9,164.4,deficient,16.3,waterlogging,urban,medium,35.4
+Andhra Pradesh,East Godavari,alluvial,red_yellow,6.7,4.5,low,high,medium,16.3,excessive,low,normal,loam,150,129,15.9,20.7,1.49,30.4,89.7,adequate,19.8,alkalinity,barren,medium,32.4
+Andhra Pradesh,Eluru,alluvial,alluvial,6.6,3.8,medium,low,low,38.6,good,high,slightly_saline,loam,171,147,19.4,11.1,1.58,20.6,192.4,deficient,28.5,none,agriculture,medium,46.4
+Andhra Pradesh,Guntur,black_cotton,black_cotton,7.4,3.1,high,medium,medium,24.7,excessive,medium,highly_saline,clay,61,159,19,16.9,1.34,36.8,187.7,sufficient,30.6,salinity,forest,high,9.8
+Andhra Pradesh,Kakinada,black_cotton,laterite,7.9,0.5,low,medium,low,21.4,moderate,medium,slightly_saline,loam,193,995,21.4,13.3,1.33,37.8,158,adequate,29.4,none,urban,low,19.7
+Andhra Pradesh,Krishna,alluvial,black_cotton,6.8,4.4,medium,high,medium,46.8,moderate,low,highly_saline,sandy,85,815,8.4,5.9,1.55,10.5,192.9,deficient,20.6,alkalinity,forest,high,47.7
+Andhra Pradesh,Kurnool,red_yellow,red_yellow,6.3,2.8,high,low,medium,22.6,poor,high,highly_saline,sandy_loam,49,734,25.3,37.6,1.15,12,160.5,adequate,17.8,drought,mixed,medium,17.5
+Andhra Pradesh,Nandyal,laterite,red_yellow,5.2,3.3,medium,low,medium,25.2,excessive,low,highly_saline,sandy_loam,159,824,18.8,11.8,1.15,21,86.1,adequate,21.8,salinity,mixed,medium,23
+Andhra Pradesh,NTR,alluvial,black_cotton,6.9,1.1,high,high,high,25,moderate,medium,moderately_saline,silt_loam,125,992,24.8,14.5,1.78,23.9,181,sufficient,25.8,salinity,barren,medium,26.8
+Andhra Pradesh,Palnadu,black_cotton,alluvial,8.2,1.6,medium,low,low,53.5,good,high,normal,clay_loam,153,57,27.5,20.5,1.27,6.5,101.9,deficient,20.6,acidity,barren,medium,37
+Andhra Pradesh,Parvathipuram Manyam,alluvial,laterite,7.2,1.1,low,low,low,18.8,moderate,medium,slightly_saline,clay_loam,168,217,22.9,33.2,1.34,24.3,158,sufficient,27.3,acidity,urban,medium,14.5
+Andhra Pradesh,Prakasam,black_cotton,black_cotton,8.4,2.5,medium,medium,medium,52.8,moderate,low,highly_saline,loam,108,663,20.3,25.1,1.19,40.9,178.5,adequate,31.4,waterlogging,forest,high,5.3
+Andhra Pradesh,Sri Potti Sriramulu Nellore,alluvial,black_cotton,6.5,0.9,medium,low,medium,48.8,moderate,medium,slightly_saline,loam,129,902,3.5,29.4,1.54,44.1,168.2,deficient,34.4,salinity,mixed,high,38
+Andhra Pradesh,Sri Satya Sai,laterite,alluvial,6.5,2.2,medium,medium,medium,52.2,poor,low,moderately_saline,clay,47,216,7.1,18.2,1.47,25.8,126.8,deficient,32.9,none,urban,high,45.5
+Andhra Pradesh,Srikakulam,laterite,red_yellow,5.5,4.3,high,medium,medium,32.9,good,low,highly_saline,loam,77,150,23.4,9,1.75,48.8,199.5,sufficient,23.8,acidity,forest,low,7.6
+Andhra Pradesh,Tirupati,laterite,red_yellow,6.1,3,low,low,high,17.9,moderate,high,slightly_saline,sandy_loam,29,28,2.5,39.5,1.36,19.8,177.5,adequate,33.2,acidity,urban,medium,36
+Andhra Pradesh,Visakhapatnam,alluvial,red_yellow,7,3.3,low,low,medium,25.1,moderate,medium,slightly_saline,clay_loam,85,894,19.5,31.1,1.51,48.2,125,deficient,16.7,none,barren,medium,40.5
+Andhra Pradesh,Vizianagaram,red_yellow,laterite,6.3,1.8,low,high,high,25.1,good,low,slightly_saline,sandy,73,525,8.8,39.9,1.59,20.4,168.5,adequate,20.6,alkalinity,urban,high,15.3
+Andhra Pradesh,West Godavari,laterite,laterite,5.7,1.9,medium,low,high,54.4,moderate,high,normal,sandy,185,723,18.1,14.5,1.19,5.7,192.9,adequate,29.5,none,mixed,medium,46.8
+Andhra Pradesh,YSR Kadapa,black_cotton,alluvial,7.1,0.6,medium,high,high,21,poor,medium,moderately_saline,sandy,110,826,25.3,34.3,1.43,21.9,112.8,adequate,32.3,none,barren,low,38
+Arunachal Pradesh,Anjaw,hill,mountain,6.4,3.4,medium,low,medium,23.2,poor,high,normal,clay,28,1469,26.3,31.5,1.13,14.9,82.7,sufficient,25.4,alkalinity,forest,low,16.8
+Arunachal Pradesh,Changlang,mountain,forest,7.5,0.9,medium,medium,medium,31.8,poor,low,slightly_saline,sandy_loam,99,434,27.1,26.6,1.79,31.2,156.4,adequate,23.7,waterlogging,urban,high,26.7
+Arunachal Pradesh,Dibang Valley,hill,forest,6.4,3.9,high,low,high,34.7,excessive,low,slightly_saline,silt_loam,77,449,9.9,27.2,1.27,5.6,95.5,adequate,26.7,drought,urban,high,45
+Arunachal Pradesh,East Kameng,hill,hill,6.5,1.2,low,low,low,26.1,poor,medium,normal,silt_loam,25,644,13.8,12.2,1.35,26.2,162.8,deficient,16.8,none,forest,low,20.1
+Arunachal Pradesh,East Siang,mountain,forest,7.3,0.8,medium,high,medium,52,moderate,medium,highly_saline,silt_loam,154,364,1.9,10.2,1.19,35,181.3,adequate,25.6,acidity,mixed,medium,19
+Arunachal Pradesh,Itanagar,hill,hill,5.7,3.4,low,medium,high,18.6,moderate,low,normal,clay,49,579,10.7,27.7,1.44,30,168.4,adequate,29.9,none,urban,low,20.2
+Arunachal Pradesh,Kamle,mountain,forest,7.3,2.9,low,medium,medium,52.3,poor,medium,normal,silt_loam,94,1526,14.6,34.8,1.16,40.7,86.7,deficient,16.6,drought,barren,low,45
+Arunachal Pradesh,Kra Daadi,hill,hill,6.7,1.5,low,medium,high,37.3,excessive,medium,moderately_saline,clay,68,644,5.6,16.3,1.4,26.4,109.1,adequate,29.1,alkalinity,barren,medium,9.4
+Arunachal Pradesh,Kurung Kumey,mountain,hill,6.9,2,medium,medium,medium,23.1,excessive,medium,highly_saline,sandy,87,1636,0.1,9.1,1.43,31.1,175.3,adequate,33.6,alkalinity,urban,medium,8
+Arunachal Pradesh,Lepa Rada,hill,mountain,5.8,2,high,medium,low,46.3,good,low,normal,silt_loam,84,2845,24.8,11.5,1.26,32.4,188.9,deficient,32.5,none,mixed,low,36.3
+Arunachal Pradesh,Lohit,hill,mountain,6,3.5,medium,low,high,30.4,moderate,low,highly_saline,loam,63,1970,12.9,16.6,1.61,35.3,100,adequate,27.4,salinity,forest,high,9.3
+Arunachal Pradesh,Longding,mountain,mountain,6.4,3.5,low,medium,high,50.1,poor,medium,slightly_saline,clay,183,814,25.4,9.5,1.38,40.3,98,adequate,23.2,acidity,mixed,low,32.8
+Arunachal Pradesh,Lower Dibang Valley,hill,forest,5.9,1.9,low,high,medium,31,good,medium,slightly_saline,loam,164,217,17.6,22.7,1.53,2.9,184.7,deficient,33.4,waterlogging,agriculture,low,31.1
+Arunachal Pradesh,Lower Siang,forest,hill,6.1,4.2,high,medium,low,54.4,moderate,medium,moderately_saline,sandy,25,830,9.3,13,1.53,20.2,169.3,sufficient,31.1,acidity,mixed,high,7.5
+Arunachal Pradesh,Lower Subansiri,mountain,forest,7.4,1.9,medium,medium,medium,24,excessive,high,moderately_saline,silt_loam,176,24,15,19.7,1.74,19.4,149.7,sufficient,19.4,waterlogging,barren,high,10.5
+Arunachal Pradesh,Namsai,mountain,mountain,6.8,3.9,medium,low,medium,27.4,moderate,high,moderately_saline,loam,86,2079,14,26.9,1.36,42.2,150.5,deficient,30.5,waterlogging,mixed,medium,23.2
+Arunachal Pradesh,Pakke-Kessang,forest,forest,5.8,1.1,low,high,high,29.9,moderate,high,slightly_saline,sandy_loam,148,992,0.8,10.5,1.6,33.6,83.3,adequate,20.1,drought,barren,medium,18.3
+Arunachal Pradesh,Papum Pare,mountain,hill,7.3,2.7,medium,high,high,39.1,moderate,high,highly_saline,clay_loam,189,181,6.1,15.3,1.73,2.6,90.3,adequate,32,acidity,forest,high,22.2
+Arunachal Pradesh,Shi-Yomi,forest,mountain,6.2,1.9,low,low,medium,25.7,poor,low,slightly_saline,silt_loam,161,3297,25.8,12.7,1.78,39.4,93.7,sufficient,24.7,alkalinity,agriculture,medium,3.1
+Arunachal Pradesh,Siang,forest,mountain,5.8,3,low,low,high,54.4,moderate,low,normal,sandy_loam,61,74,24.7,23.5,1.67,25.9,88.1,deficient,28,waterlogging,urban,low,7.1
+Arunachal Pradesh,Tawang,forest,mountain,5.4,1.6,medium,low,medium,34.8,moderate,low,normal,sandy_loam,146,3629,1.4,10.8,1.62,6,152.4,sufficient,16.4,drought,forest,high,36.6
+Arunachal Pradesh,Tirap,hill,forest,6.2,3.2,high,medium,medium,16.2,excessive,high,moderately_saline,clay_loam,105,957,28.7,10.4,1.54,24.8,121.3,deficient,23.3,acidity,forest,medium,24.1
+Arunachal Pradesh,Upper Dibang Valley,hill,hill,5.6,0.5,high,low,low,27.6,good,high,normal,clay,41,329,20.7,23.2,1.16,48,171,adequate,31.1,acidity,agriculture,medium,25.5
+Arunachal Pradesh,Upper Siang,hill,hill,7,4.3,low,medium,high,22.2,poor,medium,slightly_saline,silt_loam,103,628,21.9,11.7,1.18,22.2,175.4,adequate,32.2,drought,mixed,low,41.8
+Arunachal Pradesh,Upper Subansiri,mountain,forest,6.9,1.4,low,low,medium,28.6,good,high,highly_saline,sandy,28,1372,19.8,30.8,1.46,22.5,185.2,sufficient,15.5,waterlogging,mixed,medium,2
+Arunachal Pradesh,West Kameng,mountain,mountain,6.6,4.2,low,low,low,18.5,moderate,low,highly_saline,sandy,40,3511,8.2,18.9,1.16,18.1,142.7,deficient,19.8,drought,barren,medium,16.3
+Arunachal Pradesh,West Siang,forest,forest,5.4,0.7,low,high,medium,30.4,excessive,high,slightly_saline,clay,85,996,2.7,19.6,1.72,47.3,136.1,deficient,34.8,salinity,urban,low,21.3
+Assam,Baksa,alluvial,hill,6.8,3.8,low,low,medium,16.5,moderate,high,highly_saline,silt_loam,29,772,18.9,12.6,1.46,30.7,143,adequate,22.9,waterlogging,mixed,medium,49.8
+Assam,Barpeta,hill,hill,5.8,1.4,medium,medium,medium,18.7,poor,high,moderately_saline,clay_loam,53,648,1.3,34.8,1.12,17.8,191.8,adequate,16.7,salinity,forest,high,4.3
+Assam,Biswanath,laterite,laterite,6.4,0.9,high,high,low,50.3,moderate,low,moderately_saline,sandy_loam,91,567,19.9,24,1.71,37.2,142.6,deficient,18.1,none,barren,low,13.5
+Assam,Bongaigaon,alluvial,laterite,6.6,3.3,low,high,high,33.6,good,high,slightly_saline,sandy_loam,184,362,6.9,36.8,1.1,28.7,170.8,adequate,18.9,acidity,forest,high,28.9
+Assam,Cachar,hill,laterite,6.5,2.7,medium,low,high,36.7,excessive,medium,moderately_saline,clay_loam,84,334,28,8.6,1.76,35,88.1,adequate,18.3,salinity,agriculture,medium,24.7
+Assam,Charaideo,laterite,laterite,5.1,3.9,high,medium,medium,40.9,excessive,low,highly_saline,clay,163,32,9.7,22.1,1.64,34.8,133.5,sufficient,24.4,salinity,agriculture,low,23.7
+Assam,Chirang,hill,hill,6.7,3.3,low,low,medium,41.2,good,high,normal,silt_loam,116,988,28.3,19.7,1.55,21.1,112.9,adequate,21.2,waterlogging,urban,medium,13
+Assam,Darrang,alluvial,hill,6.5,3.1,medium,high,medium,53.7,moderate,low,normal,clay,77,519,23.1,34.6,1.63,32.1,95.7,deficient,33.2,waterlogging,forest,medium,24.2
+Assam,Dhemaji,laterite,laterite,5.9,2.9,low,medium,medium,21.4,moderate,medium,normal,clay,154,343,13,39.5,1.2,24.3,161.7,sufficient,24.6,alkalinity,forest,high,38.3
+Assam,Dhubri,laterite,alluvial,5.1,2.4,low,low,high,20.7,excessive,medium,slightly_saline,clay_loam,172,672,16.8,5.3,1.33,26.9,90.5,deficient,16.7,acidity,urban,medium,21.1
+Assam,Dibrugarh,laterite,laterite,5.9,3.3,high,low,low,19.2,good,low,moderately_saline,loam,158,8,28.1,6.8,1.48,36,184.5,sufficient,27.5,salinity,forest,low,5.8
+Assam,Dima Hasao,laterite,laterite,6.2,2.4,low,low,medium,44,excessive,high,highly_saline,clay,49,300,18.5,16.5,1.43,37.7,184.6,deficient,28.2,drought,urban,medium,3
+Assam,Goalpara,hill,laterite,6,2.7,medium,low,medium,23.8,moderate,high,moderately_saline,sandy,159,331,5.2,38.6,1.39,42.6,155.5,sufficient,34.8,waterlogging,agriculture,low,29.8
+Assam,Golaghat,laterite,alluvial,5.6,2.9,medium,medium,medium,54.7,moderate,medium,normal,clay_loam,155,236,14,34.3,1.27,39.2,128.6,sufficient,18.6,salinity,mixed,low,21.8
+Assam,Hailakandi,laterite,alluvial,5.7,0.9,medium,medium,medium,41.5,good,medium,normal,loam,113,27,7.7,28,1.33,39.1,95.7,deficient,19.7,drought,mixed,low,23.2
+Assam,Hojai,laterite,alluvial,5.5,3.8,medium,low,medium,43.3,excessive,medium,highly_saline,clay_loam,145,106,22.1,28.2,1.43,42.5,176.7,adequate,32.4,salinity,forest,high,3.6
+Assam,Jorhat,laterite,laterite,5.2,1.4,low,medium,medium,22.2,good,low,normal,sandy,36,489,11.9,21.8,1.58,2.8,118.8,deficient,32.4,drought,mixed,low,34
+Assam,Kamrup,hill,laterite,6,3.3,low,medium,high,18.8,excessive,low,highly_saline,silt_loam,29,494,5.3,29.2,1.69,47.3,162,sufficient,19.9,waterlogging,agriculture,low,46.7
+Assam,Kamrup Metropolitan,laterite,alluvial,5.9,4.3,high,medium,medium,28.9,moderate,medium,highly_saline,silt_loam,87,584,26,39.8,1.63,6.3,114.6,adequate,32.6,acidity,urban,medium,23
+Assam,Karbi Anglong,laterite,laterite,6.3,1.8,high,low,medium,41,poor,high,normal,clay_loam,167,916,11.4,24.2,1.52,28.2,133.3,sufficient,16.5,drought,mixed,medium,24.2
+Assam,Karimganj,hill,alluvial,6.8,2.6,medium,low,medium,30.2,moderate,low,moderately_saline,clay_loam,39,42,22.9,33.5,1.6,47.9,82.2,adequate,23.6,acidity,urban,low,13.7
+Assam,Kokrajhar,hill,hill,5.6,4.2,medium,low,medium,25.3,excessive,medium,moderately_saline,clay,180,290,17.4,8.1,1.6,21.2,197.2,sufficient,17.4,drought,urban,medium,40.4
+Assam,Lakhimpur,hill,hill,5.9,3.7,low,high,medium,18.5,moderate,low,highly_saline,clay,130,558,28.5,26.1,1.67,44.4,107.4,deficient,27.9,waterlogging,agriculture,high,45.5
+Assam,Majuli,alluvial,laterite,6.8,1.7,medium,high,medium,47.4,good,medium,normal,sandy_loam,93,686,7.1,35.4,1.43,27.7,101.4,deficient,27.8,salinity,forest,medium,14.3
+Assam,Morigaon,alluvial,alluvial,6.6,1.1,low,medium,medium,32.7,poor,high,normal,sandy,48,699,24.6,26.1,1.34,45.5,172.7,deficient,32.9,drought,agriculture,high,12.9
+Assam,Nagaon,alluvial,hill,6.6,2.6,low,high,medium,36.6,moderate,medium,moderately_saline,silt_loam,68,380,13.7,11.7,1.14,20.2,123.6,adequate,29.6,alkalinity,urban,medium,29
+Assam,Nalbari,alluvial,alluvial,7.3,3.5,low,medium,medium,47.9,excessive,low,highly_saline,clay_loam,160,979,14.2,18.4,1.18,48.8,82.4,deficient,31.8,acidity,urban,medium,14.3
+Assam,Sivasagar,hill,alluvial,6.4,2.5,low,low,low,24.1,poor,medium,normal,clay,26,986,7.2,22.8,1.68,15.4,193.1,sufficient,25.3,drought,forest,low,49.6
+Assam,Sonitpur,alluvial,laterite,7.2,2.1,medium,medium,medium,36.3,moderate,medium,moderately_saline,clay_loam,38,72,9.7,5.8,1.21,12.7,194.9,sufficient,27.8,none,mixed,high,25
+Assam,South Salmara-Mankachar,alluvial,hill,7.1,2.9,medium,low,medium,30.9,poor,low,normal,sandy_loam,160,916,0.8,9.7,1.77,28.4,195.9,deficient,33.7,salinity,mixed,high,7.1
+Assam,Tinsukia,laterite,alluvial,5,2.9,medium,low,medium,22.7,poor,medium,slightly_saline,loam,183,55,8.9,20.1,1.22,5.6,173.9,sufficient,17,salinity,agriculture,low,13
+Assam,Udalguri,alluvial,hill,6.8,1.2,medium,high,high,46.7,good,medium,highly_saline,clay,31,154,12.4,34,1.61,38.9,81.3,sufficient,17.7,acidity,barren,medium,34.7
+Assam,West Karbi Anglong,hill,alluvial,5.8,0.5,low,high,high,53.4,excessive,low,moderately_saline,sandy,163,702,15,14.3,1.2,8.1,183.8,sufficient,24.5,none,barren,high,24.1
+Assam,Bajali,alluvial,laterite,7.7,4.3,medium,low,medium,32.5,poor,low,slightly_saline,sandy_loam,82,955,23.4,33.9,1.45,20.5,134,deficient,27.3,salinity,barren,low,7.1
+Assam,Tamulpur,alluvial,hill,7.4,0.7,low,medium,low,17.9,excessive,low,normal,clay_loam,45,231,10.6,15.4,1.34,39.2,159.4,adequate,18.5,acidity,barren,medium,41.9
+Bihar,Araria,laterite,laterite,5.6,0.8,medium,high,high,24.1,poor,medium,moderately_saline,sandy_loam,73,803,18.5,32.1,1.55,27.5,85,sufficient,21.4,salinity,urban,low,49
+Bihar,Arwal,laterite,alluvial,5.9,3.5,high,medium,low,28.5,excessive,medium,moderately_saline,sandy,177,487,13,20.4,1.53,47.3,108.9,deficient,28.5,drought,agriculture,high,15.7
+Bihar,Aurangabad,laterite,laterite,6.3,3.9,high,low,high,33.4,excessive,medium,highly_saline,silt_loam,159,662,19.7,11.2,1.48,49.3,192.5,deficient,29.6,waterlogging,barren,high,36.8
+Bihar,Banka,alluvial,laterite,6.8,2.5,high,medium,medium,38.6,excessive,high,moderately_saline,silt_loam,43,22,20.7,35.6,1.55,38.5,99.2,sufficient,26.2,none,urban,high,44.3
+Bihar,Begusarai,laterite,laterite,5.3,4,medium,low,high,47.6,good,high,slightly_saline,sandy,136,12,16.2,23.3,1.69,42.3,179.9,sufficient,19,waterlogging,barren,high,34.6
+Bihar,Bhagalpur,laterite,alluvial,6.3,2.4,medium,low,medium,40.7,moderate,medium,moderately_saline,sandy_loam,61,741,12.4,29.3,1.1,31.7,122.7,deficient,22.8,none,urban,high,32.8
+Bihar,Bhojpur,laterite,alluvial,5.9,2.7,medium,medium,medium,47.2,good,high,normal,silt_loam,174,663,10,32.5,1.6,39.9,142.1,deficient,17.9,none,agriculture,medium,19.8
+Bihar,Buxar,alluvial,alluvial,7.5,3.6,medium,low,low,40.5,excessive,high,moderately_saline,silt_loam,71,77,22.4,30.9,1.77,11.7,147.9,sufficient,21.7,acidity,forest,high,30.1
+Bihar,Darbhanga,laterite,alluvial,6,4.2,medium,low,high,24,poor,low,highly_saline,clay,73,916,13.7,21.9,1.19,5.9,167.4,sufficient,33.2,none,urban,medium,4.7
+Bihar,East Champaran,laterite,laterite,5.2,2.1,high,medium,low,26.3,moderate,medium,slightly_saline,clay_loam,159,162,8.3,32.5,1.78,19.8,131.5,deficient,30.5,salinity,agriculture,high,42.9
+Bihar,Gaya,alluvial,laterite,7.3,2.7,medium,low,high,18.5,good,medium,highly_saline,loam,172,471,16.8,37.8,1.14,22.1,111.2,deficient,24.9,acidity,mixed,high,33.4
+Bihar,Gopalganj,laterite,alluvial,5.8,2.4,high,medium,medium,19.6,moderate,low,highly_saline,sandy_loam,95,597,16.8,23.3,1.18,43.3,166.7,deficient,30.8,none,agriculture,medium,5.9
+Bihar,Jamui,laterite,laterite,5.7,1.2,high,high,medium,33.5,excessive,high,normal,silt_loam,100,343,23.6,8.9,1.35,48.9,175.3,deficient,19,acidity,urban,medium,17.9
+Bihar,Jehanabad,laterite,laterite,5.8,1.3,high,high,high,24.6,poor,medium,highly_saline,sandy_loam,137,446,16.6,8.3,1.34,15.6,126.9,adequate,17.1,salinity,agriculture,low,20.3
+Bihar,Kaimur,alluvial,alluvial,7.8,1.3,medium,low,high,38.1,poor,high,normal,silt_loam,128,209,4.7,29.4,1.66,17.2,182.9,adequate,32.9,drought,agriculture,high,3.6
+Bihar,Katihar,laterite,alluvial,6.1,3.8,medium,medium,high,49.3,poor,high,slightly_saline,sandy,87,108,29.5,28.4,1.54,10,185.8,adequate,28.1,drought,barren,high,6.5
+Bihar,Khagaria,laterite,alluvial,6.2,1.3,medium,high,medium,26.9,moderate,medium,slightly_saline,loam,84,939,29.6,36.5,1.56,17.1,110.5,sufficient,31.6,salinity,mixed,high,7.4
+Bihar,Kishanganj,laterite,laterite,6.1,2.2,high,medium,low,39.6,good,medium,normal,clay,132,650,25.3,13.9,1.12,37.5,92.8,adequate,28.7,salinity,agriculture,high,42.2
+Bihar,Lakhisarai,alluvial,laterite,7.3,3.3,medium,low,medium,16.3,poor,low,slightly_saline,clay_loam,166,995,26.1,31.8,1.65,33.9,111.2,deficient,32.5,drought,forest,low,20.7
+Bihar,Madhepura,laterite,laterite,5.3,2,low,medium,high,34.2,poor,low,highly_saline,silt_loam,178,613,8.4,35,1.3,45.7,170.5,deficient,31.8,acidity,agriculture,low,32.2
+Bihar,Madhubani,alluvial,laterite,7.3,2.3,low,low,low,25.5,poor,low,highly_saline,clay_loam,113,653,18,15.4,1.31,37.7,85.8,sufficient,28.4,alkalinity,agriculture,low,32.1
+Bihar,Munger,laterite,alluvial,6.3,1.6,medium,low,high,37.9,poor,low,highly_saline,clay_loam,125,962,14.7,30.8,1.47,3.6,184.2,sufficient,32.6,none,barren,low,22.7
+Bihar,Muzaffarpur,laterite,laterite,5.7,3.6,medium,high,medium,39.3,good,medium,highly_saline,sandy,181,178,7.1,22.9,1.17,20.5,138.5,sufficient,20.3,waterlogging,forest,low,49.2
+Bihar,Nalanda,laterite,alluvial,5.6,4.1,low,low,medium,51.3,good,medium,normal,sandy,117,620,14.5,11.9,1.53,15.5,104.8,deficient,25.7,none,agriculture,medium,42
+Bihar,Nawada,laterite,laterite,5.4,2.4,medium,low,medium,16.8,poor,low,highly_saline,clay,73,552,24.5,23.6,1.72,29.6,83.6,adequate,15.9,drought,barren,low,15.2
+Bihar,Patna,alluvial,laterite,7,2.1,high,medium,medium,27.4,poor,medium,moderately_saline,clay_loam,32,152,19.1,6.8,1.28,4.9,152.5,sufficient,20.1,salinity,agriculture,low,33.8
+Bihar,Purnia,alluvial,alluvial,7.3,2.7,high,medium,medium,45,moderate,high,normal,sandy,75,842,18,22.6,1.2,7.6,98.5,adequate,29.5,drought,barren,medium,27.4
+Bihar,Rohtas,alluvial,laterite,7.8,3.8,medium,medium,medium,18.4,good,medium,normal,clay,86,48,6.5,21.3,1.67,5.2,126.5,adequate,23.6,drought,barren,low,28
+Bihar,Saharsa,laterite,laterite,5.9,1.4,medium,medium,medium,45.4,good,high,highly_saline,sandy_loam,81,117,21.2,29.1,1.36,10,131.7,deficient,32.8,none,urban,low,3.2
+Bihar,Samastipur,laterite,laterite,6,1.9,low,medium,medium,42.1,poor,medium,highly_saline,clay_loam,89,30,20.6,9.9,1.44,3.3,140.7,adequate,17.7,waterlogging,forest,medium,3.5
+Bihar,Saran,laterite,alluvial,5.2,0.6,medium,medium,medium,51,poor,low,slightly_saline,clay_loam,125,34,26.7,26.1,1.68,49.2,114.6,adequate,18,none,barren,medium,28
+Bihar,Sheikhpura,alluvial,alluvial,7.2,2.7,medium,high,medium,27.1,excessive,low,moderately_saline,sandy_loam,109,941,20.3,13.2,1.68,28.2,99.8,adequate,17.8,drought,barren,low,41.2
+Bihar,Sheohar,laterite,alluvial,6.2,3.4,medium,low,high,33.5,good,low,highly_saline,clay_loam,29,656,21.3,36.7,1.19,30.5,151.9,sufficient,25.7,salinity,barren,medium,39.9
+Bihar,Sitamarhi,laterite,alluvial,6.2,1.6,high,high,low,33.5,excessive,medium,moderately_saline,sandy_loam,126,586,6.1,31.7,1.37,26.5,139.1,sufficient,29.5,acidity,forest,medium,23.3
+Bihar,Siwan,alluvial,alluvial,7.3,3.7,medium,high,low,15.1,poor,low,normal,loam,87,805,7.7,6.1,1.78,12.6,168.1,sufficient,24.5,acidity,forest,low,35.2
+Bihar,Supaul,laterite,laterite,5.4,1.9,high,low,medium,53.3,good,high,moderately_saline,sandy_loam,32,793,24.9,15.3,1.11,37.4,180.1,deficient,16.4,acidity,barren,high,38.8
+Bihar,Vaishali,laterite,alluvial,5.9,0.9,medium,low,medium,31.3,moderate,high,moderately_saline,loam,166,187,17.3,29.4,1.1,6.8,184.3,sufficient,16.5,waterlogging,mixed,medium,4.4
+Bihar,West Champaran,laterite,laterite,5.6,1.7,low,low,high,52.2,moderate,high,moderately_saline,silt_loam,77,806,6.8,27.4,1.79,31,122.9,deficient,30.2,none,mixed,medium,41.4
+Chhattisgarh,Balod,laterite,laterite,5.4,3.4,high,high,medium,35.8,poor,high,moderately_saline,sandy_loam,36,630,4.8,35.9,1.68,36.6,112.6,deficient,21.4,none,mixed,high,4.2
+Chhattisgarh,Baloda Bazar,laterite,laterite,6.3,2.8,medium,low,high,18.3,excessive,high,normal,sandy,131,658,16.9,35.3,1.5,45.5,193.2,adequate,33.2,salinity,forest,high,7.6
+Chhattisgarh,Balrampur,alluvial,laterite,7.2,4.2,high,medium,low,25.2,good,low,normal,sandy,48,875,3.9,28.7,1.76,14.9,137,adequate,27.9,waterlogging,agriculture,high,25.9
+Chhattisgarh,Bastar,alluvial,red_yellow,7.1,0.9,medium,medium,low,49.4,poor,medium,normal,clay,124,30,21.6,18,1.71,37.1,157.7,deficient,30.1,acidity,mixed,high,8.6
+Chhattisgarh,Bemetara,alluvial,laterite,7.5,4.4,low,medium,medium,38.2,poor,high,moderately_saline,clay,81,48,3.3,23.1,1.29,42.1,81.8,deficient,33.2,waterlogging,agriculture,medium,21.9
+Chhattisgarh,Bijapur,red_yellow,alluvial,6.1,2.6,medium,low,medium,53.5,excessive,medium,slightly_saline,sandy,108,118,23.2,32.1,1.46,48.8,95.1,deficient,16.5,alkalinity,agriculture,medium,10.7
+Chhattisgarh,Bilaspur,alluvial,red_yellow,6.9,3.5,low,medium,medium,37.7,poor,low,moderately_saline,clay_loam,135,306,0.7,36.4,1.65,39.5,135,sufficient,18,drought,barren,high,47
+Chhattisgarh,Dantewada,laterite,red_yellow,6.1,2.4,low,high,high,46.4,excessive,medium,moderately_saline,clay_loam,46,232,6.1,30.4,1.53,45,181.7,adequate,26.6,drought,barren,high,27.3
+Chhattisgarh,Dhamtari,alluvial,alluvial,7.4,1.5,medium,high,medium,33.8,good,high,normal,silt_loam,50,752,27.9,22.4,1.26,4.1,129.9,sufficient,25.6,acidity,mixed,high,48.2
+Chhattisgarh,Durg,laterite,laterite,6.4,3.5,medium,low,medium,37.4,moderate,low,highly_saline,clay_loam,132,160,4.1,39.8,1.47,20.8,159.1,deficient,18.9,drought,urban,low,49.1
+Chhattisgarh,Gariaband,red_yellow,alluvial,6.2,4.2,low,low,low,15.6,excessive,high,normal,loam,149,353,20.9,18.8,1.77,48.4,127.1,sufficient,24.5,salinity,agriculture,low,34
+Chhattisgarh,Janjgir-Champa,alluvial,laterite,7.5,2.5,low,low,medium,52,moderate,high,moderately_saline,clay,194,763,5.3,23,1.67,14.2,109.5,deficient,24.6,acidity,barren,medium,45.3
+Chhattisgarh,Jashpur,laterite,alluvial,6.4,4.5,low,medium,medium,30.7,poor,medium,moderately_saline,loam,137,358,17.3,17.5,1.65,14,147.7,adequate,23.3,none,mixed,high,11.2
+Chhattisgarh,Kabirdham,red_yellow,alluvial,6.3,1.4,low,low,low,49.7,poor,low,normal,clay_loam,163,823,17.4,23.1,1.63,15.6,122.4,adequate,33.1,waterlogging,barren,high,38.6
+Chhattisgarh,Kanker,alluvial,laterite,7.7,2.7,low,low,medium,38.8,moderate,medium,normal,loam,92,889,28.2,22.7,1.39,40.9,180.3,deficient,29.5,acidity,mixed,low,26.8
+Chhattisgarh,Kondagaon,red_yellow,alluvial,5.6,1.7,high,low,medium,36.3,poor,low,highly_saline,silt_loam,94,356,21.7,12,1.24,2.5,132.5,adequate,16,salinity,urban,medium,37.1
+Chhattisgarh,Korba,alluvial,red_yellow,7.6,2.2,medium,low,high,47.7,moderate,low,slightly_saline,loam,71,885,12.2,12.7,1.63,28,98,adequate,23.3,waterlogging,mixed,low,14.9
+Chhattisgarh,Koriya,laterite,red_yellow,5.4,3,medium,low,high,40.3,good,low,normal,silt_loam,89,190,15.3,17.9,1.75,41.7,163.7,adequate,24.2,none,mixed,low,42.8
+Chhattisgarh,Mahasamund,red_yellow,red_yellow,5.5,0.7,low,low,medium,21.3,poor,high,normal,clay_loam,136,174,13.1,24.2,1.32,25.2,140.8,sufficient,15.3,drought,urban,low,2.5
+Chhattisgarh,Mungeli,laterite,red_yellow,6.5,2.3,low,medium,high,36.9,poor,high,normal,sandy,51,335,25.9,11.3,1.66,28.5,127.6,adequate,32.6,none,urban,low,16.9
+Chhattisgarh,Narayanpur,alluvial,laterite,7.6,3.2,medium,low,medium,37.9,excessive,high,moderately_saline,loam,96,123,5.6,5.7,1.37,11.2,129.4,sufficient,21.7,none,urban,medium,31.1
+Chhattisgarh,Raigarh,alluvial,red_yellow,6.9,2.2,medium,low,low,30,excessive,low,normal,clay_loam,159,590,3.5,32.3,1.65,30.9,198.8,sufficient,33.8,none,agriculture,medium,23.6
+Chhattisgarh,Raipur,laterite,red_yellow,5.2,2.7,high,medium,low,38.3,poor,high,normal,clay_loam,95,386,6.2,21.9,1.29,15.8,158.8,sufficient,17.9,drought,barren,low,47.7
+Chhattisgarh,Rajnandgaon,alluvial,red_yellow,6.6,2.9,medium,medium,medium,15.6,good,medium,moderately_saline,loam,34,72,21.2,26.4,1.32,15,151.7,deficient,18.5,drought,mixed,high,9.4
+Chhattisgarh,Sukma,alluvial,alluvial,7.5,4,low,medium,high,42.2,excessive,low,normal,clay,92,6,7.6,20.8,1.77,21.2,180.8,sufficient,29.8,alkalinity,agriculture,medium,2.4
+Chhattisgarh,Surajpur,laterite,laterite,5.1,3.5,high,medium,medium,32.4,poor,high,slightly_saline,loam,116,784,16.4,28.5,1.59,11.8,158.5,deficient,32.5,salinity,agriculture,high,2.8
+Chhattisgarh,Surguja,alluvial,laterite,6.6,2.3,medium,medium,medium,18.2,excessive,high,slightly_saline,sandy_loam,62,638,24.7,37.6,1.48,11.6,154,deficient,20.1,drought,forest,medium,19.8
+Chhattisgarh,Gaurela-Pendra-Marwahi,red_yellow,red_yellow,6.4,2.7,low,low,high,41.7,excessive,high,normal,sandy_loam,82,362,19.1,34.2,1.45,27.7,97.3,adequate,16.3,waterlogging,forest,medium,3.1
+Chhattisgarh,Khairagarh-Chhuikhadan-Gandai,laterite,alluvial,5.1,2.5,high,low,high,31.4,moderate,low,normal,silt_loam,62,340,4.8,7.5,1.23,33.9,185.8,deficient,31.5,drought,forest,high,2.4
+Chhattisgarh,Mohla-Manpur-Ambagarh Chowki,alluvial,laterite,7.2,1.9,medium,high,high,27.3,excessive,high,highly_saline,clay,60,621,10.6,22.7,1.76,44.1,92.3,deficient,16.6,acidity,forest,low,11.3
+Chhattisgarh,Sarangarh-Bilaigarh,laterite,red_yellow,6,3.9,high,medium,medium,39.4,poor,high,normal,clay,184,557,11.5,22.1,1.4,37.6,183.6,deficient,29.6,waterlogging,agriculture,medium,2.9
+Chhattisgarh,Shakti,alluvial,laterite,7.6,1,medium,medium,low,23.5,good,medium,moderately_saline,silt_loam,151,146,10.1,31.2,1.5,49.3,129.8,deficient,23.6,drought,forest,medium,21.8
+Chhattisgarh,Manendragarh-Chirmiri-Bharatpur,laterite,red_yellow,5.3,1.8,medium,medium,low,52.8,excessive,low,normal,clay,181,294,4.3,29.2,1.24,20.8,187.5,adequate,30.5,acidity,agriculture,high,31.3
+Goa,North Goa,laterite,laterite,6,2.1,high,low,high,50.3,moderate,low,highly_saline,sandy,117,504,26.2,12.1,1.19,15.7,143.8,deficient,18.7,waterlogging,agriculture,high,25.2
+Goa,South Goa,laterite,laterite,5.6,3.1,low,low,medium,16.7,moderate,high,normal,clay_loam,103,731,16.4,39.4,1.42,26.6,198.7,deficient,26.2,acidity,forest,low,5.4
+Gujarat,Ahmedabad,desert,coastal,8.1,3.3,medium,low,low,29,excessive,high,slightly_saline,loam,154,61,25.3,18.1,1.54,6.6,92.4,deficient,26.6,none,mixed,medium,39.5
+Gujarat,Amreli,black_cotton,desert,8.2,2.6,low,medium,medium,44.7,good,low,moderately_saline,clay_loam,158,924,4.8,14,1.52,22.8,172.9,sufficient,26.6,alkalinity,mixed,medium,21.9
+Gujarat,Anand,alluvial,desert,7,2.9,low,medium,high,49.7,moderate,high,moderately_saline,sandy,26,177,11.5,33.8,1.56,40.2,112.6,sufficient,25.7,drought,forest,medium,12.8
+Gujarat,Aravalli,desert,black_cotton,8.3,2.4,low,medium,high,17.5,poor,high,moderately_saline,clay_loam,47,886,5.6,8.1,1.59,19.7,131.9,deficient,24.3,alkalinity,barren,high,44.6
+Gujarat,Banaskantha,alluvial,black_cotton,7.3,3.9,medium,medium,medium,35.6,good,low,moderately_saline,clay,170,257,22.4,33.4,1.59,48.4,179.2,adequate,33.7,drought,barren,medium,2.3
+Gujarat,Bharuch,alluvial,alluvial,7.2,1.7,medium,high,high,49,moderate,high,slightly_saline,clay_loam,72,500,7,5.5,1.64,31.9,171.5,adequate,31.7,drought,mixed,low,47
+Gujarat,Bhavnagar,black_cotton,black_cotton,7.6,2.1,low,medium,high,42,poor,high,normal,clay_loam,72,210,26.1,18.3,1.36,31.7,156,deficient,34.9,salinity,mixed,medium,40.6
+Gujarat,Botad,coastal,desert,7.4,0.7,medium,medium,medium,29.9,good,high,normal,clay_loam,157,342,20.7,29.4,1.55,15.2,98.7,adequate,27,salinity,mixed,low,23.7
+Gujarat,Chhota Udepur,desert,desert,7.6,3.2,low,low,medium,33.2,excessive,medium,slightly_saline,loam,180,183,28.6,35.9,1.51,42,157.1,sufficient,26.7,salinity,forest,medium,35.7
+Gujarat,Dahod,black_cotton,coastal,7.3,4.2,medium,low,medium,38.9,excessive,low,moderately_saline,loam,112,255,24.1,39.9,1.12,45.1,154.7,adequate,27.4,acidity,urban,low,22.9
+Gujarat,Dang,coastal,black_cotton,7.5,4.1,medium,medium,high,31.6,moderate,medium,moderately_saline,clay_loam,74,357,28.3,7.6,1.41,27.4,198.2,deficient,34.4,salinity,forest,medium,32.3
+Gujarat,Devbhumi Dwarka,black_cotton,desert,7,3.8,medium,low,medium,54,moderate,medium,highly_saline,sandy_loam,190,382,29.6,14.5,1.17,41.8,164.8,sufficient,31.1,acidity,mixed,medium,17
+Gujarat,Gandhinagar,coastal,coastal,6.8,4,medium,high,medium,43.6,poor,medium,normal,silt_loam,165,88,17.2,28.4,1.64,43.4,117.7,adequate,17.5,acidity,agriculture,high,47.1
+Gujarat,Gir Somnath,desert,alluvial,8,2.4,medium,medium,medium,41.3,poor,high,highly_saline,sandy_loam,168,438,21,19.6,1.46,45.4,186.8,deficient,18.5,drought,barren,high,26.6
+Gujarat,Jamnagar,desert,alluvial,7.9,4.4,high,medium,medium,20.3,excessive,low,slightly_saline,loam,180,642,5.5,33.9,1.3,46.5,196.4,sufficient,17.9,alkalinity,forest,medium,19.6
+Gujarat,Junagadh,alluvial,coastal,7.2,3.9,medium,low,medium,23.8,moderate,low,slightly_saline,clay_loam,151,405,22.6,26.8,1.52,4.6,125.2,deficient,18,none,agriculture,low,11.6
+Gujarat,Kheda,coastal,desert,6.9,4.3,high,medium,high,46.4,poor,high,normal,sandy,180,472,21.1,26.5,1.63,26.6,164.5,deficient,30.4,acidity,mixed,high,34.4
+Gujarat,Kutch,desert,black_cotton,7.5,3.1,low,medium,medium,45.9,poor,high,highly_saline,clay_loam,182,416,25.6,37.5,1.8,40.2,170.4,deficient,21.7,salinity,agriculture,high,7.4
+Gujarat,Mahisagar,black_cotton,coastal,7.4,1.2,medium,high,medium,45,good,high,normal,sandy,184,505,20.3,24.8,1.75,20.6,87.9,deficient,30,drought,agriculture,high,13.3
+Gujarat,Mehsana,alluvial,coastal,6.5,4.3,medium,high,medium,39.5,good,medium,highly_saline,sandy_loam,62,118,18,22.7,1.35,45.8,120.8,deficient,15.2,none,agriculture,low,22.9
+Gujarat,Morbi,alluvial,desert,6.9,1.1,medium,high,low,54.7,poor,high,highly_saline,sandy_loam,156,933,1.9,8.2,1.21,30.6,98.1,sufficient,24,waterlogging,forest,medium,2.2
+Gujarat,Narmada,desert,desert,8.4,3.1,low,low,medium,19.6,good,low,moderately_saline,loam,129,692,7.5,30.1,1.7,19.1,170.9,adequate,21,none,agriculture,medium,10.9
+Gujarat,Navsari,desert,black_cotton,7.9,3.8,low,medium,medium,26.5,good,medium,slightly_saline,silt_loam,70,24,4.9,9.1,1.48,45.3,121.3,adequate,15.3,drought,mixed,high,41.4
+Gujarat,Panchmahal,desert,coastal,8.2,4.1,medium,low,low,48.1,poor,low,slightly_saline,clay,79,548,3.6,39.3,1.25,5.2,151.4,deficient,29,drought,forest,low,10.3
+Gujarat,Patan,alluvial,coastal,6.9,4.3,high,high,medium,53.8,poor,high,slightly_saline,clay_loam,113,587,15.7,12.6,1.79,29.6,96.5,sufficient,22.2,acidity,agriculture,medium,24.9
+Gujarat,Porbandar,black_cotton,coastal,7.5,3.7,medium,low,low,33.7,moderate,low,slightly_saline,loam,134,525,11.4,33.3,1.68,20.5,135.1,deficient,19.1,salinity,barren,medium,5.7
+Gujarat,Rajkot,alluvial,black_cotton,7.3,4.2,medium,low,medium,39.8,excessive,low,normal,silt_loam,37,902,12.5,9.1,1.53,47,159.4,deficient,28,salinity,urban,low,21.4
+Gujarat,Sabarkantha,coastal,coastal,7.7,2.9,medium,low,low,29.2,poor,medium,slightly_saline,silt_loam,189,879,6.5,15.1,1.49,3.4,188.9,deficient,19.4,acidity,mixed,low,6.6
+Gujarat,Surat,coastal,coastal,8,1.5,medium,high,low,33.6,good,medium,normal,sandy,54,457,9.4,6.5,1.65,21.1,133.3,sufficient,17.9,acidity,mixed,high,22.7
+Gujarat,Surendranagar,coastal,black_cotton,7.9,1.5,high,medium,medium,27.3,excessive,medium,highly_saline,loam,91,105,0.2,39.2,1.78,21,167.4,deficient,32.1,alkalinity,forest,medium,8.4
+Gujarat,Tapi,desert,coastal,8.1,2.3,medium,high,low,33.4,moderate,low,moderately_saline,sandy,97,790,2,36,1.39,25.9,190,deficient,18.2,acidity,agriculture,medium,45.1
+Gujarat,Vadodara,black_cotton,desert,7.6,0.9,low,medium,medium,21.5,good,high,moderately_saline,clay,173,213,29.2,9.7,1.26,43.7,191.2,sufficient,33.5,drought,forest,high,2.5
+Gujarat,Valsad,alluvial,black_cotton,7.5,4.3,medium,low,medium,42.9,excessive,low,highly_saline,silt_loam,154,473,8.3,29.8,1.29,45.4,125,sufficient,18.9,salinity,urban,high,42
+Haryana,Ambala,alluvial,alluvial,6.8,1.4,high,high,low,33,poor,high,highly_saline,clay,182,662,6.3,31.3,1.14,25.6,133.1,adequate,24.7,alkalinity,urban,low,12.4
+Haryana,Bhiwani,alluvial,desert,6.9,4.1,medium,medium,medium,31.3,excessive,medium,normal,silt_loam,124,29,11.8,29.4,1.24,32.8,111.2,sufficient,21.7,salinity,agriculture,low,7.3
+Haryana,Charkhi Dadri,desert,desert,8.4,3.7,low,medium,low,16.8,good,medium,moderately_saline,clay,46,953,1,39.6,1.12,23.3,140.6,adequate,18.4,drought,agriculture,high,43.6
+Haryana,Faridabad,alluvial,alluvial,7.1,3,medium,medium,medium,37.6,excessive,medium,moderately_saline,clay,183,106,8.4,9.5,1.17,31,142.8,adequate,24.4,drought,urban,high,33.3
+Haryana,Fatehabad,alluvial,desert,7.5,2.9,medium,low,medium,18.7,good,low,moderately_saline,clay_loam,51,880,28.3,31.8,1.1,2.1,125.4,deficient,15.4,waterlogging,urban,medium,13.2
+Haryana,Gurugram,alluvial,desert,7.5,1.4,low,low,medium,49,good,high,normal,sandy_loam,184,473,17.8,19.4,1.19,3.3,154.7,deficient,20.2,salinity,urban,medium,22.5
+Haryana,Hisar,desert,desert,7.7,1.7,medium,high,low,50.6,excessive,low,moderately_saline,clay,162,621,2.7,26,1.34,46,128.8,sufficient,29.3,salinity,barren,high,16.8
+Haryana,Jhajjar,alluvial,desert,7.3,2.8,low,medium,low,52,poor,high,slightly_saline,silt_loam,164,911,27.1,34.3,1.19,8.1,177.6,deficient,31.6,salinity,mixed,high,7
+Haryana,Jind,desert,alluvial,8.2,3.6,low,low,high,29.3,good,medium,slightly_saline,silt_loam,56,935,26.8,33.8,1.73,28.5,177.5,adequate,22.6,acidity,barren,low,13.5
+Haryana,Kaithal,alluvial,alluvial,6.9,0.9,low,high,medium,36.3,moderate,high,highly_saline,silt_loam,151,57,14.3,16.1,1.44,43.3,151.1,adequate,22.3,salinity,forest,high,29.8
+Haryana,Karnal,desert,desert,8.2,3.5,high,medium,high,39.8,poor,low,highly_saline,sandy,110,475,13.3,26.6,1.69,11.4,95.1,sufficient,25.5,drought,mixed,low,30.1
+Haryana,Kurukshetra,desert,alluvial,7.6,0.7,low,medium,medium,24.3,moderate,medium,moderately_saline,loam,62,609,14.9,29.1,1.28,16.8,153.6,deficient,34.5,drought,urban,medium,44.9
+Haryana,Mahendragarh,alluvial,alluvial,7.7,4.5,medium,medium,medium,52.7,poor,medium,normal,sandy,37,600,25,15.6,1.78,32.1,191.7,adequate,24.1,drought,urban,medium,28.4
+Haryana,Nuh,alluvial,alluvial,6.9,2.8,medium,high,medium,18.1,moderate,medium,moderately_saline,silt_loam,116,272,3.2,9,1.76,43.9,134.3,deficient,23.3,waterlogging,forest,low,31.6
+Haryana,Palwal,desert,desert,7.9,2.3,medium,medium,low,22.9,moderate,medium,normal,clay,74,741,26,15.4,1.21,34.4,84.6,adequate,29,salinity,agriculture,low,30.6
+Haryana,Panchkula,alluvial,alluvial,7.3,1.9,high,medium,low,37.6,moderate,low,slightly_saline,clay_loam,181,527,16.8,35.4,1.36,31.5,142.8,sufficient,30.1,none,urban,medium,5.8
+Haryana,Panipat,alluvial,desert,7.3,3.8,medium,low,high,20,moderate,medium,moderately_saline,sandy_loam,158,581,18.1,33.1,1.43,22.3,199.5,sufficient,28.4,none,mixed,high,39.7
+Haryana,Rewari,desert,alluvial,7.8,4,low,low,medium,29.1,moderate,high,normal,clay_loam,42,258,5.7,21.1,1.63,45.5,180.2,adequate,31.4,salinity,forest,medium,14.7
+Haryana,Rohtak,desert,alluvial,7.6,1.4,high,medium,medium,15.6,good,high,slightly_saline,clay_loam,143,432,17.1,11.5,1.14,31,171.6,adequate,19.5,waterlogging,barren,low,9.8
+Haryana,Sirsa,alluvial,desert,6.8,2,low,low,medium,34.3,excessive,high,slightly_saline,clay_loam,199,899,0.2,5.9,1.49,27,199.3,deficient,26.2,acidity,barren,high,46
+Haryana,Sonipat,alluvial,desert,7.6,4.1,medium,medium,medium,38.6,excessive,low,normal,sandy_loam,36,344,3.8,9.3,1.46,13.8,123,adequate,28.8,acidity,forest,high,8.8
+Haryana,Yamunanagar,alluvial,alluvial,7.2,0.8,low,medium,medium,31.4,good,low,highly_saline,clay_loam,92,813,29.7,6.4,1.78,28.4,195.6,adequate,22.9,acidity,barren,high,4.4
+Himachal Pradesh,Bilaspur,forest,hill,5.3,2.9,low,low,high,32.5,good,low,moderately_saline,loam,171,34,9.7,29.1,1.77,37.1,138.8,deficient,23.2,alkalinity,forest,medium,40.9
+Himachal Pradesh,Chamba,hill,mountain,6.7,3.7,high,low,medium,20.6,good,medium,normal,silt_loam,111,1019,29.9,9.7,1.57,21,96,adequate,34,acidity,mixed,high,49.6
+Himachal Pradesh,Hamirpur,mountain,forest,6.5,3.2,medium,medium,medium,38.8,good,high,normal,clay,81,2662,16.6,25,1.25,37.6,83,sufficient,24.5,salinity,forest,medium,17.9
+Himachal Pradesh,Kangra,mountain,mountain,6.6,1.3,medium,low,medium,27.7,moderate,low,highly_saline,sandy,52,2984,5.5,16.2,1.39,45.6,109.1,sufficient,15.5,alkalinity,mixed,low,10.4
+Himachal Pradesh,Kinnaur,hill,mountain,5.6,3,medium,medium,medium,50.9,excessive,low,normal,sandy,150,490,17.6,16.1,1.54,40.8,153.4,sufficient,33.3,none,mixed,low,9.9
+Himachal Pradesh,Kullu,hill,forest,6,2.7,medium,medium,medium,18.3,good,high,slightly_saline,sandy_loam,54,755,17.4,5.5,1.35,31,126.5,deficient,21.2,waterlogging,urban,high,3
+Himachal Pradesh,Lahaul and Spiti,hill,mountain,6.8,2.3,medium,medium,medium,52.3,moderate,low,slightly_saline,clay,119,616,26.4,6.7,1.26,45.1,110.7,adequate,33.1,waterlogging,barren,high,34.4
+Himachal Pradesh,Mandi,forest,mountain,6.1,1.8,medium,low,high,40.8,good,low,slightly_saline,sandy_loam,113,798,29,18.8,1.19,34.2,167.5,adequate,27.6,alkalinity,forest,medium,9.1
+Himachal Pradesh,Shimla,hill,forest,6,3,medium,low,medium,51.9,excessive,low,highly_saline,sandy,59,182,4.3,28,1.55,3.2,174.6,adequate,20.3,drought,mixed,low,44
+Himachal Pradesh,Sirmaur,hill,mountain,6.8,3.9,medium,low,medium,52.8,poor,medium,normal,sandy,198,3223,6.9,13.5,1.31,5.1,101.3,deficient,17.7,waterlogging,barren,medium,33.8
+Himachal Pradesh,Solan,forest,hill,6.2,4.3,medium,high,low,43.2,good,medium,highly_saline,loam,147,386,5.1,6.9,1.6,24.8,181.9,adequate,18.4,drought,mixed,high,32.5
+Himachal Pradesh,Una,hill,mountain,6.3,2.9,medium,high,high,43.4,moderate,high,highly_saline,silt_loam,136,3324,27.7,10,1.31,8.7,153.4,sufficient,32.7,alkalinity,forest,low,43.4
+Jharkhand,Bokaro,alluvial,alluvial,6.8,4.3,low,medium,medium,20.6,moderate,low,normal,sandy,58,445,7.7,23.5,1.22,10,135.5,adequate,25.1,acidity,agriculture,medium,5
+Jharkhand,Chatra,alluvial,laterite,7.1,2.3,high,medium,medium,31.4,moderate,high,normal,sandy_loam,146,127,12.6,21,1.28,38.1,141.5,sufficient,29.9,none,agriculture,high,14.5
+Jharkhand,Deoghar,alluvial,red_yellow,7.2,2.4,high,low,medium,35.5,moderate,medium,slightly_saline,clay,190,250,2,30.3,1.75,22.7,94.3,deficient,22,drought,forest,high,36.5
+Jharkhand,Dhanbad,red_yellow,alluvial,5.6,4.5,low,low,low,16.6,poor,medium,slightly_saline,clay,137,228,20.6,33.5,1.71,39.1,160.6,sufficient,30.6,waterlogging,urban,low,40.8
+Jharkhand,Dumka,laterite,laterite,5.8,1.6,medium,high,medium,49.5,poor,low,slightly_saline,silt_loam,33,762,9.8,38.4,1.19,2.9,188.5,adequate,15,none,agriculture,high,13.2
+Jharkhand,East Singhbhum,alluvial,alluvial,6.7,2.7,low,medium,medium,50,excessive,medium,normal,loam,193,553,3.2,38.4,1.14,16.3,115.8,sufficient,28.5,alkalinity,forest,low,7.9
+Jharkhand,Garhwa,laterite,alluvial,6.1,0.7,high,low,low,34.1,poor,low,highly_saline,clay_loam,147,60,14.5,12.4,1.18,42.1,140.3,deficient,31.4,salinity,barren,low,26.2
+Jharkhand,Giridih,laterite,laterite,6.4,3.5,medium,medium,high,22.8,poor,low,highly_saline,silt_loam,174,799,12.3,28.2,1.18,21.3,175.2,sufficient,23.3,waterlogging,barren,low,14.5
+Jharkhand,Godda,alluvial,laterite,7.5,3.3,high,low,high,35.1,moderate,low,highly_saline,silt_loam,143,719,23.3,17,1.54,11.2,97.5,deficient,25.6,drought,mixed,low,40.8
+Jharkhand,Gumla,alluvial,red_yellow,6.9,1.8,medium,low,low,38.9,excessive,low,slightly_saline,clay_loam,121,73,29,28,1.5,46.8,150.4,adequate,30.2,salinity,agriculture,medium,24.6
+Jharkhand,Hazaribagh,laterite,laterite,5.6,2.6,medium,low,medium,17.9,moderate,low,moderately_saline,sandy_loam,49,100,10.8,8,1.24,28.2,104.8,deficient,16.8,acidity,agriculture,medium,21.1
+Jharkhand,Jamtara,laterite,red_yellow,5.5,0.9,medium,medium,high,24.6,moderate,high,normal,sandy_loam,133,912,5.9,10.8,1.74,17.7,124.6,deficient,17.3,salinity,mixed,low,37.4
+Jharkhand,Khunti,alluvial,alluvial,6.6,1.8,medium,low,high,18.5,moderate,low,slightly_saline,sandy_loam,198,91,18.7,34,1.23,46,146.4,deficient,23.6,drought,forest,high,42.7
+Jharkhand,Koderma,alluvial,red_yellow,7.3,1.9,medium,low,high,32.8,poor,medium,slightly_saline,sandy_loam,181,486,10.7,27.2,1.23,38,145.5,sufficient,26.9,none,mixed,high,25.2
+Jharkhand,Latehar,alluvial,alluvial,7.8,3.4,high,medium,medium,50.9,excessive,low,normal,silt_loam,150,609,20,22.9,1.4,4.6,82.7,adequate,19.8,none,urban,medium,9.4
+Jharkhand,Lohardaga,alluvial,laterite,7.3,3.4,medium,high,medium,28.7,poor,medium,slightly_saline,clay,124,277,3.2,34.5,1.53,17.6,103,adequate,21.8,drought,barren,low,6
+Jharkhand,Pakur,alluvial,alluvial,7.4,1.6,high,medium,high,19.8,good,low,slightly_saline,sandy,178,404,22.4,34.3,1.59,46.6,168.6,adequate,34.1,alkalinity,mixed,medium,27.3
+Jharkhand,Palamu,laterite,laterite,5.1,3.4,low,low,medium,37.6,excessive,medium,normal,sandy_loam,130,84,18.5,38.9,1.61,46.3,171.5,sufficient,18.7,acidity,forest,low,31.9
+Jharkhand,Ramgarh,alluvial,red_yellow,7,1.6,low,medium,high,25.3,excessive,low,slightly_saline,clay_loam,38,751,13.1,14.7,1.49,18.7,191.9,adequate,25,none,mixed,medium,42.1
+Jharkhand,Ranchi,red_yellow,laterite,6,4.2,low,medium,high,34.4,moderate,low,highly_saline,silt_loam,109,56,7.1,21.9,1.4,5.6,92.7,sufficient,18.9,alkalinity,agriculture,medium,5
+Jharkhand,Sahibganj,laterite,red_yellow,5.2,0.6,low,high,low,16.8,excessive,low,normal,sandy_loam,42,686,12.7,6.4,1.41,29.7,148.5,sufficient,22,acidity,urban,high,6.8
+Jharkhand,Seraikela-Kharsawan,red_yellow,alluvial,6.8,2.8,medium,low,medium,48.9,moderate,low,slightly_saline,loam,47,250,8.5,16.1,1.75,4.7,138.3,deficient,25.9,waterlogging,barren,low,18.5
+Jharkhand,Simdega,laterite,alluvial,5.2,3.5,high,medium,medium,49.4,excessive,medium,moderately_saline,clay,159,281,25.5,17.1,1.12,37.8,176.2,adequate,32.6,acidity,forest,medium,36.5
+Jharkhand,West Singhbhum,red_yellow,red_yellow,6,3.9,medium,medium,medium,26.9,good,low,slightly_saline,sandy,156,10,20.9,38,1.8,23.6,110.3,deficient,34.7,acidity,forest,medium,38.9
+Karnataka,Bagalkot,coastal,coastal,7.3,0.6,low,medium,high,50.4,excessive,low,highly_saline,clay,52,311,3.6,39.2,1.23,23.4,138.6,sufficient,22.3,waterlogging,urban,high,17.9
+Karnataka,Ballari,coastal,red_yellow,7.6,4.2,low,medium,high,17.6,good,medium,moderately_saline,sandy_loam,164,3,27.6,6.6,1.34,21.4,108.7,deficient,23.7,acidity,barren,medium,37.6
+Karnataka,Belagavi,black_cotton,laterite,8,1.6,medium,medium,low,24.7,excessive,medium,highly_saline,clay_loam,140,68,8.7,17.9,1.56,7.7,194.5,adequate,26.5,alkalinity,mixed,high,18.3
+Karnataka,Bengaluru Rural,laterite,black_cotton,5.1,1.6,medium,low,high,20.2,moderate,high,moderately_saline,loam,67,609,25.7,21.3,1.35,27.7,166.1,adequate,24.1,alkalinity,urban,medium,48.4
+Karnataka,Bengaluru Urban,black_cotton,red_yellow,7.1,4,medium,low,medium,31.7,good,high,slightly_saline,silt_loam,108,206,24.7,15.9,1.38,26.1,180.7,adequate,21.1,waterlogging,urban,low,24.6
+Karnataka,Bidar,laterite,red_yellow,5.2,1.8,high,low,high,34.4,poor,high,normal,sandy_loam,162,521,21.3,39.4,1.14,6.6,166.5,adequate,27.7,alkalinity,barren,high,3
+Karnataka,Chamarajanagar,red_yellow,black_cotton,5.7,2.4,medium,medium,low,46.3,poor,low,slightly_saline,sandy,67,944,29.6,13.8,1.46,45.6,174.2,adequate,27.3,alkalinity,urban,medium,15.4
+Karnataka,Chikballapur,coastal,red_yellow,6.7,2.8,low,low,medium,55,good,medium,normal,loam,64,322,21.9,17.5,1.14,5.6,93.8,sufficient,21.1,alkalinity,forest,high,29.4
+Karnataka,Chikkamagaluru,laterite,red_yellow,5,3.7,high,low,low,53.4,excessive,low,normal,loam,199,257,13.5,29.3,1.61,49.8,114.5,adequate,19.7,salinity,barren,medium,8.2
+Karnataka,Chitradurga,black_cotton,coastal,8.3,0.7,low,low,medium,18.6,good,medium,normal,silt_loam,112,714,5.1,18.5,1.34,22.7,173.8,deficient,25.3,drought,forest,high,40.9
+Karnataka,Dakshina Kannada,red_yellow,red_yellow,5.8,2.5,low,low,medium,35.4,moderate,medium,highly_saline,loam,42,678,26.2,13.5,1.42,46.4,159.2,sufficient,17.6,drought,agriculture,low,36.5
+Karnataka,Davanagere,coastal,laterite,7.4,2.7,medium,medium,high,27.9,excessive,medium,moderately_saline,silt_loam,174,158,8.2,30.8,1.14,4.4,126.4,deficient,29.9,salinity,mixed,high,36.1
+Karnataka,Dharwad,black_cotton,black_cotton,8.1,2.6,medium,medium,medium,46.5,good,medium,normal,loam,143,673,1.9,25.9,1.62,12.1,181,sufficient,31.3,acidity,mixed,low,47
+Karnataka,Gadag,black_cotton,black_cotton,7.2,0.8,medium,low,medium,50.1,moderate,high,highly_saline,sandy,76,645,22.8,30.3,1.11,26.4,96.7,sufficient,34.5,drought,forest,low,23.3
+Karnataka,Hassan,red_yellow,coastal,6.6,1.9,low,medium,low,44.9,poor,high,slightly_saline,sandy,188,743,7,27.2,1.8,39.3,107.1,adequate,32.3,alkalinity,forest,low,43.4
+Karnataka,Haveri,coastal,black_cotton,8,4.1,high,low,low,37.8,poor,medium,normal,sandy,64,885,17,14.6,1.43,18,149.5,adequate,18.5,waterlogging,mixed,medium,23.3
+Karnataka,Kalaburagi,laterite,laterite,5.7,1.7,high,low,medium,17.1,excessive,low,highly_saline,sandy,69,394,4.9,15.6,1.53,16.5,188,deficient,23.8,none,barren,high,38.7
+Karnataka,Kodagu,red_yellow,black_cotton,6.7,1.5,high,low,high,35,excessive,medium,moderately_saline,sandy_loam,147,687,30,12.7,1.17,30.1,138.6,sufficient,25.6,none,forest,high,33.2
+Karnataka,Kolar,red_yellow,laterite,6.7,3,low,low,low,25.3,moderate,high,normal,loam,62,452,28.3,26.4,1.68,36.1,93.5,deficient,33.6,alkalinity,barren,medium,18.4
+Karnataka,Koppal,coastal,black_cotton,6.9,1.6,high,low,medium,44,poor,high,moderately_saline,silt_loam,70,65,2,33.8,1.55,33.1,95.4,adequate,20.1,none,agriculture,low,23.1
+Karnataka,Mandya,laterite,laterite,5.5,3.8,medium,medium,low,32.1,excessive,medium,normal,sandy_loam,138,75,11.9,37.6,1.34,45.9,197.7,deficient,22.1,acidity,barren,high,35.6
+Karnataka,Mysuru,laterite,coastal,5.1,1.9,medium,low,low,20.6,good,high,normal,loam,173,833,20.1,33.7,1.27,22.2,180.7,adequate,22,none,barren,low,11.2
+Karnataka,Raichur,red_yellow,coastal,6.9,3.8,medium,low,high,32.5,poor,low,highly_saline,sandy,39,605,22.7,25.4,1.23,11,102.1,sufficient,34,none,barren,medium,4.4
+Karnataka,Ramanagara,black_cotton,laterite,8.2,1.8,medium,medium,medium,16.1,good,low,moderately_saline,clay_loam,96,726,20.6,36.3,1.58,15.6,163.3,sufficient,28.5,acidity,forest,high,5.7
+Karnataka,Shivamogga,black_cotton,coastal,7.5,1.8,medium,low,high,17.8,moderate,high,slightly_saline,clay_loam,174,804,14.9,38.3,1.31,2.9,131.8,deficient,15.7,alkalinity,agriculture,low,39.9
+Karnataka,Tumakuru,laterite,laterite,5.3,3,low,medium,low,51.8,excessive,high,normal,loam,168,270,20.5,25.8,1.63,16.9,133.8,adequate,18.3,drought,mixed,medium,16.2
+Karnataka,Udupi,black_cotton,black_cotton,7.8,1.5,high,low,high,19.1,good,medium,normal,clay_loam,44,497,20.5,11.7,1.46,24.5,88.5,sufficient,16.9,none,agriculture,medium,26.6
+Karnataka,Uttara Kannada,red_yellow,coastal,6.1,2.3,medium,high,medium,18.5,excessive,low,slightly_saline,sandy_loam,193,913,16.1,28.7,1.58,32.2,111.9,sufficient,18.4,none,urban,low,8.7
+Karnataka,Vijayapura,laterite,black_cotton,5.5,1.2,low,medium,medium,24.1,moderate,high,moderately_saline,clay_loam,26,754,6.7,35,1.67,23.5,138.7,sufficient,23.8,drought,barren,high,6.7
+Karnataka,Yadgir,coastal,black_cotton,7.9,4.3,low,medium,medium,50,moderate,low,normal,clay,138,461,10.5,16.1,1.65,34.7,115.9,sufficient,17.9,salinity,forest,medium,49
+Karnataka,Vijayanagara,black_cotton,black_cotton,7.3,0.7,medium,high,low,15.3,poor,medium,normal,clay_loam,143,461,20.4,13.3,1.16,39,155.6,deficient,34.5,none,mixed,high,16.4
+Kerala,Alappuzha,coastal,coastal,6.9,3.8,medium,low,medium,54.3,moderate,low,moderately_saline,clay,68,674,24.6,14.9,1.15,4.7,94.4,adequate,33.6,waterlogging,barren,medium,25.2
+Kerala,Ernakulam,coastal,alluvial,7.4,4.4,medium,medium,medium,20.1,moderate,high,moderately_saline,clay,27,25,19,35.1,1.34,20.7,186.9,deficient,29.3,drought,mixed,medium,9.4
+Kerala,Idukki,alluvial,alluvial,6.5,3.1,low,medium,medium,21.9,moderate,medium,normal,sandy,139,275,21.5,28.3,1.34,2.9,162.8,adequate,15.4,waterlogging,forest,medium,27.2
+Kerala,Kannur,coastal,coastal,7.6,3.5,low,high,medium,54.3,good,medium,highly_saline,clay_loam,96,644,13.2,7.4,1.5,30.7,168.7,deficient,25.8,none,forest,medium,11.8
+Kerala,Kasaragod,coastal,coastal,7,4.5,medium,medium,medium,51.7,moderate,medium,slightly_saline,sandy_loam,170,922,21.6,26.7,1.16,12.5,110,sufficient,21.7,alkalinity,mixed,low,46.9
+Kerala,Kollam,coastal,coastal,7.8,2.3,low,high,medium,22.3,good,high,normal,clay_loam,154,920,27.8,29.9,1.39,26.8,90.1,adequate,28.3,none,forest,low,22.6
+Kerala,Kottayam,laterite,alluvial,6.4,4.4,low,medium,high,15.2,poor,medium,highly_saline,clay,65,129,0.7,19.2,1.25,27.6,199.5,sufficient,19.2,drought,urban,low,13.2
+Kerala,Kozhikode,forest,alluvial,6.3,4.4,medium,low,low,42.2,good,medium,normal,loam,102,767,18.5,6.6,1.54,16.8,124.2,adequate,17.7,none,barren,low,47.5
+Kerala,Malappuram,coastal,forest,7.7,2.4,high,high,low,52.5,excessive,high,highly_saline,sandy_loam,70,725,29,10.2,1.76,10.8,148.1,sufficient,25.8,none,barren,low,48.1
+Kerala,Palakkad,forest,forest,5.2,0.6,medium,high,medium,47.9,poor,low,normal,clay,44,254,24.5,28.4,1.19,38.7,105.2,deficient,18,none,agriculture,low,43.3
+Kerala,Pathanamthitta,forest,alluvial,5.9,0.8,medium,medium,medium,25.6,poor,high,slightly_saline,loam,148,820,28,12.2,1.61,43.6,142.5,sufficient,20.2,acidity,barren,medium,43.1
+Kerala,Thiruvananthapuram,coastal,alluvial,6.6,1.6,high,low,high,19,poor,high,highly_saline,sandy_loam,39,803,2.9,14.6,1.32,38.6,176.3,sufficient,32.3,waterlogging,barren,low,22.5
+Kerala,Thrissur,alluvial,coastal,7.4,3.5,low,medium,high,52.4,poor,high,normal,sandy_loam,166,604,11.8,34.7,1.45,24.7,138.8,sufficient,16.1,waterlogging,agriculture,high,46.9
+Kerala,Wayanad,coastal,laterite,7.9,4.1,medium,medium,medium,54.1,excessive,low,moderately_saline,loam,168,217,5.1,20.7,1.25,35.1,185.3,sufficient,22.1,none,barren,medium,17.8
+Madhya Pradesh,Agar Malwa,black_cotton,black_cotton,7.7,1.6,medium,low,medium,24.5,excessive,medium,moderately_saline,sandy,79,768,28.4,37.1,1.51,24.2,178.2,sufficient,32.5,alkalinity,mixed,low,17.3
+Madhya Pradesh,Alirajpur,alluvial,black_cotton,6.7,1.2,medium,low,low,52.8,moderate,high,normal,loam,56,627,16.3,14.4,1.59,33.6,198.7,sufficient,28.4,drought,barren,low,20.4
+Madhya Pradesh,Anuppur,alluvial,alluvial,7.6,2.9,medium,low,medium,41.7,poor,high,normal,sandy_loam,131,921,9.4,26.7,1.55,35.6,93.4,adequate,31,drought,urban,medium,7.2
+Madhya Pradesh,Ashoknagar,black_cotton,alluvial,8.2,1.2,medium,medium,medium,52.8,good,high,normal,silt_loam,180,74,1,31,1.61,8.5,180.3,sufficient,29.6,acidity,urban,medium,23.6
+Madhya Pradesh,Balaghat,black_cotton,alluvial,7.8,3.1,medium,medium,medium,29.8,good,medium,slightly_saline,silt_loam,91,395,5.1,11.9,1.32,30.5,105.2,adequate,17.2,alkalinity,urban,medium,40.5
+Madhya Pradesh,Barwani,red_yellow,red_yellow,5.9,1,low,medium,medium,46.3,good,high,moderately_saline,silt_loam,48,320,27.6,8.3,1.77,31.3,80.2,deficient,33.4,alkalinity,mixed,low,38.8
+Madhya Pradesh,Betul,red_yellow,alluvial,6,2.1,low,medium,low,31,good,low,normal,sandy,122,285,15.6,24.8,1.11,39.5,123.4,adequate,22.3,salinity,barren,medium,47.9
+Madhya Pradesh,Bhind,red_yellow,red_yellow,6,2.5,medium,low,medium,30.4,moderate,high,highly_saline,clay_loam,163,871,26,36.3,1.74,6.6,145.3,sufficient,25,drought,mixed,high,10
+Madhya Pradesh,Bhopal,red_yellow,black_cotton,6.6,0.8,medium,low,medium,15.7,good,high,moderately_saline,clay_loam,147,717,6.5,9.2,1.7,9.5,197,adequate,33.1,salinity,forest,low,16.5
+Madhya Pradesh,Burhanpur,black_cotton,alluvial,7.5,4.2,low,medium,medium,41.1,poor,medium,highly_saline,sandy,135,5,5.8,33.9,1.49,38.6,165.6,deficient,23.9,acidity,agriculture,medium,27.7
+Madhya Pradesh,Chhatarpur,red_yellow,red_yellow,6,3.5,high,medium,high,42.9,good,medium,moderately_saline,silt_loam,176,993,9.3,32.4,1.41,25.3,173.3,sufficient,26.3,acidity,forest,medium,27.2
+Madhya Pradesh,Chhindwara,alluvial,black_cotton,7.7,2.4,medium,low,medium,22.8,poor,low,slightly_saline,clay,34,773,18.5,22.8,1.48,19.3,89.8,sufficient,28.4,none,forest,low,24.4
+Madhya Pradesh,Damoh,black_cotton,black_cotton,7.1,3.4,medium,medium,medium,44.8,excessive,low,highly_saline,silt_loam,156,252,8.6,13.7,1.55,33.2,178.9,adequate,20.5,drought,agriculture,medium,36.1
+Madhya Pradesh,Datia,alluvial,alluvial,7.2,0.7,medium,high,high,36.6,poor,medium,normal,clay,143,291,25.5,36.7,1.48,32.2,110.8,adequate,27.6,none,urban,medium,33.9
+Madhya Pradesh,Dewas,black_cotton,alluvial,8.4,4.1,low,low,high,48.1,excessive,medium,moderately_saline,silt_loam,157,652,15.9,6,1.27,24.1,155.4,adequate,34.8,acidity,mixed,medium,6.2
+Madhya Pradesh,Dhar,black_cotton,alluvial,8,1.1,medium,medium,high,32.7,excessive,medium,normal,sandy,88,634,23.9,25.4,1.77,33.7,142.7,sufficient,23.3,acidity,agriculture,medium,12
+Madhya Pradesh,Dindori,alluvial,black_cotton,6.7,1.7,high,medium,high,46.9,moderate,medium,highly_saline,loam,140,162,10.1,25.5,1.17,37,126.5,deficient,20.4,waterlogging,urban,medium,37.3
+Madhya Pradesh,Guna,red_yellow,black_cotton,6.3,3.6,medium,medium,low,20,excessive,medium,slightly_saline,silt_loam,32,378,19.7,11.9,1.2,50,154.7,deficient,16.3,alkalinity,urban,medium,4.4
+Madhya Pradesh,Gwalior,red_yellow,black_cotton,5.5,2.5,medium,low,high,24.2,excessive,medium,normal,clay_loam,152,875,26.5,38.2,1.44,35.7,182.2,adequate,16.4,drought,agriculture,low,33.6
+Madhya Pradesh,Harda,red_yellow,alluvial,6.5,4.4,medium,high,medium,19.7,moderate,low,highly_saline,loam,91,593,10.8,19.2,1.78,7.4,112.2,adequate,23.5,none,agriculture,high,16.3
+Madhya Pradesh,Hoshangabad,red_yellow,alluvial,5.8,4.4,low,low,low,23.9,poor,low,slightly_saline,sandy,146,791,0.3,8,1.67,39,189.8,adequate,22,acidity,agriculture,medium,40.4
+Madhya Pradesh,Indore,alluvial,black_cotton,6.8,3.9,medium,high,low,24,good,low,slightly_saline,clay,40,422,2,39.9,1.12,42.1,123.8,deficient,32.2,none,forest,medium,2.4
+Madhya Pradesh,Jabalpur,alluvial,black_cotton,6.8,3.2,high,medium,medium,22.5,poor,low,normal,clay,116,797,14.8,8,1.49,26.1,97.3,adequate,21.7,acidity,barren,high,2.4
+Madhya Pradesh,Jhabua,red_yellow,black_cotton,6.6,2,low,medium,high,24.6,moderate,low,normal,sandy_loam,110,900,5.7,33.7,1.18,33.5,120.9,sufficient,26.2,salinity,agriculture,medium,10.1
+Madhya Pradesh,Katni,black_cotton,black_cotton,8.5,3.8,low,low,high,35.1,good,low,slightly_saline,silt_loam,148,201,20.1,19.4,1.43,4.4,102.9,adequate,22.1,alkalinity,forest,low,31.6
+Madhya Pradesh,Khandwa,black_cotton,red_yellow,7.6,4.1,low,medium,high,32.9,poor,low,moderately_saline,clay_loam,145,737,3.5,9.5,1.48,47,117,adequate,16.7,none,barren,high,3.7
+Madhya Pradesh,Khargone,red_yellow,red_yellow,6.6,1.3,medium,medium,high,19.5,poor,medium,slightly_saline,loam,130,192,24.6,11,1.67,35.3,146.7,adequate,23.8,salinity,urban,low,34
+Madhya Pradesh,Mandla,red_yellow,black_cotton,6.5,1.9,high,medium,low,33,moderate,high,moderately_saline,loam,183,197,26.8,14.4,1.39,45.1,187.6,adequate,32.8,waterlogging,mixed,medium,17.4
+Madhya Pradesh,Mandsaur,red_yellow,red_yellow,6.3,1.1,low,medium,medium,29.4,good,medium,normal,clay_loam,85,470,9.2,7.5,1.75,20.9,175.1,sufficient,21.9,alkalinity,urban,high,4
+Madhya Pradesh,Morena,alluvial,alluvial,7.6,3,low,medium,medium,41.2,poor,high,moderately_saline,loam,67,540,20.8,5.6,1.36,18.9,145.2,sufficient,30.8,alkalinity,urban,low,15.6
+Madhya Pradesh,Narsinghpur,red_yellow,red_yellow,6.5,1.9,high,low,medium,44.8,excessive,high,normal,silt_loam,58,109,24.5,37.5,1.48,33.8,188.4,deficient,19.6,alkalinity,mixed,medium,43.1
+Madhya Pradesh,Neemuch,black_cotton,red_yellow,7.1,2.3,low,low,high,18,good,medium,normal,clay,105,191,2.7,16.8,1.16,48.2,176.9,sufficient,15.2,waterlogging,urban,high,29
+Madhya Pradesh,Niwari,black_cotton,black_cotton,7,1.5,high,low,low,37.8,poor,high,normal,sandy_loam,89,41,20.4,7.6,1.79,21.6,114.5,sufficient,25.4,salinity,agriculture,low,42.2
+Madhya Pradesh,Panna,alluvial,red_yellow,7.8,1.6,low,low,low,26.4,poor,medium,normal,sandy_loam,38,163,7,35.8,1.33,7.4,184.4,sufficient,16,salinity,forest,medium,37.4
+Madhya Pradesh,Raisen,black_cotton,alluvial,8.5,0.7,medium,medium,medium,27.6,poor,medium,moderately_saline,sandy,58,379,25.9,24.7,1.39,18,95,deficient,21.3,none,urban,low,49.9
+Madhya Pradesh,Rajgarh,black_cotton,alluvial,7.2,0.9,medium,medium,medium,36.4,excessive,high,normal,sandy,34,519,10,16.1,1.64,4.5,81.5,deficient,25.2,none,urban,medium,46.9
+Madhya Pradesh,Ratlam,alluvial,black_cotton,7.6,3.7,high,medium,high,24.4,moderate,medium,highly_saline,sandy_loam,168,715,28.9,15.1,1.7,20.6,118.8,sufficient,33.1,waterlogging,forest,low,7.1
+Madhya Pradesh,Rewa,alluvial,black_cotton,6.9,2.8,medium,medium,high,35.6,moderate,high,moderately_saline,sandy_loam,92,444,18,7.5,1.26,46.7,189,deficient,27,alkalinity,barren,low,37.3
+Madhya Pradesh,Sagar,black_cotton,alluvial,8,0.8,high,high,low,36.3,good,high,normal,sandy,90,705,17.3,38.5,1.45,6,154.4,sufficient,21.6,drought,agriculture,medium,10.7
+Madhya Pradesh,Satna,red_yellow,red_yellow,5.9,3.6,low,low,medium,52.7,good,medium,slightly_saline,clay_loam,69,912,4.5,22.8,1.42,45.2,191.6,adequate,30.1,none,mixed,medium,40.5
+Madhya Pradesh,Sehore,red_yellow,red_yellow,6.2,3.2,high,medium,high,45.6,moderate,low,highly_saline,sandy,166,498,11.3,36.6,1.15,4.8,191.2,deficient,20.8,drought,urban,low,27.5
+Madhya Pradesh,Seoni,red_yellow,alluvial,6.7,4,low,high,high,37,poor,low,highly_saline,clay_loam,97,76,21.7,35.2,1.56,26.6,99.1,adequate,23.9,acidity,mixed,high,20.4
+Madhya Pradesh,Shahdol,red_yellow,red_yellow,6,2.9,medium,low,low,26.6,excessive,medium,slightly_saline,clay,71,623,23.7,13.5,1.74,6.5,136.2,sufficient,25.8,acidity,agriculture,low,20
+Madhya Pradesh,Shajapur,black_cotton,alluvial,7.5,4.4,high,high,medium,42.7,moderate,low,normal,silt_loam,39,745,18.1,7.1,1.39,28.2,132.3,adequate,22.6,salinity,agriculture,low,11.3
+Madhya Pradesh,Sheopur,black_cotton,black_cotton,8.3,3.9,medium,medium,medium,21.3,excessive,low,highly_saline,clay,39,704,7.2,7.9,1.75,29.8,160,adequate,29.1,none,forest,high,11
+Madhya Pradesh,Shivpuri,black_cotton,black_cotton,8.2,1.9,medium,medium,low,24.6,excessive,low,moderately_saline,sandy,146,40,8.4,11.7,1.45,43.6,109,adequate,22.1,salinity,agriculture,medium,37.5
+Madhya Pradesh,Sidhi,red_yellow,alluvial,6.8,3.3,medium,low,high,39.7,excessive,high,highly_saline,sandy,34,355,17.6,25.5,1.41,42.1,111.8,deficient,32.3,none,urban,high,21
+Madhya Pradesh,Singrauli,black_cotton,red_yellow,8.4,0.8,medium,medium,high,20.4,good,low,normal,sandy,171,278,8.2,21.2,1.72,23.8,146.7,sufficient,33.2,waterlogging,urban,medium,32.4
+Madhya Pradesh,Tikamgarh,alluvial,alluvial,6.9,2.1,low,high,medium,15.5,good,medium,moderately_saline,clay,130,92,5.5,25.1,1.55,28.7,168.6,adequate,20.2,salinity,barren,medium,33.1
+Madhya Pradesh,Ujjain,black_cotton,alluvial,7.9,1.7,low,low,high,42.6,poor,high,highly_saline,sandy_loam,87,228,25.1,6.5,1.27,44.7,81.1,deficient,35,waterlogging,urban,low,5.2
+Madhya Pradesh,Umaria,red_yellow,black_cotton,5.9,4,medium,medium,high,31.3,good,low,highly_saline,clay,80,331,24.1,7.3,1.58,29.5,188.9,deficient,24.8,alkalinity,forest,medium,6
+Madhya Pradesh,Vidisha,black_cotton,red_yellow,7.4,1.8,high,low,medium,41.9,good,high,highly_saline,silt_loam,81,364,18.8,28.4,1.19,47.4,95.9,adequate,20.3,none,forest,low,38.2
+Madhya Pradesh,Chachaura,red_yellow,red_yellow,6.2,3,medium,low,high,50.6,excessive,high,slightly_saline,loam,131,381,13.9,16,1.51,37,129.3,deficient,29,none,forest,high,43.3
+Madhya Pradesh,Maihar,red_yellow,red_yellow,5.9,1.5,medium,high,medium,45,good,medium,normal,clay_loam,144,81,6.3,22.6,1.26,21.7,173.6,deficient,24.7,none,forest,low,10.4
+Madhya Pradesh,Mauganj,black_cotton,black_cotton,7.4,4.2,low,medium,high,47.4,good,high,highly_saline,sandy,189,818,14,14.3,1.61,32.5,185,sufficient,17.3,none,forest,medium,25.6
+Madhya Pradesh,Narmadapuram,alluvial,alluvial,7.5,2.2,high,high,high,17.9,moderate,medium,normal,clay_loam,51,202,3.2,8.5,1.11,28.3,196.8,deficient,17.6,acidity,mixed,medium,14.2
+Maharashtra,Ahmednagar,black_cotton,black_cotton,7.8,2.8,medium,medium,low,45.6,moderate,low,moderately_saline,clay_loam,84,760,18.4,35.4,1.56,22.8,178.3,adequate,27,drought,barren,medium,4.7
+Maharashtra,Akola,laterite,laterite,5.8,1.2,medium,medium,high,52.2,good,medium,moderately_saline,silt_loam,105,675,29.5,39.4,1.75,39.7,119.1,deficient,28.4,acidity,barren,low,4.3
+Maharashtra,Amravati,alluvial,red_yellow,7.1,4.1,low,low,low,16.2,moderate,medium,normal,silt_loam,173,59,22.9,39.7,1.56,4.4,92.5,deficient,25.5,none,agriculture,high,46.5
+Maharashtra,Aurangabad,black_cotton,laterite,7.8,1.9,high,medium,low,40.7,moderate,medium,moderately_saline,sandy,171,315,10.5,38.8,1.66,32.3,115.2,deficient,32.8,salinity,urban,medium,42
+Maharashtra,Beed,black_cotton,red_yellow,8.2,0.6,high,medium,medium,29.5,moderate,low,highly_saline,silt_loam,104,605,3.6,16.2,1.71,13.2,152.9,deficient,19.2,drought,forest,medium,12.3
+Maharashtra,Bhandara,red_yellow,laterite,5.8,2.8,low,high,high,35.7,moderate,low,slightly_saline,clay_loam,76,758,28.8,10,1.46,41.8,122,deficient,25.3,alkalinity,forest,high,31.7
+Maharashtra,Buldhana,black_cotton,laterite,8.2,2.7,medium,low,low,54.4,poor,high,slightly_saline,sandy,197,665,5.9,35.6,1.59,23.8,144.9,deficient,18.9,alkalinity,barren,high,43.1
+Maharashtra,Chandrapur,laterite,black_cotton,5.2,3.3,medium,low,medium,26.9,poor,high,highly_saline,loam,182,652,17.7,8.1,1.4,10.4,198.5,adequate,26.6,waterlogging,forest,low,6.5
+Maharashtra,Dhule,alluvial,laterite,6.9,2.2,medium,low,high,36.5,excessive,low,moderately_saline,loam,105,122,0.6,29.1,1.31,32,98.1,sufficient,23.1,acidity,forest,low,34.1
+Maharashtra,Gadchiroli,red_yellow,alluvial,5.8,2.9,medium,medium,medium,48,poor,medium,moderately_saline,clay_loam,91,624,2.6,30,1.24,35.1,126.8,deficient,18,acidity,urban,low,6.8
+Maharashtra,Gondia,laterite,red_yellow,6,3.2,low,medium,low,23.4,excessive,low,moderately_saline,loam,61,466,6.8,14.8,1.19,32.7,89,sufficient,30.1,none,forest,low,28.8
+Maharashtra,Hingoli,laterite,alluvial,6,1,medium,medium,medium,39.2,poor,low,moderately_saline,clay_loam,85,501,7.7,21.8,1.36,45.9,124.2,deficient,22.7,none,urban,low,42
+Maharashtra,Jalgaon,laterite,black_cotton,5.4,1.8,medium,low,medium,43,excessive,medium,highly_saline,sandy_loam,65,478,0.2,8.3,1.14,36.8,89.7,deficient,23.1,none,mixed,high,41
+Maharashtra,Jalna,alluvial,laterite,7.6,4.2,high,medium,low,25.9,excessive,low,moderately_saline,sandy,137,987,28.6,19.2,1.45,48.6,113.1,sufficient,26.1,waterlogging,agriculture,low,17.7
+Maharashtra,Kolhapur,red_yellow,black_cotton,6.9,3.8,high,low,low,39.4,moderate,high,highly_saline,sandy_loam,36,832,23.6,7,1.36,26.3,147.2,sufficient,22.1,drought,mixed,high,15.2
+Maharashtra,Latur,black_cotton,black_cotton,7.6,1.6,medium,high,low,33.2,excessive,low,moderately_saline,clay_loam,96,809,24.9,15.2,1.71,39,130.1,deficient,18.3,alkalinity,agriculture,high,14.1
+Maharashtra,Mumbai City,red_yellow,alluvial,6.6,4.3,medium,medium,medium,40.2,poor,low,normal,loam,197,3,15.9,33.4,1.61,33.9,93.6,deficient,20.9,acidity,urban,low,46.2
+Maharashtra,Mumbai Suburban,alluvial,black_cotton,7.6,0.7,medium,medium,low,44.9,excessive,medium,highly_saline,loam,116,636,14.6,27.1,1.61,19.8,166.4,deficient,17.4,none,urban,high,20.4
+Maharashtra,Nagpur,alluvial,red_yellow,7.6,2.9,medium,high,low,49,poor,medium,normal,loam,160,386,6.9,30.7,1.31,10.4,174.4,adequate,33.1,waterlogging,barren,high,42.7
+Maharashtra,Nanded,laterite,alluvial,6.3,3.7,medium,low,high,48.6,moderate,high,highly_saline,clay_loam,53,143,1.5,37.4,1.77,11.1,161.2,deficient,29.6,none,agriculture,medium,33.2
+Maharashtra,Nandurbar,alluvial,black_cotton,7.1,4.1,medium,medium,medium,28,good,low,slightly_saline,loam,47,998,9.8,26.8,1.14,3.1,134,deficient,23.8,acidity,barren,medium,35.1
+Maharashtra,Nashik,laterite,red_yellow,5.3,1.8,medium,low,low,17.9,poor,high,normal,sandy,36,259,3.3,30.2,1.21,42.8,167.1,adequate,30.6,none,agriculture,medium,15.3
+Maharashtra,Osmanabad,alluvial,black_cotton,7.4,4,medium,medium,medium,50.3,good,medium,highly_saline,clay_loam,178,521,22.5,38.8,1.15,4.6,192.5,adequate,26.6,drought,barren,medium,38.9
+Maharashtra,Palghar,laterite,laterite,5.5,1.7,high,low,high,25.3,excessive,high,moderately_saline,sandy,193,746,12.4,29.1,1.34,15.3,199.6,deficient,15.7,alkalinity,urban,low,3.5
+Maharashtra,Parbhani,laterite,red_yellow,6.1,2.6,high,low,medium,24.5,moderate,medium,highly_saline,clay,47,26,20.9,10,1.55,4.6,128.9,deficient,15.1,alkalinity,barren,medium,8.7
+Maharashtra,Pune,alluvial,laterite,7.1,4.2,medium,medium,low,15,moderate,medium,highly_saline,silt_loam,114,570,21.8,25.3,1.21,34.4,96,adequate,21,waterlogging,agriculture,medium,10.2
+Maharashtra,Raigad,alluvial,black_cotton,6.9,3.1,low,medium,low,32,poor,medium,normal,silt_loam,113,444,18.1,24.6,1.11,5.9,149.3,adequate,29.3,none,agriculture,medium,15.6
+Maharashtra,Ratnagiri,laterite,laterite,5.2,3.4,medium,medium,medium,28,moderate,high,moderately_saline,sandy_loam,125,582,22.5,20.3,1.75,32.4,114.6,adequate,33.9,alkalinity,forest,medium,46.4
+Maharashtra,Sangli,black_cotton,black_cotton,7.9,2.7,low,medium,medium,44.1,good,medium,slightly_saline,sandy,132,982,7.9,6.3,1.19,49.3,117.8,deficient,17.1,salinity,urban,medium,26.3
+Maharashtra,Satara,laterite,laterite,5.4,2.2,medium,medium,medium,29.5,good,medium,normal,clay,131,190,10.6,18.3,1.39,36.9,134.2,sufficient,33.6,drought,barren,high,20.8
+Maharashtra,Sindhudurg,alluvial,alluvial,6.7,3.8,low,medium,medium,23.3,moderate,medium,highly_saline,sandy,150,717,12.3,13.3,1.61,8.3,161.6,deficient,27.3,drought,mixed,low,45.8
+Maharashtra,Solapur,black_cotton,red_yellow,8,1.5,high,medium,low,37.8,good,low,highly_saline,sandy,131,502,1.7,11.9,1.11,32.1,118,sufficient,23.6,salinity,agriculture,low,30.8
+Maharashtra,Thane,alluvial,laterite,7.5,1.8,medium,high,low,32.4,moderate,low,highly_saline,silt_loam,190,25,13.7,24.2,1.72,7,178.7,adequate,22.9,acidity,agriculture,high,15.2
+Maharashtra,Wardha,laterite,alluvial,6.1,2.4,high,high,medium,31.6,good,medium,normal,loam,107,54,22.8,21.8,1.13,16.9,115.1,adequate,22.9,drought,forest,low,22.7
+Maharashtra,Washim,laterite,black_cotton,5.9,3.6,medium,medium,medium,19.3,good,high,highly_saline,silt_loam,172,886,28.2,14.1,1.7,43.4,172.7,deficient,16.9,salinity,barren,low,30.6
+Maharashtra,Yavatmal,alluvial,laterite,6.8,1,medium,medium,medium,34,good,medium,slightly_saline,sandy,193,432,4.4,36.7,1.78,49.6,174.8,adequate,20.6,salinity,forest,low,5.8
+Manipur,Bishnupur,alluvial,hill,7.7,2.6,medium,high,low,16.5,good,low,highly_saline,clay_loam,191,835,26.9,9.5,1.12,35,152.5,adequate,32.9,drought,forest,high,9.8
+Manipur,Chandel,alluvial,hill,7.2,1.1,high,medium,high,43.4,good,low,normal,loam,115,410,6.6,20.4,1.65,39.6,134.4,sufficient,28.2,none,barren,low,17.1
+Manipur,Churachandpur,mountain,hill,6.4,1.3,medium,high,low,43.8,moderate,high,normal,sandy,178,1272,12.1,7.2,1.67,6.4,160.9,sufficient,31.8,salinity,agriculture,high,21.1
+Manipur,Imphal East,hill,alluvial,6,3.7,low,medium,medium,25,excessive,medium,normal,sandy,76,882,12.2,33.9,1.26,27.2,176.7,sufficient,22.6,none,barren,high,40.1
+Manipur,Imphal West,hill,alluvial,5.9,3.9,medium,high,high,25.7,moderate,medium,moderately_saline,loam,57,61,24.2,14.5,1.43,36.1,132.7,adequate,18.5,salinity,barren,high,19.2
+Manipur,Jiribam,mountain,mountain,6.5,3.9,low,medium,medium,52.5,excessive,low,slightly_saline,loam,31,2096,24.6,12.3,1.27,8.2,165.9,sufficient,28.7,none,mixed,medium,37.1
+Manipur,Kakching,hill,alluvial,6.9,4.3,medium,medium,high,50.7,excessive,high,normal,silt_loam,98,335,26.5,35.2,1.41,30.1,197.1,adequate,21.4,drought,urban,medium,11.2
+Manipur,Kamjong,hill,alluvial,6.4,3.8,high,low,low,47,good,medium,moderately_saline,sandy,90,857,23.1,22.5,1.31,48.7,159.6,sufficient,21.6,waterlogging,agriculture,low,10.2
+Manipur,Kangpokpi,mountain,hill,7.5,3.2,high,low,medium,19.3,good,medium,normal,clay,124,3378,15.6,24.8,1.49,24.8,174.9,sufficient,16.3,salinity,barren,high,35.2
+Manipur,Noney,alluvial,hill,7.6,2.2,medium,low,medium,43.3,moderate,high,moderately_saline,loam,87,366,7.6,23.7,1.68,7,193.2,adequate,18.6,waterlogging,mixed,medium,21.3
+Manipur,Pherzawl,alluvial,mountain,7.1,2.5,medium,high,low,15.8,good,high,slightly_saline,loam,117,442,18.6,27.8,1.24,13.5,159.1,deficient,20.8,none,forest,low,3.9
+Manipur,Senapati,mountain,alluvial,6,1.1,low,high,medium,21,good,low,normal,clay,146,2939,10.9,35.6,1.38,18.1,104.9,deficient,22,acidity,barren,low,34.8
+Manipur,Tamenglong,alluvial,alluvial,7.7,0.9,medium,medium,medium,52.9,poor,medium,moderately_saline,sandy_loam,152,723,29.4,37.4,1.73,37.1,124,sufficient,26.3,waterlogging,urban,high,37.2
+Manipur,Tengnoupal,hill,mountain,5.8,0.9,high,low,medium,29.4,good,high,slightly_saline,loam,158,1203,6.1,20.8,1.66,30.3,91.6,deficient,29.1,acidity,urban,medium,9.3
+Manipur,Thoubal,mountain,hill,7,0.6,medium,low,medium,23.6,poor,high,moderately_saline,loam,148,3483,29.4,5.4,1.54,21.8,183.2,deficient,34.6,none,barren,medium,10.8
+Manipur,Ukhrul,hill,alluvial,6.7,0.6,medium,low,medium,42.8,moderate,medium,slightly_saline,loam,53,713,26.6,27.7,1.21,3.6,96.9,deficient,15.5,acidity,agriculture,low,43.9
+Meghalaya,East Garo Hills,laterite,hill,5.9,3.9,medium,low,low,35.4,moderate,medium,highly_saline,clay_loam,112,68,15.6,34.3,1.68,47.9,163.8,sufficient,31.6,waterlogging,agriculture,medium,36
+Meghalaya,East Jaintia Hills,laterite,mountain,5.1,1.3,low,low,medium,35.3,moderate,high,slightly_saline,sandy_loam,165,3897,18.2,18.9,1.31,43.6,169.6,adequate,24.9,none,agriculture,medium,36.2
+Meghalaya,East Khasi Hills,mountain,laterite,7,3.3,medium,high,low,22.1,poor,medium,normal,clay,194,3761,12,15,1.22,18.1,153,sufficient,31.4,salinity,barren,low,3.3
+Meghalaya,North Garo Hills,hill,mountain,6.8,0.7,medium,high,low,32.5,excessive,high,highly_saline,sandy,98,255,22.9,34.2,1.34,44.8,136.5,adequate,18.2,none,urban,medium,32.1
+Meghalaya,Ri Bhoi,hill,hill,7,4,medium,low,medium,42.6,poor,high,slightly_saline,loam,182,609,5.1,12.9,1.5,22.3,141.8,deficient,26.7,salinity,agriculture,medium,29
+Meghalaya,South Garo Hills,hill,mountain,6.4,0.9,medium,low,high,43.6,poor,high,highly_saline,silt_loam,192,3066,8.3,33.3,1.36,17.2,182,deficient,25.8,acidity,urban,medium,2.2
+Meghalaya,South West Garo Hills,mountain,hill,6.8,2,medium,high,medium,33.1,excessive,medium,highly_saline,clay_loam,32,2815,5,31.1,1.36,24.7,155.6,sufficient,15.2,drought,mixed,low,35.5
+Meghalaya,South West Khasi Hills,mountain,mountain,6,3.4,low,low,medium,31.8,poor,high,highly_saline,loam,86,1818,6.2,27.9,1.39,10.6,162.7,sufficient,34.7,alkalinity,agriculture,medium,34.3
+Meghalaya,West Garo Hills,mountain,laterite,7.1,4.2,high,medium,low,48.7,excessive,low,moderately_saline,clay,64,1520,16,27.4,1.77,6.9,117.1,adequate,20.9,alkalinity,agriculture,medium,4.7
+Meghalaya,West Jaintia Hills,mountain,laterite,7.1,0.8,medium,medium,high,15.1,poor,low,highly_saline,clay_loam,37,2394,23,8.2,1.46,13.1,101.7,deficient,17.7,acidity,barren,medium,10.9
+Meghalaya,West Khasi Hills,hill,mountain,5.7,0.6,high,medium,medium,52.1,moderate,low,moderately_saline,loam,30,924,3.5,17.6,1.78,46.3,186.1,adequate,29.3,waterlogging,barren,high,47.9
+Meghalaya,Mairang,hill,laterite,6.2,3.9,medium,medium,low,32.1,moderate,medium,highly_saline,sandy,28,532,20.4,27.2,1.74,2.9,146.8,deficient,26.5,waterlogging,urban,high,15.7
+Mizoram,Aizawl,mountain,hill,7.1,3.1,high,low,high,38.8,excessive,medium,highly_saline,clay_loam,167,2989,25.4,9,1.78,48.1,122.9,deficient,23.3,alkalinity,mixed,low,19.1
+Mizoram,Champhai,hill,mountain,5.9,3.2,medium,high,medium,46.7,good,high,normal,sandy_loam,28,2244,9.4,12.1,1.77,23.3,101,adequate,20.4,drought,mixed,high,14.9
+Mizoram,Hnahthial,mountain,hill,7,1.7,low,low,medium,19.2,good,low,normal,sandy_loam,129,3688,15.4,28.5,1.69,2.5,128.3,adequate,28.1,acidity,forest,low,27.4
+Mizoram,Khawzawl,mountain,mountain,6.8,3.1,medium,medium,high,21.2,excessive,low,highly_saline,silt_loam,167,1914,7.5,27.4,1.71,22.1,189.3,deficient,26.4,drought,urban,medium,6.7
+Mizoram,Kolasib,mountain,hill,6.2,4.5,low,medium,high,15.8,moderate,low,normal,clay_loam,178,2278,12.9,21.4,1.27,44.9,145.1,deficient,20.8,drought,forest,low,23.9
+Mizoram,Lawngtlai,mountain,mountain,6.9,3.8,medium,low,medium,36.4,moderate,low,highly_saline,sandy,84,2297,6.4,11.9,1.39,12.9,150.1,sufficient,23.8,salinity,urban,low,21
+Mizoram,Lunglei,hill,mountain,6.2,4.4,low,high,high,53.4,good,medium,normal,sandy_loam,70,3538,28.4,9.8,1.45,12.3,87.2,adequate,17.9,salinity,agriculture,low,8.9
+Mizoram,Mamit,hill,mountain,6.7,1.2,medium,low,medium,27.6,moderate,high,normal,sandy_loam,121,3371,0.7,32.7,1.11,16.1,80.7,sufficient,34.3,salinity,urban,low,24.1
+Mizoram,Saiha,mountain,hill,6.9,3.6,medium,medium,high,49.5,moderate,medium,moderately_saline,clay,132,2107,21.5,34.2,1.62,42.6,87.7,deficient,20.2,none,urban,high,34.8
+Mizoram,Saitual,hill,mountain,6.6,4.3,high,medium,medium,23.5,moderate,high,normal,loam,98,1791,15.3,39.2,1.3,25.1,133.8,adequate,16.8,acidity,urban,low,22.1
+Mizoram,Serchhip,hill,mountain,5.6,2.6,medium,low,low,19.9,good,high,slightly_saline,clay_loam,102,2331,28.7,34.9,1.26,17.7,105.2,adequate,15.4,acidity,urban,low,45.1
+Nagaland,Chumoukedima,hill,mountain,6.7,3.7,low,low,low,25.2,good,high,slightly_saline,silt_loam,36,703,28.4,9.4,1.78,13.1,172.7,adequate,17.9,salinity,urban,medium,9.9
+Nagaland,Dimapur,mountain,mountain,6.7,0.6,low,low,low,28.7,excessive,low,highly_saline,silt_loam,44,1647,0.7,22.5,1.44,9.6,171.7,sufficient,24.6,waterlogging,urban,medium,12.5
+Nagaland,Kiphire,mountain,hill,6.2,3.2,medium,low,low,39.8,poor,low,moderately_saline,clay_loam,31,1183,13.8,13.3,1.54,16.5,196.2,adequate,32.6,waterlogging,forest,high,27.6
+Nagaland,Kohima,hill,mountain,6.4,0.7,medium,low,high,41.7,excessive,high,normal,clay,128,1949,23.5,17.3,1.31,28.9,81,sufficient,15.4,waterlogging,barren,low,26.6
+Nagaland,Longleng,hill,mountain,6.5,0.7,medium,medium,low,51.8,moderate,medium,highly_saline,clay,43,3518,17.2,26.8,1.45,41.2,183.3,sufficient,31.5,drought,barren,low,11.6
+Nagaland,Mokokchung,hill,mountain,6.5,3,medium,low,low,51.7,moderate,high,moderately_saline,loam,71,2654,5.1,33.6,1.75,47,189.7,adequate,31.2,waterlogging,urban,high,16.9
+Nagaland,Mon,hill,hill,5.9,3.8,high,medium,low,20.6,poor,medium,normal,clay,79,587,11,36.9,1.65,38.3,152.8,adequate,32.4,acidity,urban,high,9.1
+Nagaland,Niuland,hill,hill,5.8,0.6,high,low,high,20.8,poor,low,normal,loam,196,751,25.9,34.4,1.56,26.1,166.6,sufficient,26.9,alkalinity,agriculture,low,19.1
+Nagaland,Noklak,mountain,hill,6.6,3.4,low,low,low,46.9,excessive,low,highly_saline,sandy,58,2283,13.9,18.7,1.7,46.6,116.4,adequate,19.3,acidity,barren,medium,29.7
+Nagaland,Peren,hill,hill,6.7,0.5,medium,low,medium,40.8,poor,medium,slightly_saline,silt_loam,39,734,19.2,27.9,1.77,39.2,176.4,deficient,29.7,alkalinity,forest,low,7.6
+Nagaland,Phek,mountain,mountain,6.4,0.8,medium,medium,medium,43.8,good,low,moderately_saline,sandy,144,3791,13.7,26.4,1.36,35.7,180.3,sufficient,25.3,drought,agriculture,high,11.8
+Nagaland,Shamator,mountain,hill,6.7,1.7,medium,low,high,19.3,moderate,low,slightly_saline,clay_loam,85,2416,13.1,27.1,1.34,16.5,149.4,adequate,17.4,none,agriculture,high,33.7
+Nagaland,Tseminyu,mountain,mountain,6.1,3.6,medium,medium,medium,42.4,good,high,highly_saline,clay_loam,108,978,15.5,18.4,1.5,7.5,199.6,deficient,15.8,salinity,mixed,medium,19.5
+Nagaland,Tuensang,mountain,mountain,6.7,3.4,low,high,high,23.5,excessive,medium,highly_saline,clay,46,1297,7.7,21,1.12,21.1,148.6,sufficient,25.3,waterlogging,forest,medium,42.3
+Nagaland,Wokha,hill,mountain,5.9,1.9,high,medium,medium,38.2,good,low,highly_saline,clay_loam,104,2063,5.3,33.9,1.29,46.7,123.8,adequate,32.7,drought,barren,high,7.1
+Nagaland,Zunheboto,mountain,hill,7.3,3.4,medium,low,high,43.2,moderate,low,slightly_saline,loam,71,825,22,26.9,1.7,40.5,85,sufficient,17,waterlogging,barren,high,23.7
+Odisha,Angul,red_yellow,coastal,6.7,2.6,medium,medium,low,20,good,medium,highly_saline,sandy_loam,176,400,24,20.1,1.45,14.7,164.5,adequate,19.8,none,forest,medium,21.3
+Odisha,Balangir,coastal,alluvial,7.3,1.5,medium,medium,high,53.4,moderate,low,moderately_saline,sandy_loam,136,442,20.7,37.9,1.27,27.7,162.8,sufficient,20.4,alkalinity,urban,high,40.2
+Odisha,Balasore,coastal,laterite,7.7,1.9,high,medium,medium,16.3,poor,medium,moderately_saline,silt_loam,129,228,12.3,24,1.48,25.9,96.2,deficient,27.8,salinity,forest,high,46.8
+Odisha,Bargarh,red_yellow,red_yellow,6.5,2.1,high,medium,high,29.7,excessive,high,normal,sandy_loam,147,106,10.5,9.6,1.29,23,83.6,sufficient,16.5,acidity,urban,low,28.2
+Odisha,Bhadrak,coastal,coastal,7.9,0.5,low,low,low,22.2,excessive,medium,normal,silt_loam,144,626,6.8,15.9,1.79,41.9,136.4,adequate,33.7,salinity,agriculture,medium,11.9
+Odisha,Boudh,alluvial,alluvial,7.2,1.1,medium,medium,high,20,excessive,medium,moderately_saline,sandy,134,369,21,37.4,1.36,13.6,146.6,deficient,16.3,drought,forest,low,17.8
+Odisha,Cuttack,alluvial,coastal,7.7,3.9,low,low,medium,36.3,excessive,medium,moderately_saline,loam,195,779,15.6,20.7,1.28,7.8,91.8,adequate,24.1,waterlogging,forest,medium,32
+Odisha,Deogarh,alluvial,alluvial,6.7,2.2,low,high,medium,20.6,moderate,medium,moderately_saline,clay_loam,149,109,8.1,23.7,1.68,21.3,166,adequate,21.1,alkalinity,forest,medium,13.6
+Odisha,Dhenkanal,coastal,coastal,7.7,1,medium,medium,medium,40.3,excessive,low,highly_saline,loam,35,687,8.4,10.1,1.3,16.9,142.6,adequate,19.5,alkalinity,barren,high,48.9
+Odisha,Gajapati,alluvial,alluvial,6.9,4.5,high,medium,high,47.6,excessive,medium,normal,clay_loam,181,461,18.3,21.4,1.54,40.2,196.3,adequate,25.8,acidity,agriculture,high,44
+Odisha,Ganjam,laterite,coastal,6.4,0.9,low,medium,high,35.2,poor,medium,highly_saline,sandy_loam,90,395,26.4,18.9,1.29,18.7,165.5,deficient,22.4,salinity,barren,low,40.6
+Odisha,Jagatsinghpur,red_yellow,alluvial,6.5,3.4,low,high,medium,32.1,good,medium,normal,silt_loam,139,262,5.3,36.7,1.34,20.1,188.8,adequate,29.3,none,barren,high,36.7
+Odisha,Jajpur,alluvial,red_yellow,7.3,3.3,medium,medium,high,33.9,good,medium,highly_saline,loam,124,991,25.9,27.8,1.7,7.4,121.7,adequate,31.4,waterlogging,urban,high,39.8
+Odisha,Jharsuguda,alluvial,coastal,6.7,3.9,medium,medium,high,31.8,excessive,high,slightly_saline,sandy_loam,166,564,23.7,25.3,1.65,11.2,86,deficient,30.6,waterlogging,urban,low,33.4
+Odisha,Kalahandi,coastal,laterite,6.6,0.6,low,high,high,39.6,good,high,highly_saline,loam,162,753,16.5,38.2,1.8,13.3,167.2,sufficient,20.7,alkalinity,forest,medium,24.1
+Odisha,Kandhamal,alluvial,coastal,6.5,3.2,low,medium,medium,21.7,moderate,medium,slightly_saline,sandy,173,867,6,22.8,1.21,34.2,170.5,sufficient,21.1,acidity,barren,low,39
+Odisha,Kendrapara,laterite,laterite,6.3,0.5,low,medium,medium,54.4,poor,low,highly_saline,loam,180,825,1.8,14.6,1.75,19,159.4,sufficient,20.9,acidity,barren,medium,9.1
+Odisha,Kendujhar,alluvial,laterite,7,3.4,low,high,low,39.1,excessive,medium,slightly_saline,clay,38,179,23.8,36.1,1.3,23,122.6,deficient,20.1,none,barren,low,33.8
+Odisha,Khurdha,coastal,laterite,7.5,0.6,medium,medium,high,53.2,good,low,highly_saline,clay,47,15,14,29.1,1.72,11.9,190.2,deficient,34.6,drought,agriculture,high,19.9
+Odisha,Koraput,laterite,coastal,6,1.1,low,medium,low,18.3,moderate,high,highly_saline,clay,64,867,15,6.5,1.34,10.6,157.6,deficient,26.7,alkalinity,mixed,low,47.9
+Odisha,Malkangiri,red_yellow,alluvial,6.3,3.4,medium,high,medium,33.5,good,medium,slightly_saline,sandy,126,962,4.8,24.1,1.47,5.6,163.8,deficient,19.4,salinity,mixed,high,36.6
+Odisha,Mayurbhanj,red_yellow,laterite,6.1,1.8,medium,high,medium,18,excessive,low,highly_saline,clay_loam,180,1,29.7,38.2,1.15,46.8,123.6,adequate,19.5,none,forest,low,32.4
+Odisha,Nabarangpur,coastal,red_yellow,6.6,2.9,low,low,medium,33.8,moderate,high,normal,silt_loam,130,843,28.6,9,1.76,37.2,156.5,sufficient,20,none,mixed,medium,26.3
+Odisha,Nayagarh,laterite,red_yellow,6.3,3.9,medium,low,medium,43.4,moderate,low,slightly_saline,sandy_loam,124,679,14.7,15.9,1.71,9.5,104.8,sufficient,21.7,waterlogging,agriculture,medium,4.4
+Odisha,Nuapada,laterite,laterite,5.4,2.7,low,low,high,47.2,excessive,high,slightly_saline,clay_loam,46,407,23.7,22.9,1.19,37.5,127.6,deficient,18.1,alkalinity,mixed,high,18.5
+Odisha,Puri,alluvial,coastal,7,0.6,medium,low,low,41.1,poor,high,slightly_saline,clay_loam,75,563,6.2,30.8,1.59,13.8,188.4,adequate,34.4,waterlogging,agriculture,high,35
+Odisha,Rayagada,laterite,laterite,6.1,1.3,medium,low,medium,44.7,good,high,moderately_saline,silt_loam,105,378,29.8,38.5,1.69,35,115.4,deficient,20.7,drought,barren,low,46.1
+Odisha,Sambalpur,laterite,coastal,6.2,3.7,low,medium,low,35.3,moderate,low,moderately_saline,loam,137,28,17.7,12,1.3,9.8,109.9,sufficient,29,waterlogging,mixed,high,11.4
+Odisha,Subarnapur,laterite,coastal,6.2,2.7,low,low,low,27.2,moderate,medium,normal,clay_loam,115,928,21.2,32.4,1.42,35.5,126.6,sufficient,23.5,salinity,mixed,low,26.6
+Odisha,Sundargarh,coastal,coastal,7.2,1.8,medium,low,high,15.8,good,medium,slightly_saline,sandy_loam,199,898,0.3,14.6,1.18,33.7,118.3,sufficient,23.5,drought,forest,low,27.5
+Punjab,Amritsar,alluvial,alluvial,7.6,3.6,low,medium,high,28.8,moderate,medium,highly_saline,sandy,34,663,16.6,11.6,1.7,14.4,107.2,deficient,24.6,alkalinity,barren,low,15
+Punjab,Barnala,alluvial,alluvial,6.7,3.4,medium,medium,high,44.4,moderate,low,slightly_saline,clay_loam,112,999,6.1,11.5,1.19,8.6,169.8,sufficient,31.8,drought,mixed,low,26.5
+Punjab,Bathinda,alluvial,alluvial,7.3,2.1,medium,medium,medium,35.7,poor,high,slightly_saline,silt_loam,102,510,19.3,37.6,1.69,33.1,121,sufficient,30.4,salinity,urban,low,13.7
+Punjab,Faridkot,alluvial,alluvial,7.8,1.3,medium,high,low,53.8,poor,high,slightly_saline,loam,35,519,19,31.6,1.79,10.7,171.9,adequate,20.4,acidity,forest,low,27.6
+Punjab,Fatehgarh Sahib,alluvial,alluvial,7.2,1.5,low,medium,low,51.2,poor,medium,highly_saline,clay,145,347,2.9,28.1,1.55,3.6,80.1,deficient,20.1,acidity,mixed,high,25.4
+Punjab,Fazilka,alluvial,alluvial,7.4,4,high,low,low,24.5,poor,medium,highly_saline,clay_loam,138,461,9.2,20,1.31,14.3,151.3,sufficient,25.7,salinity,mixed,low,16.1
+Punjab,Ferozepur,alluvial,alluvial,7.6,3.6,low,medium,medium,40.9,poor,medium,normal,silt_loam,40,402,29.4,35.9,1.5,21.1,123.7,sufficient,23.2,salinity,agriculture,high,49.8
+Punjab,Gurdaspur,alluvial,alluvial,6.7,0.6,high,low,high,47.4,good,high,slightly_saline,silt_loam,130,500,20.4,32.6,1.67,6.1,154.8,deficient,25.1,none,mixed,high,37.3
+Punjab,Hoshiarpur,alluvial,alluvial,7.6,4.3,high,medium,medium,21.2,poor,low,normal,sandy,30,243,29.3,30.5,1.55,18.1,84.1,deficient,18.5,salinity,mixed,medium,36.2
+Punjab,Jalandhar,alluvial,alluvial,7.3,1.2,low,medium,medium,46.1,excessive,medium,slightly_saline,sandy,128,33,16.9,38.8,1.25,36.3,124.4,adequate,31.1,acidity,urban,medium,49.5
+Punjab,Kapurthala,alluvial,alluvial,7.5,3.5,medium,high,medium,23.8,poor,low,normal,clay_loam,33,174,14.2,19.4,1.75,18.5,195.6,deficient,15,alkalinity,urban,low,45.6
+Punjab,Ludhiana,alluvial,alluvial,6.6,2.9,medium,high,low,23.5,good,high,slightly_saline,clay,137,679,15.7,27.3,1.26,29.8,157.7,deficient,31.7,salinity,urban,high,6.9
+Punjab,Malerkotla,alluvial,alluvial,6.8,0.5,medium,low,medium,42.1,good,low,slightly_saline,sandy,164,860,2.4,34.3,1.16,6.4,131.3,sufficient,33.3,waterlogging,mixed,high,26.6
+Punjab,Mansa,alluvial,alluvial,7.4,2,low,low,medium,44.7,poor,high,normal,sandy,76,722,17.6,25,1.44,28.4,139,deficient,29.3,waterlogging,barren,medium,8.5
+Punjab,Moga,alluvial,alluvial,6.6,4.4,high,low,medium,22.4,good,medium,normal,silt_loam,55,894,19,17.4,1.52,17,189.2,adequate,27.2,drought,agriculture,low,17.6
+Punjab,Pathankot,alluvial,alluvial,7.1,3.8,low,high,high,52.9,poor,low,highly_saline,clay_loam,138,36,27.4,31.3,1.75,17.2,192.7,adequate,30.3,none,forest,medium,37
+Punjab,Patiala,alluvial,alluvial,7.7,1.8,medium,low,low,24.6,poor,medium,slightly_saline,sandy_loam,178,986,0.9,36.8,1.11,37.3,98.3,deficient,20.6,salinity,forest,low,34.3
+Punjab,Rupnagar,alluvial,alluvial,6.5,4.4,high,high,medium,28.8,good,low,normal,clay_loam,54,748,3,37.3,1.2,12.8,147,adequate,27.4,acidity,forest,low,38.3
+Punjab,Sahibzada Ajit Singh Nagar,alluvial,alluvial,7.8,3.7,medium,high,medium,36,moderate,medium,normal,silt_loam,78,929,27.4,23.8,1.61,7.8,153,adequate,18,acidity,urban,high,37.7
+Punjab,Sangrur,alluvial,alluvial,7.7,3.8,high,low,low,28.5,good,high,moderately_saline,clay_loam,186,794,17.3,14.1,1.74,3,121.8,adequate,30.3,alkalinity,agriculture,medium,5
+Punjab,Shahid Bhagat Singh Nagar,alluvial,alluvial,6.6,3.1,medium,low,medium,54.1,excessive,low,moderately_saline,sandy_loam,41,496,7.2,10.9,1.78,31.6,197.8,deficient,19.2,salinity,urban,low,26.6
+Punjab,Sri Muktsar Sahib,alluvial,alluvial,6.9,1.2,low,low,high,34.7,moderate,medium,moderately_saline,sandy,42,767,18.4,8.3,1.63,3,109.9,adequate,27.9,drought,barren,medium,25.7
+Punjab,Tarn Taran,alluvial,alluvial,7.6,2.9,medium,high,medium,40,excessive,low,highly_saline,clay_loam,28,440,3.6,27.7,1.5,28.6,83.8,sufficient,33.3,acidity,urban,high,32
+Rajasthan,Ajmer,alluvial,alluvial,7.2,3.9,medium,high,medium,26.2,excessive,low,highly_saline,clay_loam,142,911,13,9.6,1.42,40.9,179.4,adequate,22.8,drought,agriculture,low,18.5
+Rajasthan,Alwar,alluvial,desert,7.2,1.1,medium,low,low,17.6,moderate,high,slightly_saline,loam,128,805,21.8,28.8,1.43,20.6,125.1,adequate,24.9,drought,urban,low,22.3
+Rajasthan,Anupgarh,desert,alluvial,7.5,2.6,medium,low,medium,44.7,poor,low,moderately_saline,loam,47,626,21.5,25.9,1.25,42.9,131.3,deficient,29.5,acidity,barren,low,42.9
+Rajasthan,Balotra,red_yellow,red_yellow,6.4,4.1,medium,medium,medium,36.7,moderate,high,moderately_saline,sandy_loam,155,356,29,14.1,1.11,28.2,164.8,adequate,27.1,none,urban,high,17.9
+Rajasthan,Banswara,red_yellow,red_yellow,6.2,3.7,medium,medium,medium,48.3,good,high,highly_saline,sandy_loam,181,990,14.3,16.1,1.29,48.4,99.2,deficient,17,none,mixed,medium,17.5
+Rajasthan,Baran,desert,alluvial,8.4,3.2,low,high,low,23.5,poor,low,moderately_saline,sandy,69,320,27.8,8.1,1.77,46.2,86.5,sufficient,31.3,drought,mixed,low,49
+Rajasthan,Barmer,desert,desert,8.4,2.4,medium,high,medium,32.2,moderate,medium,moderately_saline,sandy,50,979,20,39.7,1.6,9.9,194.7,sufficient,17.9,drought,forest,high,29.7
+Rajasthan,Beawar,alluvial,alluvial,7.6,3.6,medium,low,medium,44.5,good,high,moderately_saline,silt_loam,90,316,21.7,36.8,1.26,45.6,117.1,sufficient,20.6,acidity,agriculture,high,36
+Rajasthan,Bharatpur,red_yellow,alluvial,6.3,0.8,medium,medium,high,25.2,excessive,low,slightly_saline,sandy_loam,127,601,12.4,13.1,1.44,43.9,165.4,sufficient,22.1,alkalinity,mixed,low,10
+Rajasthan,Bhilwara,red_yellow,desert,5.9,2.2,medium,high,low,37.6,moderate,low,slightly_saline,clay_loam,88,496,13,22.1,1.75,27,138.5,deficient,28.8,drought,agriculture,high,5.5
+Rajasthan,Bikaner,alluvial,alluvial,7,0.9,medium,high,high,53.3,excessive,low,normal,silt_loam,62,393,24.6,17.8,1.52,31.1,123.8,deficient,26.1,salinity,forest,low,25.7
+Rajasthan,Bundi,alluvial,alluvial,7.2,3.8,medium,medium,high,25.2,poor,high,normal,loam,136,637,4.3,15.8,1.5,13.8,139.7,deficient,27.9,salinity,urban,medium,37.8
+Rajasthan,Chittorgarh,desert,desert,8.1,2.5,medium,low,medium,21.4,good,low,slightly_saline,loam,119,721,8.1,25.7,1.53,9.4,175.2,deficient,19.7,salinity,urban,high,35.5
+Rajasthan,Churu,alluvial,red_yellow,7,2.7,low,medium,medium,28.1,poor,medium,slightly_saline,clay,67,870,3.1,34.3,1.21,6,157,adequate,34.8,alkalinity,forest,low,22.8
+Rajasthan,Dausa,red_yellow,desert,6.5,3.5,high,high,medium,43.6,good,low,highly_saline,silt_loam,193,974,29.8,30.5,1.77,42.1,188.3,sufficient,20.8,alkalinity,barren,medium,19.8
+Rajasthan,Dholpur,desert,desert,8,2.5,medium,high,high,21.5,good,high,highly_saline,sandy,120,838,1.6,20.3,1.54,42.3,161.9,sufficient,29.3,drought,mixed,high,17.7
+Rajasthan,Didwana-Kuchaman,red_yellow,red_yellow,6.9,3.4,medium,low,medium,18.3,poor,high,highly_saline,sandy_loam,160,681,24.4,23.7,1.2,3.2,175.6,deficient,29.2,drought,mixed,medium,30.3
+Rajasthan,Dudu,red_yellow,red_yellow,6.7,1.4,low,medium,low,45.7,poor,low,slightly_saline,clay,87,183,7.6,33.3,1.22,35.5,173.6,deficient,24.9,none,urban,medium,37.5
+Rajasthan,Dungarpur,alluvial,red_yellow,7.4,4,medium,medium,high,38.3,excessive,high,normal,silt_loam,62,852,17.2,34.9,1.38,16.5,175.5,deficient,21.6,drought,mixed,high,30.4
+Rajasthan,Gangapur City,alluvial,red_yellow,6.6,1.2,medium,low,medium,39.9,poor,medium,moderately_saline,clay,79,510,16.3,21.4,1.19,33.2,88.8,adequate,17.1,waterlogging,agriculture,low,48.6
+Rajasthan,Hanumangarh,red_yellow,red_yellow,5.6,1.4,low,medium,high,32.4,excessive,medium,highly_saline,sandy_loam,166,250,8.9,17.4,1.73,45.2,197.2,sufficient,32.1,alkalinity,urban,low,21.7
+Rajasthan,Jaipur,red_yellow,desert,5.5,3.2,medium,low,medium,24,good,high,slightly_saline,silt_loam,92,178,17.8,27.4,1.45,2.9,120.2,sufficient,27.2,waterlogging,mixed,high,12.1
+Rajasthan,Jaipur Rural,desert,alluvial,7.8,1.8,high,medium,high,16,moderate,high,normal,loam,115,904,10.4,18.6,1.46,46.6,184.9,sufficient,18.5,salinity,mixed,low,21.1
+Rajasthan,Jaisalmer,desert,alluvial,8,1.3,medium,medium,high,23.8,poor,medium,highly_saline,clay_loam,116,248,13.3,31.4,1.63,14.7,148.6,deficient,24.7,none,mixed,medium,5.6
+Rajasthan,Jalore,desert,red_yellow,8,4.4,medium,low,medium,50.8,excessive,low,moderately_saline,clay_loam,76,718,16.2,20.6,1.5,24.6,85.8,deficient,25.2,acidity,forest,high,33.3
+Rajasthan,Jhalawar,alluvial,alluvial,7.4,0.9,high,low,medium,22.3,good,high,highly_saline,loam,108,299,5.6,15,1.43,47.8,109.7,sufficient,33.5,alkalinity,mixed,medium,12.9
+Rajasthan,Jhunjhunu,desert,alluvial,7.8,4.5,low,low,medium,47.4,poor,low,highly_saline,clay_loam,79,411,4,9.7,1.12,4.4,111.6,sufficient,16.9,acidity,forest,low,17.7
+Rajasthan,Jodhpur,red_yellow,desert,5.6,3.1,medium,medium,low,50.9,excessive,medium,slightly_saline,silt_loam,49,739,17.4,17.8,1.76,17.8,91.4,sufficient,20.4,waterlogging,barren,low,23.9
+Rajasthan,Jodhpur Rural,red_yellow,desert,6.5,2,high,medium,medium,29.6,good,low,highly_saline,loam,76,528,5.9,10.8,1.64,13,143.2,deficient,28.1,alkalinity,urban,low,10.4
+Rajasthan,Karauli,desert,desert,7.8,3.4,medium,medium,medium,45.1,moderate,low,normal,silt_loam,43,564,1.4,11.5,1.75,48.9,168.8,deficient,30.9,none,agriculture,high,19
+Rajasthan,Kekri,alluvial,alluvial,7.3,2.4,medium,medium,medium,23.6,moderate,high,moderately_saline,clay,40,531,23.8,12.1,1.77,26.1,190,adequate,22.2,alkalinity,mixed,medium,12.6
+Rajasthan,Khairthal-Tijara,red_yellow,desert,6.8,2.5,medium,low,high,41.9,moderate,low,slightly_saline,silt_loam,127,315,22.9,8.4,1.35,42.2,88,sufficient,26.9,waterlogging,urban,low,19.9
+Rajasthan,Kota,alluvial,red_yellow,7.3,3.1,medium,low,high,43.2,good,high,moderately_saline,clay,141,967,21.7,28.3,1.19,21.6,92.8,deficient,28.9,alkalinity,agriculture,high,46.4
+Rajasthan,Kotputli-Behror,desert,alluvial,8,1.4,low,low,medium,35.3,moderate,low,moderately_saline,silt_loam,158,724,23.2,6.3,1.38,40.4,142.7,deficient,17.6,salinity,mixed,medium,47
+Rajasthan,Nagaur,alluvial,red_yellow,7.2,2,medium,medium,medium,37.3,poor,medium,highly_saline,clay_loam,103,274,18.2,38.2,1.34,7.2,140.8,adequate,34.4,drought,mixed,high,33
+Rajasthan,Neem Ka Thana,alluvial,alluvial,7.4,4.5,high,medium,high,24.9,poor,high,slightly_saline,silt_loam,156,492,11.2,7.8,1.37,30.8,141.6,adequate,16.1,salinity,agriculture,medium,37.1
+Rajasthan,Pali,alluvial,desert,6.7,3.3,high,medium,medium,27.1,moderate,medium,moderately_saline,sandy,171,727,20,23.8,1.65,25.7,116,deficient,24.5,acidity,barren,high,13
+Rajasthan,Phalodi,red_yellow,desert,6.5,1.3,high,high,low,19.3,good,medium,highly_saline,silt_loam,39,527,29.1,28.7,1.11,25.1,129.7,sufficient,31.7,waterlogging,agriculture,medium,13
+Rajasthan,Pratapgarh,desert,red_yellow,7.8,2.8,medium,high,low,38.7,excessive,medium,highly_saline,clay,66,308,19.9,15.9,1.32,18.3,161.6,sufficient,22,waterlogging,forest,low,18.8
+Rajasthan,Rajsamand,alluvial,desert,6.7,0.6,high,high,low,31.3,moderate,medium,slightly_saline,clay,157,275,26.9,37.4,1.37,10.3,189.5,sufficient,28.1,waterlogging,agriculture,medium,21.8
+Rajasthan,Salumbar,desert,alluvial,7.9,4.3,medium,medium,medium,42.7,poor,low,highly_saline,clay_loam,85,249,9,12.5,1.13,4.1,184.4,deficient,31,drought,forest,high,10.4
+Rajasthan,Sanchore,desert,desert,8.3,3.5,medium,medium,high,38.5,poor,low,slightly_saline,loam,151,190,1.6,38.2,1.55,44.1,161.1,deficient,16.8,waterlogging,barren,medium,48.1
+Rajasthan,Sawai Madhopur,red_yellow,red_yellow,6.8,4.2,medium,high,medium,53.1,moderate,high,moderately_saline,clay_loam,140,112,14.5,21.1,1.5,9.2,136.3,sufficient,29.1,salinity,agriculture,low,2.8
+Rajasthan,Shahpura,alluvial,alluvial,6.6,1.6,medium,medium,low,53.7,moderate,high,normal,sandy,186,806,21.4,6.4,1.37,21.5,100,sufficient,30,none,barren,medium,8.3
+Rajasthan,Sikar,alluvial,alluvial,7.1,2.2,low,low,low,25.1,excessive,medium,normal,silt_loam,39,356,19.5,12.7,1.16,16.4,106.9,deficient,20.4,salinity,urban,low,48.3
+Rajasthan,Sirohi,alluvial,alluvial,7.5,0.6,medium,medium,medium,17.4,good,low,moderately_saline,silt_loam,33,982,13.2,21.5,1.64,7.1,172.3,deficient,34.1,none,urban,high,24.6
+Rajasthan,Sri Ganganagar,red_yellow,red_yellow,6.3,4.3,medium,low,low,54.7,excessive,medium,moderately_saline,sandy,55,517,9.6,19.3,1.54,3.2,187.7,adequate,19.2,salinity,forest,high,22.3
+Rajasthan,Tonk,desert,desert,8,3.5,medium,medium,medium,29.8,excessive,high,normal,loam,150,244,25.1,19,1.41,42.9,173.1,adequate,21.5,alkalinity,urban,high,16.9
+Rajasthan,Udaipur,red_yellow,alluvial,6.5,4.4,medium,high,medium,45.9,poor,high,highly_saline,sandy,58,104,10.4,35.2,1.7,3.1,153.1,adequate,23.3,acidity,forest,low,10.6
+Sikkim,Gangtok,mountain,hill,7,1.5,medium,high,high,28.2,moderate,medium,moderately_saline,sandy,75,3183,18.8,19.6,1.54,12.1,120.6,sufficient,33.8,salinity,barren,low,15.4
+Sikkim,Gyalshing,hill,mountain,5.8,1.8,low,medium,medium,30.3,excessive,high,moderately_saline,silt_loam,82,85,20.6,31.1,1.68,18.9,87.5,deficient,18.8,salinity,barren,low,39.6
+Sikkim,Mangan,hill,mountain,6.3,3,high,medium,high,15.3,moderate,high,highly_saline,sandy,117,1918,27.3,39.9,1.23,3.8,113,adequate,20.9,none,agriculture,high,22.5
+Sikkim,Namchi,hill,mountain,5.9,2.2,low,medium,medium,25.8,moderate,low,highly_saline,loam,126,2844,19.1,18.8,1.31,33.6,180.2,deficient,18.7,acidity,forest,medium,24.2
+Sikkim,Pakyong,mountain,hill,6.3,4,low,medium,low,45.9,good,low,normal,loam,70,1477,17.9,39,1.79,29.8,80.1,adequate,34,none,agriculture,low,45
+Sikkim,Soreng,mountain,hill,6.4,1.7,medium,medium,high,50.8,good,low,slightly_saline,clay,54,38,4.5,8.1,1.49,7.5,96.7,deficient,23.7,drought,urban,low,38.7
+Tamil Nadu,Ariyalur,black_cotton,black_cotton,7.2,3.3,high,medium,medium,17.1,excessive,medium,slightly_saline,clay_loam,110,882,17.6,16.1,1.49,37.1,85.1,adequate,24.2,none,agriculture,medium,12.3
+Tamil Nadu,Chengalpattu,alluvial,black_cotton,6.8,2.7,low,low,low,53.2,excessive,high,slightly_saline,clay,111,415,22.1,15.4,1.14,8.8,180.6,adequate,27,acidity,forest,high,39.1
+Tamil Nadu,Chennai,red_yellow,black_cotton,5.5,3.2,low,medium,medium,20.9,poor,medium,slightly_saline,silt_loam,190,802,7.9,29.1,1.75,18.3,140.3,sufficient,21.3,drought,mixed,low,37.7
+Tamil Nadu,Coimbatore,alluvial,black_cotton,7.6,2.5,medium,high,medium,19.6,excessive,medium,normal,clay,78,676,11.8,5.2,1.29,30.7,175.9,adequate,17.2,alkalinity,mixed,low,19.3
+Tamil Nadu,Cuddalore,alluvial,coastal,6.8,3.5,high,low,medium,25.2,poor,medium,highly_saline,sandy_loam,62,905,23.9,20.2,1.74,23.6,169.3,deficient,29.2,waterlogging,urban,medium,22.4
+Tamil Nadu,Dharmapuri,red_yellow,black_cotton,6.4,3.3,low,medium,low,47.7,good,high,moderately_saline,sandy_loam,171,820,5.1,27.8,1.53,39.8,110.5,adequate,29.7,salinity,barren,high,44.4
+Tamil Nadu,Dindigul,coastal,alluvial,7.1,3.8,low,high,medium,34.5,poor,high,normal,clay_loam,34,445,23.7,8.5,1.68,34.4,90.5,adequate,33.5,drought,forest,medium,16
+Tamil Nadu,Erode,coastal,coastal,7.6,1.5,medium,medium,low,38.8,poor,high,highly_saline,clay,84,635,18.8,39.3,1.43,41.2,140.9,adequate,23.5,salinity,barren,low,7.6
+Tamil Nadu,Kallakurichi,red_yellow,black_cotton,6.9,3,medium,medium,medium,45.3,good,low,slightly_saline,clay,98,31,8.3,23.3,1.4,33.1,123.7,sufficient,24.4,acidity,agriculture,low,5.9
+Tamil Nadu,Kancheepuram,red_yellow,alluvial,6,3.2,low,low,medium,23.5,excessive,high,slightly_saline,clay_loam,193,846,16.2,12.8,1.38,49.4,174,deficient,31.6,salinity,urban,low,28.8
+Tamil Nadu,Kanyakumari,coastal,alluvial,6.7,2.1,medium,medium,high,34.3,poor,low,moderately_saline,sandy,45,111,4.1,17.2,1.78,25.5,93.4,sufficient,35,none,agriculture,low,17.5
+Tamil Nadu,Karur,coastal,alluvial,7.8,1.9,low,high,medium,35.1,good,high,moderately_saline,sandy_loam,190,758,11.4,30.9,1.54,20,96.9,adequate,33.7,waterlogging,urban,low,2.9
+Tamil Nadu,Krishnagiri,alluvial,coastal,6.6,2.8,medium,low,high,37.2,poor,low,highly_saline,sandy_loam,44,581,27,9.4,1.38,42.9,188.8,sufficient,25.9,waterlogging,agriculture,low,40.9
+Tamil Nadu,Madurai,coastal,alluvial,7.2,2.2,medium,high,medium,53.1,excessive,high,moderately_saline,sandy,69,243,20.4,26.2,1.5,43.3,178.6,adequate,21.7,none,forest,high,43.7
+Tamil Nadu,Mayiladuthurai,black_cotton,black_cotton,8.2,1.6,low,medium,low,45.2,moderate,high,moderately_saline,sandy,63,251,23.4,10.3,1.55,46,161.6,sufficient,24.9,waterlogging,mixed,low,19.1
+Tamil Nadu,Nagapattinam,red_yellow,coastal,6.3,1.5,medium,high,medium,36.1,poor,low,slightly_saline,sandy,93,115,22.8,14.3,1.21,35.6,110.9,deficient,22.7,none,forest,low,40.7
+Tamil Nadu,Namakkal,red_yellow,alluvial,6.7,1.9,low,low,medium,51.1,excessive,medium,normal,silt_loam,184,866,6.5,37.5,1.31,21.1,163.9,adequate,26,none,urban,low,30.9
+Tamil Nadu,Nilgiris,black_cotton,red_yellow,7.7,1.6,medium,medium,medium,26.3,excessive,high,highly_saline,loam,25,701,11.4,26.5,1.54,25.1,128.1,sufficient,25.1,drought,mixed,low,20.4
+Tamil Nadu,Perambalur,black_cotton,alluvial,8,1.6,low,low,medium,53,poor,low,slightly_saline,clay,105,265,13.7,33.5,1.37,27.8,187,sufficient,30.9,acidity,urban,medium,16.7
+Tamil Nadu,Pudukkottai,alluvial,alluvial,7.7,0.8,low,high,high,54.7,excessive,medium,slightly_saline,silt_loam,105,258,16,12.6,1.21,13.4,140.3,deficient,34,none,mixed,high,6.7
+Tamil Nadu,Ramanathapuram,black_cotton,alluvial,8.1,1.2,low,high,high,16.8,poor,high,moderately_saline,clay_loam,51,861,16.5,21.4,1.79,28.7,159.3,sufficient,27.7,salinity,urban,medium,5.3
+Tamil Nadu,Ranipet,red_yellow,black_cotton,5.8,0.6,medium,medium,medium,25.7,poor,high,slightly_saline,sandy_loam,141,604,23,10.8,1.63,38.5,87.2,sufficient,34.5,acidity,barren,low,37.8
+Tamil Nadu,Salem,black_cotton,red_yellow,7.2,3.3,low,low,medium,33,excessive,low,slightly_saline,clay_loam,181,536,21.4,15.2,1.33,23,116.9,adequate,34.9,none,barren,medium,44.8
+Tamil Nadu,Sivaganga,coastal,alluvial,7.8,3.4,low,medium,high,38.3,poor,low,highly_saline,sandy_loam,78,126,2.5,38,1.46,5.6,178,adequate,20,none,forest,high,35.9
+Tamil Nadu,Tenkasi,coastal,coastal,7.9,2.6,medium,high,low,15.7,good,medium,slightly_saline,clay,140,175,4.8,18.4,1.25,16.7,197,deficient,16.9,salinity,agriculture,medium,32.8
+Tamil Nadu,Thanjavur,red_yellow,red_yellow,5.5,4.5,low,medium,high,24,moderate,medium,slightly_saline,clay,169,976,8.7,14.7,1.57,45,149.4,deficient,29.5,acidity,urban,low,7.1
+Tamil Nadu,Theni,coastal,coastal,7.9,1.3,low,low,medium,37.8,poor,high,highly_saline,clay_loam,85,111,12.9,25.5,1.74,11,176.7,adequate,21.8,alkalinity,mixed,medium,40.5
+Tamil Nadu,Thoothukudi,black_cotton,black_cotton,8.4,2.6,low,medium,high,18.7,poor,medium,highly_saline,sandy,126,334,20.1,39.4,1.14,45.3,177.7,sufficient,33.5,acidity,mixed,low,39.9
+Tamil Nadu,Tiruchirappalli,alluvial,alluvial,7.2,3.7,low,medium,high,43.3,excessive,low,normal,loam,28,727,0.6,27,1.54,49.4,127.8,deficient,24.4,salinity,agriculture,low,47
+Tamil Nadu,Tirunelveli,red_yellow,red_yellow,6.1,3,high,medium,medium,21.8,good,medium,moderately_saline,sandy,185,288,28.8,20.5,1.55,30.8,122,adequate,17.5,none,agriculture,high,16.2
+Tamil Nadu,Tirupathur,coastal,alluvial,7.8,3.3,low,low,high,42.2,excessive,medium,moderately_saline,loam,43,587,21.9,13,1.17,21.9,182.8,adequate,19.1,alkalinity,mixed,medium,49.5
+Tamil Nadu,Tiruvannamalai,coastal,red_yellow,8,1.5,high,high,medium,18.9,excessive,medium,slightly_saline,clay,194,510,0.1,5.7,1.43,13.5,162.8,deficient,31.3,acidity,forest,high,40
+Tamil Nadu,Tiruvarur,black_cotton,red_yellow,7.1,2.4,low,low,medium,49.4,excessive,high,normal,loam,38,939,4.1,10.5,1.58,2.9,94.1,deficient,31.6,salinity,barren,medium,47.8
+Tamil Nadu,Vellore,alluvial,coastal,7.7,4.4,high,low,low,36.9,excessive,high,highly_saline,sandy,77,329,7.4,28.8,1.71,19.9,181,deficient,32.2,alkalinity,agriculture,high,35.4
+Tamil Nadu,Viluppuram,red_yellow,red_yellow,6.5,1.1,low,medium,medium,32.2,good,medium,moderately_saline,clay,31,187,28.4,8.5,1.21,48.1,84.5,adequate,15.1,waterlogging,agriculture,medium,44.8
+Tamil Nadu,Virudhunagar,coastal,red_yellow,7.6,0.8,low,low,high,36,good,high,normal,loam,25,405,24.6,12.9,1.71,14.6,104.6,adequate,31.7,waterlogging,mixed,medium,17.8
+Tamil Nadu,Tiruppur,coastal,black_cotton,7.5,3.7,low,medium,medium,16.1,good,high,slightly_saline,loam,138,158,28.7,6.1,1.77,12.4,85.9,adequate,19.8,drought,mixed,low,31.9
+Tamil Nadu,Tenkasi,red_yellow,coastal,6.8,2.3,medium,low,medium,54.3,poor,medium,normal,sandy_loam,91,870,27,30.4,1.46,21.4,128.5,sufficient,15.3,alkalinity,mixed,medium,40.1
+Telangana,Adilabad,black_cotton,alluvial,8,4.2,medium,low,high,49.5,poor,medium,slightly_saline,clay,151,853,4.5,38.5,1.38,44,102.7,sufficient,23.8,acidity,mixed,high,32
+Telangana,Bhadradri Kothagudem,alluvial,black_cotton,6.8,0.8,low,medium,medium,39.5,moderate,low,normal,silt_loam,30,818,4.1,34.7,1.53,11,101.3,sufficient,33,waterlogging,barren,medium,14.6
+Telangana,Hanamkonda,red_yellow,black_cotton,6.7,1.7,high,medium,medium,32.1,poor,medium,moderately_saline,clay_loam,63,925,24.6,39.8,1.15,24.7,176.2,sufficient,31.7,salinity,forest,medium,41.5
+Telangana,Hyderabad,red_yellow,alluvial,6,2.6,low,medium,medium,23.3,moderate,medium,slightly_saline,clay_loam,34,577,3.4,9,1.34,38.6,153,deficient,27.3,none,barren,medium,48.1
+Telangana,Jagtial,black_cotton,black_cotton,7.3,2.4,medium,low,low,20.2,excessive,medium,normal,clay,159,774,2.2,33.1,1.25,17.6,142.3,adequate,22.8,waterlogging,mixed,medium,21.3
+Telangana,Jangaon,alluvial,alluvial,6.8,3.7,medium,low,low,32.9,moderate,medium,slightly_saline,silt_loam,127,567,10.4,26.5,1.69,10.8,131,sufficient,27.1,none,urban,high,44.7
+Telangana,Jayashankar Bhupalpally,alluvial,red_yellow,7,0.8,medium,medium,medium,35.4,good,low,moderately_saline,sandy,158,688,1.6,38.8,1.7,45.8,181.7,deficient,20.9,waterlogging,forest,high,10.4
+Telangana,Jogulamba Gadwal,red_yellow,red_yellow,5.6,0.6,high,medium,medium,24.3,good,high,slightly_saline,sandy_loam,27,818,29.5,27.2,1.41,25.6,161.9,deficient,26,alkalinity,agriculture,medium,11.4
+Telangana,Kamareddy,black_cotton,alluvial,7.6,2.4,medium,low,high,29.2,poor,low,moderately_saline,clay_loam,141,437,2,6.2,1.52,31.7,143.6,sufficient,34.8,waterlogging,urban,medium,34.4
+Telangana,Karimnagar,red_yellow,red_yellow,5.7,0.6,low,low,high,41.7,poor,low,moderately_saline,clay,182,223,20.8,16.3,1.5,47.9,115.9,deficient,34.6,acidity,mixed,low,6.8
+Telangana,Khammam,red_yellow,red_yellow,5.6,2,medium,low,high,18.1,poor,high,highly_saline,loam,158,759,26.5,33.5,1.53,47.4,157.6,sufficient,34.8,salinity,urban,medium,49.3
+Telangana,Komaram Bheem,black_cotton,black_cotton,7.4,0.8,low,medium,medium,54.5,moderate,medium,moderately_saline,sandy_loam,39,272,14.9,20.1,1.77,11.9,117.4,sufficient,21.9,drought,urban,medium,44.7
+Telangana,Mahabubabad,red_yellow,red_yellow,6.6,3,medium,low,medium,42.4,good,low,moderately_saline,clay,98,4,27.2,36.3,1.78,44.5,81,adequate,19,salinity,forest,low,45.8
+Telangana,Mahabubnagar,red_yellow,red_yellow,6.4,4.4,high,high,medium,19.2,good,high,slightly_saline,loam,55,844,19.8,16.3,1.34,33.8,136,deficient,18.1,salinity,barren,high,4.5
+Telangana,Mancherial,black_cotton,alluvial,8.4,1.4,medium,high,medium,30.7,moderate,medium,normal,sandy_loam,99,616,7.6,16.4,1.15,25.9,97.8,deficient,22.1,acidity,forest,high,42.8
+Telangana,Medak,alluvial,red_yellow,7.2,1.2,high,high,high,42.7,poor,high,moderately_saline,sandy_loam,145,891,7.8,24.3,1.42,2.8,178.9,deficient,28.7,drought,agriculture,high,37.4
+Telangana,Medchal-Malkajgiri,red_yellow,alluvial,6.1,2.8,medium,low,medium,36.5,poor,high,moderately_saline,sandy,83,753,16.2,11.6,1.23,29.7,162.3,adequate,34.6,salinity,forest,low,15
+Telangana,Mulugu,black_cotton,alluvial,7.6,1.2,low,high,high,42.6,poor,low,normal,clay,29,984,20,14.3,1.5,23.2,146.8,adequate,20.3,drought,mixed,high,44.6
+Telangana,Nagarkurnool,black_cotton,red_yellow,7.4,4.3,medium,low,low,24.8,moderate,medium,highly_saline,clay,183,15,4.7,25.2,1.68,4,130.4,sufficient,30.8,alkalinity,urban,high,40
+Telangana,Nalgonda,alluvial,black_cotton,6.6,3.4,high,high,high,46.9,good,medium,moderately_saline,silt_loam,50,885,10.5,16.4,1.63,23.8,105.5,deficient,20.8,waterlogging,agriculture,low,28.2
+Telangana,Narayanpet,red_yellow,red_yellow,6.1,0.7,medium,medium,medium,30.3,moderate,high,highly_saline,silt_loam,79,577,1.9,12.9,1.66,40.6,104.9,sufficient,16.9,salinity,mixed,high,33.5
+Telangana,Nirmal,red_yellow,black_cotton,6.6,3.9,high,low,low,41.2,moderate,high,slightly_saline,loam,190,812,2.4,19.1,1.36,15,115.6,adequate,30.9,alkalinity,barren,medium,43.9
+Telangana,Nizamabad,alluvial,red_yellow,6.6,3.9,medium,medium,low,38.7,good,high,slightly_saline,clay,199,541,5.7,11.7,1.56,4.6,117.6,deficient,22.9,acidity,barren,low,42.8
+Telangana,Peddapalli,red_yellow,alluvial,6.5,3,medium,low,medium,47,poor,low,normal,clay_loam,96,955,4,15.1,1.56,31.4,143.7,adequate,26.6,acidity,forest,low,30.1
+Telangana,Rajanna Sircilla,black_cotton,black_cotton,7.4,3.2,high,low,high,44,poor,low,moderately_saline,silt_loam,166,696,16.4,22.3,1.32,26.2,99.4,adequate,15.7,drought,forest,medium,6.9
+Telangana,Rangareddy,red_yellow,red_yellow,6.1,3.9,high,low,medium,42.4,good,low,moderately_saline,clay,96,690,19.2,18.6,1.4,5.6,83.8,sufficient,23.8,salinity,agriculture,low,24.8
+Telangana,Sangareddy,black_cotton,black_cotton,7.6,2.6,medium,high,high,21.1,good,medium,highly_saline,silt_loam,113,507,27.3,27.7,1.16,8.5,98.7,deficient,29.4,alkalinity,mixed,high,47.2
+Telangana,Siddipet,alluvial,black_cotton,6.6,0.7,medium,medium,low,26.5,moderate,high,highly_saline,clay,108,739,2.9,10.8,1.22,42.4,114.1,deficient,29.9,waterlogging,mixed,medium,15.1
+Telangana,Suryapet,red_yellow,black_cotton,6,2.1,low,low,medium,51.7,excessive,low,moderately_saline,clay,185,307,8.7,13.2,1.62,2.4,144.7,sufficient,20.3,alkalinity,barren,low,23.4
+Telangana,Vikarabad,black_cotton,red_yellow,8.3,1.1,medium,low,medium,37.3,poor,low,highly_saline,silt_loam,154,523,21.6,10.3,1.72,10,106.7,adequate,30,acidity,agriculture,medium,32.7
+Telangana,Wanaparthy,black_cotton,alluvial,8,2.2,medium,medium,medium,47.6,moderate,low,moderately_saline,silt_loam,69,723,11.7,14.9,1.61,7.2,170.2,deficient,29.4,waterlogging,forest,medium,37.7
+Telangana,Warangal Rural,alluvial,alluvial,7.1,1.8,low,low,medium,37,moderate,medium,normal,loam,75,284,22.3,29.9,1.14,28.9,90.2,deficient,29,drought,barren,low,7.8
+Telangana,Yadadri Bhuvanagiri,red_yellow,black_cotton,6,1.4,medium,medium,low,25.3,excessive,high,slightly_saline,clay,187,708,22.4,28.3,1.51,25.4,102.4,deficient,25.9,alkalinity,urban,high,7.3
+Tripura,Dhalai,hill,laterite,6.7,3.7,medium,medium,medium,41.8,poor,medium,highly_saline,sandy,53,931,18.6,19.7,1.53,38.6,145.5,deficient,21.2,waterlogging,forest,low,30.2
+Tripura,Gomati,laterite,hill,6.2,1.9,low,low,high,39.6,good,low,highly_saline,sandy_loam,71,404,4.1,13.8,1.48,40.4,84.4,sufficient,23.6,waterlogging,urban,medium,16.1
+Tripura,Khowai,hill,alluvial,6.7,4.3,medium,high,high,34.2,good,high,slightly_saline,sandy,121,999,14.2,31,1.64,9.6,151.1,deficient,21.5,alkalinity,forest,medium,38
+Tripura,North Tripura,hill,alluvial,5.7,2.1,medium,high,low,54.3,excessive,low,slightly_saline,loam,162,885,18.4,12.5,1.3,43,199.9,sufficient,30.3,waterlogging,urban,medium,30.8
+Tripura,Sepahijala,alluvial,laterite,7.7,0.8,medium,medium,medium,23.5,moderate,medium,moderately_saline,loam,84,73,7.2,36.2,1.78,39.7,145.1,deficient,33.9,acidity,mixed,medium,12.8
+Tripura,South Tripura,laterite,laterite,6.3,2.6,medium,low,high,40,good,low,moderately_saline,sandy_loam,174,572,28.8,23.2,1.38,27,173.5,deficient,29.6,acidity,forest,low,33.9
+Tripura,Unakoti,alluvial,laterite,7.6,2,low,high,medium,39.9,excessive,low,moderately_saline,sandy_loam,104,515,15,35.3,1.66,48.2,88.6,adequate,21.8,waterlogging,forest,high,33.7
+Tripura,West Tripura,alluvial,alluvial,6.7,4.4,medium,low,medium,50,good,medium,normal,clay,39,342,25.8,10.1,1.74,15.6,187.9,sufficient,31.3,alkalinity,urban,high,29.6
+Uttar Pradesh,Agra,alluvial,black_cotton,7,3.6,low,high,medium,36.3,moderate,high,normal,clay,157,845,27.5,13.7,1.53,21.2,81.4,adequate,27.6,none,agriculture,medium,41.2
+Uttar Pradesh,Aligarh,alluvial,black_cotton,6.9,3.1,medium,medium,low,21.8,poor,medium,highly_saline,sandy,71,459,0.6,31.4,1.29,16.9,143.3,deficient,32.7,drought,barren,medium,42.8
+Uttar Pradesh,Ambedkar Nagar,alluvial,black_cotton,6.9,2.2,medium,high,high,28.7,poor,high,highly_saline,clay,128,527,24.7,12,1.14,13.4,131.1,adequate,34.4,none,agriculture,high,46.5
+Uttar Pradesh,Amethi,black_cotton,black_cotton,7.5,4.4,medium,low,low,21.7,moderate,high,slightly_saline,loam,44,214,2.8,37.2,1.34,45.6,193.4,deficient,17.4,salinity,urban,low,45.6
+Uttar Pradesh,Amroha,alluvial,black_cotton,6.6,0.9,medium,high,medium,49.7,poor,medium,highly_saline,sandy,127,719,0.5,38.2,1.36,2.5,162.7,adequate,34.3,waterlogging,agriculture,low,12.4
+Uttar Pradesh,Auraiya,alluvial,black_cotton,7,0.6,medium,medium,high,26,excessive,low,slightly_saline,sandy_loam,170,106,16.8,27.1,1.27,22.8,110.6,sufficient,18.7,none,mixed,high,19.3
+Uttar Pradesh,Ayodhya,black_cotton,alluvial,7.1,0.7,medium,medium,medium,40.4,poor,high,moderately_saline,clay_loam,33,831,11,12.3,1.74,10.4,180.1,sufficient,34.6,alkalinity,barren,medium,46.3
+Uttar Pradesh,Azamgarh,black_cotton,alluvial,7.5,1.1,medium,medium,medium,24.8,poor,low,slightly_saline,sandy_loam,60,663,29.2,17.7,1.52,31.3,147.3,deficient,20.4,none,agriculture,medium,28.1
+Uttar Pradesh,Baghpat,black_cotton,alluvial,7.9,3.8,medium,high,high,25.9,good,medium,highly_saline,silt_loam,167,333,6.8,5.1,1.34,48.5,163.4,deficient,20.5,alkalinity,urban,high,43.4
+Uttar Pradesh,Bahraich,alluvial,alluvial,6.7,3.5,low,high,low,29.1,moderate,medium,highly_saline,silt_loam,73,543,17,34.2,1.11,40.5,193.6,deficient,19.5,acidity,mixed,low,6.2
+Uttar Pradesh,Ballia,alluvial,black_cotton,7.4,2.8,low,medium,medium,52.3,good,medium,moderately_saline,sandy_loam,103,328,15,17.7,1.22,43.6,127.3,adequate,32,waterlogging,mixed,medium,14.6
+Uttar Pradesh,Balrampur,alluvial,black_cotton,7.4,1.9,high,low,medium,33.9,moderate,high,highly_saline,silt_loam,179,78,16.2,22.9,1.21,19.9,160.7,adequate,31.3,salinity,barren,high,18.8
+Uttar Pradesh,Banda,black_cotton,black_cotton,7.1,1.2,low,high,low,36.5,excessive,high,moderately_saline,sandy_loam,133,366,11.9,11.6,1.49,35.3,143.9,adequate,31.7,acidity,agriculture,medium,15.9
+Uttar Pradesh,Barabanki,black_cotton,alluvial,7.9,2.7,high,low,medium,37.9,excessive,medium,normal,clay,29,220,2,19.8,1.38,49.4,131.7,adequate,22.3,salinity,barren,medium,5.9
+Uttar Pradesh,Bareilly,black_cotton,black_cotton,8.4,1.1,medium,low,medium,19,good,low,moderately_saline,sandy_loam,127,274,18.8,34.4,1.2,43.1,161,deficient,31.9,salinity,mixed,medium,25.3
+Uttar Pradesh,Basti,alluvial,black_cotton,6.8,4.3,medium,medium,medium,19.7,moderate,medium,normal,clay_loam,176,786,8.3,25,1.28,16.9,182,deficient,23.6,waterlogging,agriculture,low,34.4
+Uttar Pradesh,Bhadohi,black_cotton,black_cotton,7.4,3.3,high,high,medium,19,moderate,medium,normal,sandy_loam,128,260,20.2,16.8,1.22,29.9,138,adequate,21.8,waterlogging,urban,low,6.6
+Uttar Pradesh,Bijnor,black_cotton,black_cotton,7.1,1.2,medium,low,medium,43.7,good,medium,moderately_saline,loam,107,810,22.2,38.6,1.7,10.1,119.2,deficient,17.8,waterlogging,forest,low,46.8
+Uttar Pradesh,Budaun,black_cotton,black_cotton,7.2,4.1,low,low,medium,32.9,excessive,medium,normal,silt_loam,160,303,0.7,24.8,1.62,23.3,193.4,adequate,26,waterlogging,mixed,high,12.6
+Uttar Pradesh,Bulandshahr,alluvial,alluvial,7.4,1.9,low,medium,medium,36.5,poor,high,slightly_saline,silt_loam,28,733,27.8,37.6,1.46,16.7,135.2,deficient,27.7,alkalinity,mixed,low,11.5
+Uttar Pradesh,Chandauli,alluvial,alluvial,7.7,2.8,medium,low,medium,32.9,excessive,medium,moderately_saline,silt_loam,91,250,8.9,16.4,1.77,10.8,117.3,sufficient,32.3,acidity,barren,medium,47.1
+Uttar Pradesh,Chitrakoot,black_cotton,alluvial,8.4,1.7,low,low,low,47.4,excessive,medium,highly_saline,loam,37,18,8.9,11.9,1.35,34,133.6,adequate,32.4,salinity,agriculture,low,8.3
+Uttar Pradesh,Deoria,black_cotton,black_cotton,7.3,3.7,medium,low,medium,31.2,moderate,medium,highly_saline,clay_loam,152,332,19.6,30.8,1.1,32.2,150.6,sufficient,19.9,none,mixed,high,24
+Uttar Pradesh,Etah,alluvial,alluvial,7.7,4.4,medium,medium,low,21.4,moderate,medium,slightly_saline,loam,196,16,9.3,26.3,1.23,32.1,100.9,sufficient,22.3,alkalinity,agriculture,high,36.8
+Uttar Pradesh,Etawah,alluvial,black_cotton,7.5,2,medium,medium,medium,39.4,excessive,high,normal,sandy_loam,122,814,23,36.3,1.35,47.7,156.5,deficient,29,acidity,barren,medium,36.9
+Uttar Pradesh,Farrukhabad,alluvial,alluvial,7.4,2.4,medium,low,high,26.1,good,high,slightly_saline,clay,34,652,4.3,12.2,1.58,28.9,104.5,adequate,20.8,acidity,barren,medium,11.7
+Uttar Pradesh,Fatehpur,alluvial,alluvial,7.1,1.7,medium,low,high,23.3,poor,medium,slightly_saline,clay,170,333,13.7,33,1.55,2.2,110.4,adequate,18.4,waterlogging,forest,high,15.5
+Uttar Pradesh,Firozabad,alluvial,alluvial,6.7,1.9,medium,medium,medium,36.2,excessive,low,slightly_saline,clay_loam,198,842,17.9,13.8,1.33,24.6,83.2,deficient,32.5,waterlogging,mixed,low,40.1
+Uttar Pradesh,Gautam Buddha Nagar,alluvial,black_cotton,7.8,4,medium,low,medium,26.2,good,medium,highly_saline,loam,97,70,13.3,28.2,1.58,43.8,84.1,deficient,33.6,waterlogging,barren,low,36
+Uttar Pradesh,Ghaziabad,black_cotton,black_cotton,8,1.2,low,low,high,37.1,good,medium,moderately_saline,clay_loam,60,530,5.8,10.7,1.24,26.4,94.9,adequate,34.3,salinity,urban,low,47.4
+Uttar Pradesh,Ghazipur,black_cotton,black_cotton,8.4,3.2,medium,low,high,17.4,good,medium,normal,sandy,113,603,29.1,39.4,1.23,43.5,126.9,deficient,31.7,waterlogging,mixed,high,14.9
+Uttar Pradesh,Gonda,black_cotton,black_cotton,8.4,3.1,high,medium,low,52.6,moderate,high,slightly_saline,clay,169,91,24.3,12.6,1.66,21.2,102.7,deficient,27.4,salinity,mixed,high,19.1
+Uttar Pradesh,Gorakhpur,black_cotton,alluvial,7.8,2.1,medium,low,medium,53.1,good,medium,highly_saline,loam,51,562,15.8,23.8,1.65,17.1,137.8,sufficient,28.4,acidity,mixed,medium,48.6
+Uttar Pradesh,Hamirpur,black_cotton,alluvial,7.6,4.1,low,low,high,47.9,excessive,medium,moderately_saline,sandy,193,915,12.3,24.4,1.27,4.5,192.7,sufficient,26.4,none,agriculture,low,2.9
+Uttar Pradesh,Hapur,alluvial,alluvial,7,3.2,low,medium,medium,50.5,good,medium,normal,clay_loam,164,288,3.3,19.9,1.11,3.6,138,adequate,32.1,salinity,mixed,low,39.9
+Uttar Pradesh,Hardoi,black_cotton,black_cotton,7.9,0.7,high,medium,medium,15.9,good,high,highly_saline,clay_loam,40,201,7.9,12.8,1.57,7,134.5,adequate,26.1,waterlogging,urban,medium,36.5
+Uttar Pradesh,Hathras,black_cotton,alluvial,7.8,3.2,medium,low,low,37.4,poor,low,highly_saline,clay,82,815,9.6,34.8,1.25,10.7,81.9,sufficient,24.4,drought,urban,medium,14.2
+Uttar Pradesh,Jalaun,alluvial,alluvial,7.5,3.5,high,high,high,46.9,moderate,medium,slightly_saline,sandy_loam,180,492,1.7,36,1.44,35.5,86.3,adequate,25.2,acidity,mixed,low,20.7
+Uttar Pradesh,Jaunpur,black_cotton,alluvial,7.7,2.4,high,medium,medium,54.8,moderate,medium,slightly_saline,loam,183,709,24.3,16.9,1.37,38.3,88.8,deficient,23.6,alkalinity,mixed,low,44.7
+Uttar Pradesh,Jhansi,black_cotton,alluvial,7.7,4.2,low,high,medium,27.5,good,medium,highly_saline,loam,147,435,9.4,8,1.43,37.9,106.6,sufficient,18.4,acidity,barren,medium,11
+Uttar Pradesh,Kannauj,black_cotton,alluvial,7.5,1.8,high,medium,high,22.4,excessive,high,moderately_saline,silt_loam,176,193,19.7,32.5,1.48,34.6,192.6,adequate,21.4,salinity,urban,high,37
+Uttar Pradesh,Kanpur Dehat,black_cotton,alluvial,7.1,1.6,low,low,low,38,moderate,low,moderately_saline,sandy_loam,191,782,0.4,21.9,1.14,48.9,174.9,sufficient,32.2,alkalinity,barren,low,20.7
+Uttar Pradesh,Kanpur Nagar,alluvial,black_cotton,7.7,1.5,low,low,medium,19.3,excessive,high,normal,sandy_loam,59,482,6.5,13.9,1.31,38.9,131.3,deficient,29.2,acidity,forest,high,38.3
+Uttar Pradesh,Kasganj,alluvial,black_cotton,7.6,4.3,high,low,medium,23,excessive,medium,slightly_saline,sandy_loam,58,994,25.5,5.3,1.13,30.6,126.7,adequate,22.9,acidity,forest,medium,7.9
+Uttar Pradesh,Kaushambi,black_cotton,black_cotton,7,1.8,low,medium,medium,25.4,moderate,high,normal,sandy_loam,71,927,5.3,13.7,1.78,21.1,151.9,sufficient,24.8,alkalinity,forest,medium,44.8
+Uttar Pradesh,Kheri,black_cotton,black_cotton,8.2,2.6,medium,medium,medium,19.6,good,low,highly_saline,loam,112,120,0.8,39.3,1.79,20.2,83.1,adequate,17.6,waterlogging,barren,low,9
+Uttar Pradesh,Kushinagar,alluvial,alluvial,7.3,4.4,low,low,high,17.9,good,medium,slightly_saline,clay_loam,43,426,22.6,37,1.68,14.2,119.8,deficient,31,waterlogging,forest,low,17.5
+Uttar Pradesh,Lalitpur,black_cotton,alluvial,7.8,3.1,medium,low,medium,51.3,good,medium,moderately_saline,clay_loam,68,517,19.6,8.6,1.28,46.1,160.4,sufficient,15.8,salinity,mixed,high,42.3
+Uttar Pradesh,Lucknow,alluvial,alluvial,7.7,2.7,medium,medium,low,53.5,good,low,highly_saline,clay,74,708,21.6,29.6,1.42,27.1,142,adequate,32.1,drought,agriculture,medium,29.9
+Uttar Pradesh,Maharajganj,alluvial,alluvial,6.6,0.9,medium,medium,medium,30.2,poor,high,highly_saline,silt_loam,163,417,7.4,10,1.49,10.9,84.7,deficient,16.2,alkalinity,mixed,low,44.9
+Uttar Pradesh,Mahoba,alluvial,black_cotton,7.8,3,low,medium,high,32.2,moderate,low,moderately_saline,clay,115,865,2.8,12.4,1.27,46,89.4,sufficient,25.6,none,forest,low,38.2
+Uttar Pradesh,Mainpuri,black_cotton,alluvial,8.2,4.4,medium,low,medium,40.9,moderate,high,moderately_saline,sandy,44,664,29.2,25.5,1.41,12.7,158.4,sufficient,30.2,acidity,mixed,low,28.2
+Uttar Pradesh,Mathura,black_cotton,alluvial,8.3,3.7,low,medium,medium,15.4,good,high,slightly_saline,loam,72,711,8.5,38.6,1.37,2.5,114.1,sufficient,28.2,acidity,forest,high,30.5
+Uttar Pradesh,Mau,alluvial,alluvial,7,3.9,medium,high,medium,31,excessive,medium,slightly_saline,loam,74,406,6.1,7.6,1.11,47.7,167,adequate,34.6,acidity,mixed,high,35.3
+Uttar Pradesh,Meerut,alluvial,black_cotton,6.6,2.8,medium,high,medium,42.6,moderate,low,normal,clay,190,923,14.8,23,1.21,24.2,152.7,sufficient,23.4,none,forest,medium,11.2
+Uttar Pradesh,Mirzapur,alluvial,black_cotton,7,2.9,high,low,low,33,moderate,low,slightly_saline,sandy,147,72,5.7,16.8,1.15,11.2,189.4,sufficient,28.6,none,barren,high,28.3
+Uttar Pradesh,Moradabad,alluvial,alluvial,6.5,2.7,medium,medium,low,48.6,moderate,medium,highly_saline,clay,140,390,22.7,35.8,1.77,17.6,175.8,sufficient,25.6,acidity,urban,low,18.7
+Uttar Pradesh,Muzaffarnagar,alluvial,black_cotton,6.7,3,medium,low,medium,37.5,excessive,low,highly_saline,loam,114,617,7.5,30.3,1.5,7.2,101.4,deficient,34.1,none,mixed,low,48.5
+Uttar Pradesh,Pilibhit,black_cotton,black_cotton,8.1,2.8,high,medium,high,43,excessive,medium,highly_saline,clay_loam,98,642,21.7,5.5,1.3,32.8,102.3,deficient,31.6,salinity,barren,medium,47
+Uttar Pradesh,Pratapgarh,black_cotton,alluvial,8.1,0.8,medium,low,low,20,good,low,moderately_saline,clay_loam,47,419,21.9,29.2,1.18,33.5,113.6,deficient,25.4,alkalinity,agriculture,medium,35.8
+Uttar Pradesh,Prayagraj,black_cotton,black_cotton,7.5,0.7,medium,medium,medium,43.2,moderate,low,moderately_saline,sandy,99,805,19.1,28.1,1.3,8.8,98.8,adequate,15.2,drought,mixed,high,38.9
+Uttar Pradesh,Raebareli,black_cotton,alluvial,8.3,3.8,medium,medium,high,42,poor,medium,moderately_saline,sandy,170,80,10,38.1,1.11,18.8,95.9,adequate,31.3,alkalinity,forest,high,46.7
+Uttar Pradesh,Rampur,alluvial,black_cotton,6.9,2.8,low,low,low,27.6,moderate,low,slightly_saline,sandy_loam,127,6,23.8,13.2,1.75,43.6,82.2,adequate,16.2,waterlogging,urban,low,36
+Uttar Pradesh,Saharanpur,alluvial,alluvial,7.3,3,low,medium,medium,20.9,excessive,medium,slightly_saline,sandy_loam,102,139,7.7,14.3,1.38,35.7,84.7,sufficient,34.2,alkalinity,agriculture,low,20.7
+Uttar Pradesh,Sambhal,alluvial,black_cotton,6.6,1.1,low,medium,high,54.5,poor,high,moderately_saline,silt_loam,63,696,18,29.1,1.58,35.8,118.5,deficient,29.1,drought,barren,medium,18.8
+Uttar Pradesh,Sant Kabir Nagar,alluvial,alluvial,7.3,1.1,high,high,medium,23.4,excessive,medium,highly_saline,sandy,187,199,2.9,6.4,1.63,22.4,199.5,sufficient,32.8,waterlogging,agriculture,high,41.7
+Uttar Pradesh,Shahjahanpur,alluvial,alluvial,7.7,1.7,high,low,low,32.3,good,high,slightly_saline,clay_loam,73,303,6.8,10.8,1.68,19.2,134.6,sufficient,25,alkalinity,barren,high,41.4
+Uttar Pradesh,Shamli,alluvial,alluvial,7.4,2.5,medium,medium,medium,24.3,excessive,high,moderately_saline,sandy,65,684,17.1,30.8,1.48,19,197.4,deficient,19.9,drought,mixed,high,39.5
+Uttar Pradesh,Shravasti,alluvial,black_cotton,7.6,0.5,medium,medium,low,41,moderate,medium,highly_saline,sandy_loam,37,940,26.8,33.2,1.55,44.5,161.4,deficient,22.9,waterlogging,forest,medium,8.1
+Uttar Pradesh,Siddharthnagar,black_cotton,black_cotton,8.3,0.8,low,low,medium,38.3,good,medium,slightly_saline,sandy,176,693,17.8,23.9,1.56,37.5,132.9,deficient,21.1,alkalinity,agriculture,medium,25.6
+Uttar Pradesh,Sitapur,alluvial,black_cotton,6.7,4.4,high,medium,medium,38.5,moderate,medium,highly_saline,clay,168,334,23.1,32.7,1.16,4.7,176.1,adequate,34.7,salinity,urban,high,3.1
+Uttar Pradesh,Sonbhadra,alluvial,alluvial,7.6,2.9,medium,high,low,25.3,good,high,moderately_saline,clay_loam,184,957,28.1,5.4,1.22,41.4,120.2,deficient,31.9,drought,forest,high,3.7
+Uttar Pradesh,Sultanpur,alluvial,alluvial,7.3,1.7,low,high,high,47.6,poor,medium,normal,loam,64,306,24.3,25,1.11,38.6,92.8,deficient,34.7,salinity,barren,high,22.6
+Uttar Pradesh,Unnao,alluvial,black_cotton,7.5,2.6,low,low,medium,47.2,excessive,high,highly_saline,clay_loam,65,499,18.3,20.5,1.14,28.2,89.9,deficient,34.4,waterlogging,agriculture,high,27.8
+Uttar Pradesh,Varanasi,alluvial,black_cotton,6.6,2,medium,medium,low,36.9,poor,medium,slightly_saline,clay_loam,191,370,18.9,6.5,1.22,22.8,122.8,adequate,21.8,waterlogging,forest,high,13.9
+Uttarakhand,Almora,hill,hill,6,2.1,high,medium,medium,53.3,excessive,low,normal,sandy,51,662,25.8,23.6,1.39,30.9,156.2,sufficient,30.4,alkalinity,mixed,high,13.7
+Uttarakhand,Bageshwar,mountain,hill,7.5,1.9,medium,high,medium,23.6,poor,high,moderately_saline,sandy_loam,84,1477,15.5,29.2,1.15,40.7,96.7,deficient,16.6,waterlogging,mixed,low,21.8
+Uttarakhand,Chamoli,alluvial,mountain,7,0.7,high,low,medium,49.8,excessive,medium,highly_saline,sandy_loam,43,858,21.5,18.7,1.64,23.4,121.5,adequate,21.6,acidity,agriculture,low,15.5
+Uttarakhand,Champawat,mountain,mountain,7.3,1.9,high,medium,high,45.3,poor,medium,slightly_saline,clay_loam,116,1760,4.6,36.8,1.76,2.6,167.3,adequate,22.5,none,barren,high,18.7
+Uttarakhand,Dehradun,mountain,alluvial,6.5,3.8,medium,medium,high,17.4,good,low,moderately_saline,clay,186,3720,7.2,35.4,1.33,17.8,151.8,sufficient,24.5,alkalinity,mixed,low,27.2
+Uttarakhand,Haridwar,hill,alluvial,6.4,3.1,medium,low,high,49,moderate,medium,slightly_saline,clay_loam,142,509,16,28.1,1.13,36.6,87.4,adequate,27,alkalinity,mixed,medium,49.3
+Uttarakhand,Nainital,alluvial,mountain,7.5,2.1,low,high,medium,49.1,excessive,medium,moderately_saline,sandy,165,2970,6.6,21.9,1.13,24.2,130.3,sufficient,32.6,drought,mixed,high,30.4
+Uttarakhand,Pauri Garhwal,hill,mountain,6.6,4.5,high,medium,medium,48.4,moderate,high,normal,sandy,117,1431,29.7,10.5,1.28,6.3,112.6,adequate,23.5,alkalinity,mixed,medium,25.3
+Uttarakhand,Pithoragarh,mountain,alluvial,6.4,2,medium,medium,high,28.9,good,low,highly_saline,loam,85,3841,15.5,16.6,1.29,33.5,94.4,sufficient,30.6,acidity,barren,medium,26.6
+Uttarakhand,Rudraprayag,mountain,alluvial,7.3,1.8,low,medium,low,25.7,good,medium,slightly_saline,silt_loam,173,420,14.8,27.4,1.39,16.3,194.1,deficient,22.4,salinity,barren,high,3.4
+Uttarakhand,Tehri Garhwal,alluvial,alluvial,6.8,4.4,high,medium,medium,36.4,moderate,medium,slightly_saline,loam,185,847,27.5,35,1.24,44,105.1,deficient,30.8,waterlogging,mixed,high,10.9
+Uttarakhand,Udham Singh Nagar,hill,mountain,6.8,2.6,low,medium,low,46.6,good,high,moderately_saline,silt_loam,84,227,28.6,18,1.68,11.2,176.9,adequate,31.1,acidity,barren,low,8
+Uttarakhand,Uttarkashi,hill,hill,6.4,2.8,medium,low,medium,30.5,excessive,low,moderately_saline,sandy_loam,68,194,29,27.3,1.65,27.6,155,sufficient,23.8,none,forest,medium,40.1
+West Bengal,Alipurduar,alluvial,coastal,7.8,1.9,medium,medium,medium,42.9,poor,medium,moderately_saline,sandy_loam,118,369,29.1,9.4,1.21,34.5,145,sufficient,31,alkalinity,mixed,medium,19.1
+West Bengal,Bankura,alluvial,alluvial,7.3,3.7,medium,low,medium,33.3,good,high,moderately_saline,loam,161,157,14.8,35.5,1.31,9.6,96.9,deficient,27.2,none,barren,low,15.2
+West Bengal,Birbhum,alluvial,alluvial,6.5,2.8,medium,high,medium,37.1,good,low,slightly_saline,silt_loam,76,614,16.1,38,1.39,34.6,197.4,deficient,20.3,none,forest,high,45
+West Bengal,Cooch Behar,coastal,alluvial,7.8,2.8,medium,medium,high,36.5,moderate,high,normal,sandy,83,264,10.9,27,1.57,12.1,180.4,adequate,34.5,waterlogging,agriculture,high,40.8
+West Bengal,Dakshin Dinajpur,alluvial,coastal,6.7,0.8,medium,low,high,41.9,excessive,medium,slightly_saline,loam,111,161,29.9,18.5,1.73,16.1,170.4,deficient,15,acidity,agriculture,medium,8.3
+West Bengal,Darjeeling,laterite,laterite,5.9,3.7,medium,medium,high,32.1,poor,medium,slightly_saline,loam,119,505,22.1,24.8,1.72,33.9,157.7,adequate,26.6,waterlogging,agriculture,medium,44.8
+West Bengal,Hooghly,alluvial,coastal,7.3,2.1,high,medium,high,22.8,moderate,high,slightly_saline,clay,169,868,20.5,25.6,1.69,15.7,149.1,deficient,28.8,waterlogging,forest,medium,37.6
+West Bengal,Howrah,laterite,coastal,6.1,0.6,medium,low,low,50.4,excessive,high,normal,clay_loam,44,510,0.4,30.6,1.52,18.5,113.8,deficient,33.8,waterlogging,mixed,low,5.6
+West Bengal,Jalpaiguri,coastal,coastal,6.9,2.8,low,medium,high,22.5,excessive,medium,slightly_saline,sandy_loam,165,92,27.6,18.8,1.15,18.7,102.8,adequate,29.3,waterlogging,mixed,high,26.3
+West Bengal,Jhargram,laterite,alluvial,5.1,1.5,medium,medium,medium,30.7,good,low,normal,sandy,88,211,22.1,23,1.62,45.5,190.5,adequate,25.2,acidity,barren,medium,14
+West Bengal,Kalimpong,laterite,laterite,5.4,2.6,medium,high,medium,52.1,good,medium,slightly_saline,silt_loam,124,276,20.6,17.5,1.27,12.7,194.3,adequate,29.5,salinity,agriculture,high,26.6
+West Bengal,Kolkata,alluvial,laterite,7,2.2,low,medium,medium,31.9,moderate,high,normal,loam,126,459,11.7,22.6,1.64,44.1,92.5,deficient,18.2,alkalinity,forest,high,34.2
+West Bengal,Malda,laterite,alluvial,5.4,4.1,medium,medium,medium,50.5,moderate,low,highly_saline,clay,37,933,4.4,16.6,1.42,27.6,141.3,deficient,31.8,none,forest,high,44.7
+West Bengal,Murshidabad,alluvial,alluvial,7.7,2.8,low,low,high,41,good,medium,highly_saline,sandy_loam,78,481,7.5,22.5,1.62,29,90,adequate,29.9,drought,forest,low,34.2
+West Bengal,Nadia,alluvial,alluvial,7.5,2.9,high,low,low,16.3,excessive,high,normal,loam,47,672,20.7,14.5,1.68,6,172.8,sufficient,25.9,none,mixed,medium,33
+West Bengal,North 24 Parganas,laterite,coastal,6.4,2.1,medium,medium,medium,51.1,moderate,low,highly_saline,sandy,43,769,9.1,29.3,1.11,11.1,162.7,deficient,17.9,none,urban,low,25.8
+West Bengal,Paschim Bardhaman,coastal,coastal,7.3,0.7,medium,low,low,33,good,medium,normal,sandy_loam,25,357,4.5,8.2,1.27,6.8,163,deficient,28.9,none,agriculture,high,47.4
+West Bengal,Paschim Medinipur,coastal,alluvial,7.4,0.6,high,medium,low,28.7,excessive,low,normal,sandy,49,125,26,21.6,1.75,12.2,146.6,sufficient,23.9,waterlogging,forest,medium,23.9
+West Bengal,Purba Bardhaman,laterite,alluvial,5.9,2.5,medium,medium,medium,16.1,good,high,moderately_saline,clay,59,25,24.4,12.9,1.47,8.1,137,deficient,17.9,alkalinity,mixed,high,45.4
+West Bengal,Purba Medinipur,laterite,laterite,5.3,3.8,medium,high,low,38.9,poor,medium,slightly_saline,loam,82,493,10.6,12.8,1.55,47.6,104.9,deficient,21.8,none,mixed,low,39
+West Bengal,Purulia,alluvial,laterite,6.5,1.6,low,high,high,54.3,poor,medium,normal,loam,160,183,6.8,6.2,1.14,19.9,89.3,deficient,32,none,barren,medium,37.7
+West Bengal,South 24 Parganas,alluvial,coastal,7.1,2.1,medium,high,medium,27.6,moderate,low,highly_saline,sandy_loam,69,17,14.3,31.3,1.36,43.7,126.4,adequate,18.4,salinity,urban,low,16.6
+West Bengal,Uttar Dinajpur,coastal,laterite,7.6,1.8,low,medium,low,19.7,poor,high,moderately_saline,clay_loam,90,591,12.7,22.9,1.25,28.5,197.5,sufficient,26.2,drought,barren,high,20.2
+Andaman and Nicobar Islands,Nicobar,laterite,laterite,6.4,1.3,medium,medium,medium,32.4,good,low,moderately_saline,clay_loam,129,584,29.9,11.2,1.48,7.7,192.1,adequate,32.6,waterlogging,barren,medium,27.9
+Andaman and Nicobar Islands,North and Middle Andaman,laterite,laterite,5.1,1.5,medium,high,high,54.7,good,medium,highly_saline,clay_loam,84,339,4.4,17.2,1.68,44.8,102.4,adequate,33.3,drought,urban,medium,48.2
+Andaman and Nicobar Islands,South Andaman,coastal,coastal,7.7,4.5,high,medium,high,51.5,good,medium,moderately_saline,clay,145,857,28.6,17.7,1.21,17.7,149.9,deficient,30.2,acidity,mixed,medium,39.6
+Chandigarh,Chandigarh,alluvial,alluvial,6.7,3.7,medium,medium,high,38,moderate,high,normal,clay_loam,177,925,2.2,30.8,1.66,21.6,127.5,sufficient,22.2,alkalinity,mixed,high,39.5
+Dadra and Nagar Haveli and Daman and Diu,Dadra and Nagar Haveli,laterite,coastal,5.2,1.9,low,low,medium,30,good,high,normal,sandy_loam,70,956,22.2,19.1,1.44,48.8,121.3,deficient,31.7,salinity,agriculture,low,42.6
+Dadra and Nagar Haveli and Daman and Diu,Daman,laterite,coastal,6,0.8,high,low,high,27.7,excessive,low,normal,sandy,172,964,16.4,17.2,1.4,18.1,120.3,deficient,29,alkalinity,forest,medium,10.2
+Dadra and Nagar Haveli and Daman and Diu,Diu,laterite,coastal,5,1.4,medium,medium,high,44.8,poor,high,moderately_saline,sandy_loam,158,731,19.3,10.9,1.78,25.4,86.9,deficient,18.8,none,mixed,medium,38.7
+Delhi,Central Delhi,alluvial,alluvial,6.5,2.2,medium,low,medium,16.3,excessive,high,slightly_saline,silt_loam,199,102,5,39.1,1.54,23.6,89.5,sufficient,27.9,salinity,agriculture,low,32
+Delhi,East Delhi,alluvial,alluvial,7.2,2.6,medium,medium,medium,54.5,good,medium,normal,sandy_loam,94,836,0.1,19.1,1.23,32,161.5,adequate,31.7,none,agriculture,medium,22.3
+Delhi,New Delhi,alluvial,alluvial,7.7,1.4,medium,medium,high,43.5,poor,high,slightly_saline,loam,73,602,21.5,6.1,1.36,32.3,142.7,deficient,20.8,waterlogging,mixed,low,15.7
+Delhi,North Delhi,alluvial,alluvial,6.8,2.1,medium,medium,medium,19.7,moderate,high,slightly_saline,sandy_loam,185,185,22,15,1.32,16.9,169.7,deficient,16,alkalinity,forest,low,9.3
+Delhi,North East Delhi,alluvial,alluvial,7,2.4,medium,low,medium,23.6,poor,high,highly_saline,clay_loam,83,75,2.3,28.2,1.74,24.1,84.9,sufficient,26.9,none,barren,high,20.8
+Delhi,North West Delhi,alluvial,alluvial,7,2.7,high,high,medium,42.8,moderate,medium,highly_saline,clay,72,638,10.2,21.4,1.32,23,123.1,sufficient,24.9,waterlogging,agriculture,medium,44.9
+Delhi,Shahdara,alluvial,alluvial,6.8,1.3,low,high,high,45.7,excessive,high,highly_saline,sandy,71,524,19.2,36.4,1.54,37.6,180.4,deficient,30.5,alkalinity,urban,low,27.3
+Delhi,South Delhi,alluvial,alluvial,6.7,4,medium,low,medium,34.6,excessive,low,slightly_saline,sandy,143,568,5.7,5.3,1.23,17.9,144.6,adequate,25.8,acidity,agriculture,low,28.5
+Delhi,South East Delhi,alluvial,alluvial,7,2.1,high,medium,low,17.3,good,high,normal,sandy,171,66,28.2,28.2,1.69,38.8,125.5,sufficient,30.7,alkalinity,agriculture,low,44.9
+Delhi,South West Delhi,alluvial,alluvial,7.4,2.4,low,low,medium,33.6,moderate,high,normal,sandy,91,308,25.4,23.7,1.19,40.3,165.2,adequate,34.7,alkalinity,urban,high,23.9
+Delhi,West Delhi,alluvial,alluvial,6.8,1.3,low,medium,high,54.7,moderate,medium,highly_saline,clay,134,45,14.7,28.3,1.36,47.3,164.7,adequate,15.4,waterlogging,barren,high,6.9
+Jammu and Kashmir,Anantnag,mountain,alluvial,6.5,3.7,high,high,high,51.3,poor,medium,slightly_saline,clay,31,1197,27.9,25.7,1.18,10.8,194.5,sufficient,24.1,acidity,forest,low,33.7
+Jammu and Kashmir,Bandipora,mountain,hill,7,3.7,medium,high,medium,23.3,poor,low,slightly_saline,clay_loam,121,1748,13.7,7.7,1.11,31.2,87.9,sufficient,29.2,acidity,agriculture,medium,22.4
+Jammu and Kashmir,Baramulla,hill,mountain,6.8,3.5,low,low,high,38.8,poor,medium,highly_saline,sandy_loam,119,172,20.4,24.3,1.49,37.3,112.4,deficient,34.9,waterlogging,agriculture,low,23.8
+Jammu and Kashmir,Budgam,hill,alluvial,6.1,2.6,low,high,medium,48.7,excessive,low,moderately_saline,sandy_loam,133,914,26.5,8.8,1.4,24.3,197.3,deficient,18.9,salinity,urban,medium,9.9
+Jammu and Kashmir,Doda,mountain,hill,7.3,1.2,medium,low,medium,36.6,good,high,normal,sandy_loam,30,2258,8.2,19,1.13,38.9,180.5,adequate,29.6,drought,agriculture,high,48.6
+Jammu and Kashmir,Ganderbal,mountain,mountain,6.6,1.7,low,medium,medium,42.8,excessive,high,slightly_saline,sandy_loam,34,1222,1.7,26.6,1.58,11.5,178.3,deficient,22.5,drought,agriculture,medium,45.9
+Jammu and Kashmir,Jammu,mountain,hill,6.9,1.1,high,medium,medium,21.4,excessive,low,highly_saline,loam,190,2552,23.5,14.4,1.56,16,150.4,sufficient,29.2,none,barren,low,35.5
+Jammu and Kashmir,Kathua,mountain,alluvial,6,1.3,medium,medium,low,38.6,good,low,highly_saline,sandy,71,1620,23.8,25.9,1.46,3.6,158.4,sufficient,29.8,waterlogging,forest,high,44.3
+Jammu and Kashmir,Kishtwar,alluvial,hill,7.6,1.6,medium,medium,low,31.2,moderate,medium,slightly_saline,loam,162,696,18,25,1.13,38,193.9,adequate,23.1,waterlogging,urban,low,34
+Jammu and Kashmir,Kulgam,alluvial,hill,7.5,3.1,low,low,low,33.3,excessive,high,normal,loam,43,493,4.6,39.5,1.56,23.8,186.6,adequate,17.1,alkalinity,mixed,high,5.1
+Jammu and Kashmir,Kupwara,alluvial,alluvial,6.7,3,medium,medium,medium,29.8,good,medium,normal,sandy,151,541,29.4,27.7,1.74,32.9,84,deficient,17,waterlogging,mixed,low,20.8
+Jammu and Kashmir,Poonch,hill,mountain,5.9,1.8,medium,high,high,33.3,excessive,medium,moderately_saline,sandy,120,604,6.3,17.8,1.72,8.3,94.7,deficient,27.4,none,forest,medium,3.3
+Jammu and Kashmir,Pulwama,hill,hill,5.8,1.7,medium,medium,medium,41.6,excessive,low,normal,silt_loam,42,53,28.1,7.3,1.23,5.3,184.2,sufficient,32.2,acidity,urban,low,41
+Jammu and Kashmir,Rajouri,mountain,hill,6.3,1.2,high,medium,medium,42.5,good,high,moderately_saline,loam,149,2134,28.2,36.2,1.5,46.8,118.8,deficient,15.9,drought,forest,medium,3.6
+Jammu and Kashmir,Ramban,mountain,mountain,6.8,2.7,medium,medium,medium,31,moderate,high,slightly_saline,clay,48,3532,0.7,22.3,1.16,49.3,150.6,deficient,26.3,alkalinity,urban,medium,46.4
+Jammu and Kashmir,Reasi,alluvial,alluvial,7.7,4,medium,low,high,28,moderate,medium,highly_saline,sandy,69,732,26.6,32.9,1.37,15.8,114.3,sufficient,19.1,acidity,mixed,low,8.4
+Jammu and Kashmir,Samba,mountain,mountain,6.5,2.7,medium,medium,high,44.5,moderate,medium,moderately_saline,silt_loam,144,1279,2.1,16.4,1.26,14.7,106.6,sufficient,17.9,acidity,agriculture,medium,13.9
+Jammu and Kashmir,Shopian,mountain,alluvial,7.4,3.5,medium,low,high,31.3,poor,high,moderately_saline,clay,124,3904,18.6,6.3,1.3,21.9,146,deficient,32.6,none,mixed,low,17.8
+Jammu and Kashmir,Srinagar,hill,mountain,5.6,1.8,high,low,medium,16.3,poor,low,highly_saline,sandy,129,225,26.3,20.3,1.29,30.3,97.1,sufficient,25.9,waterlogging,urban,high,39.1
+Jammu and Kashmir,Udhampur,hill,mountain,5.7,1.8,medium,low,high,45.4,moderate,medium,highly_saline,clay_loam,199,385,17.2,14.3,1.57,19.4,145.4,sufficient,22.6,drought,mixed,medium,46.8
+Ladakh,Kargil,mountain,desert,7.1,3.9,medium,high,low,21.4,moderate,low,normal,sandy,85,1612,17,15.7,1.25,36.4,142.6,adequate,16.5,acidity,mixed,medium,29.4
+Ladakh,Leh,desert,desert,7.5,2.8,medium,medium,high,15.2,good,high,slightly_saline,silt_loam,125,831,6.4,11.8,1.16,40.2,118.9,sufficient,15.9,alkalinity,agriculture,medium,16
+Lakshadweep,Lakshadweep,coastal,coastal,7.2,2.1,low,high,medium,16.5,moderate,high,slightly_saline,sandy_loam,128,311,0.2,27.9,1.56,33.3,99.6,deficient,19.9,waterlogging,urban,high,41.5
+Puducherry,Karaikal,alluvial,coastal,7,1.7,low,low,medium,21.3,poor,low,moderately_saline,loam,107,698,7.7,30.5,1.8,40.3,121,sufficient,30.2,none,agriculture,low,3.1
+Puducherry,Mahe,alluvial,coastal,7.8,1.9,high,low,high,53.6,moderate,low,normal,sandy,154,866,28,14,1.53,17.6,106,sufficient,27.4,drought,urban,high,10.5
+Puducherry,Puducherry,coastal,alluvial,6.6,3.6,low,medium,medium,24.7,poor,low,highly_saline,clay,53,913,26.1,27.6,1.76,15.5,151.4,sufficient,22.9,salinity,forest,low,23.1
+Puducherry,Yanam,coastal,coastal,6.7,2.6,medium,medium,low,37.8,poor,low,normal,silt_loam,128,365,24,6.6,1.21,21.1,107.6,deficient,24.4,alkalinity,urban,high,18.4

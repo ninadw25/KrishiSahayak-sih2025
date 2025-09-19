@@ -1,0 +1,329 @@
+crop,state,sowing_month,harvesting_month,season,duration_days,optimal_temperature_c,water_requirement_mm,yield_potential_kg_per_hectare
+rice,Andhra Pradesh,6,10,kharif,120,23,338,5342
+rice,Andhra Pradesh,7,11,kharif,120,25,671,3823
+rice,Assam,6,10,kharif,120,16,474,2973
+rice,Assam,7,11,kharif,120,34,321,5530
+rice,Bihar,6,10,kharif,120,17,636,5453
+rice,Bihar,7,11,kharif,120,26,739,5675
+rice,Chhattisgarh,6,10,kharif,120,29,763,2868
+rice,Chhattisgarh,7,11,kharif,120,34,561,3682
+rice,Gujarat,6,10,kharif,120,19,686,3530
+rice,Gujarat,7,11,kharif,120,15,357,5963
+rice,Haryana,6,10,kharif,120,20,314,5233
+rice,Haryana,7,11,kharif,120,17,619,5056
+rice,Karnataka,6,10,kharif,120,26,573,3294
+rice,Karnataka,7,11,kharif,120,26,507,5610
+rice,Kerala,6,10,kharif,120,22,359,4477
+rice,Kerala,7,11,kharif,120,31,392,5380
+rice,Madhya Pradesh,6,10,kharif,120,22,378,3050
+rice,Madhya Pradesh,7,11,kharif,120,28,349,4035
+rice,Maharashtra,6,10,kharif,120,21,686,2348
+rice,Maharashtra,7,11,kharif,120,26,480,3559
+rice,Odisha,6,10,kharif,120,17,703,5629
+rice,Odisha,7,11,kharif,120,29,452,4781
+rice,Punjab,6,10,kharif,120,28,754,5344
+rice,Punjab,7,11,kharif,120,26,639,3763
+rice,Tamil Nadu,6,10,kharif,120,23,465,3016
+rice,Tamil Nadu,7,11,kharif,120,16,643,2583
+rice,Telangana,6,10,kharif,120,25,363,5788
+rice,Telangana,7,11,kharif,120,31,371,5860
+rice,Uttar Pradesh,6,10,kharif,120,32,777,3343
+rice,Uttar Pradesh,7,11,kharif,120,32,665,5566
+rice,West Bengal,6,10,kharif,120,20,331,4058
+rice,West Bengal,7,11,kharif,120,27,516,4848
+rice,Jharkhand,6,10,kharif,120,20,724,3415
+rice,Jharkhand,7,11,kharif,120,25,513,5762
+rice,Himachal Pradesh,6,10,kharif,120,23,700,4635
+rice,Himachal Pradesh,7,11,kharif,120,28,459,5534
+rice,Uttarakhand,6,10,kharif,120,30,609,3109
+rice,Uttarakhand,7,11,kharif,120,34,460,2713
+rice,Goa,6,10,kharif,120,22,715,2241
+rice,Goa,7,11,kharif,120,15,301,4272
+rice,Manipur,6,10,kharif,120,15,532,3949
+rice,Manipur,7,11,kharif,120,15,376,4163
+rice,Meghalaya,6,10,kharif,120,21,493,5237
+rice,Meghalaya,7,11,kharif,120,21,389,3709
+rice,Mizoram,6,10,kharif,120,32,442,5041
+rice,Mizoram,7,11,kharif,120,24,674,2427
+rice,Nagaland,6,10,kharif,120,31,659,3994
+rice,Nagaland,7,11,kharif,120,17,422,3925
+rice,Sikkim,6,10,kharif,120,23,561,5144
+rice,Sikkim,7,11,kharif,120,21,522,3439
+rice,Tripura,6,10,kharif,120,23,669,2715
+rice,Tripura,7,11,kharif,120,22,627,3713
+rice,Arunachal Pradesh,6,10,kharif,120,34,617,2110
+rice,Arunachal Pradesh,7,11,kharif,120,21,758,3107
+rice,Delhi,6,10,kharif,120,30,687,5461
+rice,Delhi,7,11,kharif,120,17,426,2808
+wheat,Bihar,11,3,rabi,120,24,313,2970
+wheat,Bihar,12,4,rabi,120,32,311,4134
+wheat,Gujarat,11,3,rabi,120,26,696,3560
+wheat,Gujarat,12,4,rabi,120,27,542,4169
+wheat,Haryana,11,3,rabi,120,33,354,2749
+wheat,Haryana,12,4,rabi,120,18,472,3927
+wheat,Madhya Pradesh,11,3,rabi,120,33,599,5665
+wheat,Madhya Pradesh,12,4,rabi,120,20,701,5794
+wheat,Maharashtra,11,3,rabi,120,19,651,2311
+wheat,Maharashtra,12,4,rabi,120,23,358,5714
+wheat,Odisha,11,3,rabi,120,24,542,2034
+wheat,Odisha,12,4,rabi,120,29,652,2902
+wheat,Punjab,11,3,rabi,120,26,604,4909
+wheat,Punjab,12,4,rabi,120,34,592,2515
+wheat,Rajasthan,11,3,rabi,120,26,681,4579
+wheat,Rajasthan,12,4,rabi,120,32,476,4994
+wheat,Uttar Pradesh,11,3,rabi,120,23,719,3273
+wheat,Uttar Pradesh,12,4,rabi,120,16,527,4625
+wheat,West Bengal,11,3,rabi,120,29,717,4979
+wheat,West Bengal,12,4,rabi,120,20,594,2754
+wheat,Jharkhand,11,3,rabi,120,33,485,3269
+wheat,Jharkhand,12,4,rabi,120,26,430,5308
+wheat,Himachal Pradesh,11,3,rabi,120,32,339,4068
+wheat,Himachal Pradesh,12,4,rabi,120,29,524,4914
+wheat,Uttarakhand,11,3,rabi,120,22,399,4799
+wheat,Uttarakhand,12,4,rabi,120,24,727,2525
+wheat,Sikkim,11,3,rabi,120,28,301,2374
+wheat,Sikkim,12,4,rabi,120,19,624,5052
+wheat,Arunachal Pradesh,11,3,rabi,120,23,617,3525
+wheat,Arunachal Pradesh,12,4,rabi,120,29,313,2503
+wheat,Delhi,11,3,rabi,120,21,772,5155
+wheat,Delhi,12,4,rabi,120,16,530,2837
+cotton,Andhra Pradesh,5,11,kharif,180,31,678,5928
+cotton,Andhra Pradesh,6,12,kharif,180,16,462,3252
+cotton,Gujarat,5,11,kharif,180,19,748,3447
+cotton,Gujarat,6,12,kharif,180,26,739,5747
+cotton,Haryana,5,11,kharif,180,27,706,5374
+cotton,Haryana,6,12,kharif,180,25,309,5778
+cotton,Karnataka,5,11,kharif,180,28,379,3993
+cotton,Karnataka,6,12,kharif,180,24,631,2861
+cotton,Madhya Pradesh,5,11,kharif,180,23,556,4180
+cotton,Madhya Pradesh,6,12,kharif,180,34,563,3706
+cotton,Maharashtra,5,11,kharif,180,26,300,4360
+cotton,Maharashtra,6,12,kharif,180,34,583,5192
+cotton,Punjab,5,11,kharif,180,25,720,4734
+cotton,Punjab,6,12,kharif,180,19,503,4212
+cotton,Rajasthan,5,11,kharif,180,31,796,3655
+cotton,Rajasthan,6,12,kharif,180,26,611,4203
+cotton,Tamil Nadu,5,11,kharif,180,29,506,3925
+cotton,Tamil Nadu,6,12,kharif,180,26,550,2956
+cotton,Telangana,5,11,kharif,180,34,669,4381
+cotton,Telangana,6,12,kharif,180,16,756,4558
+cotton,Tripura,5,11,kharif,180,19,319,2281
+cotton,Tripura,6,12,kharif,180,15,418,3058
+sugarcane,Andhra Pradesh,2,2,perennial,365,20,784,5828
+sugarcane,Andhra Pradesh,3,3,perennial,365,19,460,3008
+sugarcane,Andhra Pradesh,10,10,perennial,365,33,505,3035
+sugarcane,Andhra Pradesh,11,11,perennial,365,24,575,4740
+sugarcane,Assam,2,2,perennial,365,32,515,3274
+sugarcane,Assam,3,3,perennial,365,25,425,2216
+sugarcane,Assam,10,10,perennial,365,32,584,3208
+sugarcane,Assam,11,11,perennial,365,21,522,5255
+sugarcane,Bihar,2,2,perennial,365,29,726,5249
+sugarcane,Bihar,3,3,perennial,365,26,593,5923
+sugarcane,Bihar,10,10,perennial,365,27,607,3359
+sugarcane,Bihar,11,11,perennial,365,32,533,2891
+sugarcane,Chhattisgarh,2,2,perennial,365,22,797,3364
+sugarcane,Chhattisgarh,3,3,perennial,365,15,563,4716
+sugarcane,Chhattisgarh,10,10,perennial,365,20,304,3518
+sugarcane,Chhattisgarh,11,11,perennial,365,29,589,5264
+sugarcane,Gujarat,2,2,perennial,365,25,757,5485
+sugarcane,Gujarat,3,3,perennial,365,32,765,5216
+sugarcane,Gujarat,10,10,perennial,365,22,602,4791
+sugarcane,Gujarat,11,11,perennial,365,31,375,2986
+sugarcane,Haryana,2,2,perennial,365,22,644,2813
+sugarcane,Haryana,3,3,perennial,365,18,588,5072
+sugarcane,Haryana,10,10,perennial,365,33,586,3999
+sugarcane,Haryana,11,11,perennial,365,28,352,3327
+sugarcane,Karnataka,2,2,perennial,365,19,660,5673
+sugarcane,Karnataka,3,3,perennial,365,16,797,2703
+sugarcane,Karnataka,10,10,perennial,365,20,362,3608
+sugarcane,Karnataka,11,11,perennial,365,15,468,3112
+sugarcane,Madhya Pradesh,2,2,perennial,365,30,568,4632
+sugarcane,Madhya Pradesh,3,3,perennial,365,27,458,2488
+sugarcane,Madhya Pradesh,10,10,perennial,365,25,623,5681
+sugarcane,Madhya Pradesh,11,11,perennial,365,20,793,3667
+sugarcane,Maharashtra,2,2,perennial,365,20,318,5525
+sugarcane,Maharashtra,3,3,perennial,365,16,381,4444
+sugarcane,Maharashtra,10,10,perennial,365,23,578,2850
+sugarcane,Maharashtra,11,11,perennial,365,27,630,5712
+sugarcane,Odisha,2,2,perennial,365,21,388,4772
+sugarcane,Odisha,3,3,perennial,365,29,364,5147
+sugarcane,Odisha,10,10,perennial,365,21,442,2916
+sugarcane,Odisha,11,11,perennial,365,33,615,4652
+sugarcane,Punjab,2,2,perennial,365,15,604,2735
+sugarcane,Punjab,3,3,perennial,365,31,590,3963
+sugarcane,Punjab,10,10,perennial,365,20,773,5338
+sugarcane,Punjab,11,11,perennial,365,17,755,5693
+sugarcane,Tamil Nadu,2,2,perennial,365,28,629,2961
+sugarcane,Tamil Nadu,3,3,perennial,365,28,564,3026
+sugarcane,Tamil Nadu,10,10,perennial,365,22,603,3473
+sugarcane,Tamil Nadu,11,11,perennial,365,20,711,4676
+sugarcane,Telangana,2,2,perennial,365,26,432,2303
+sugarcane,Telangana,3,3,perennial,365,19,762,5371
+sugarcane,Telangana,10,10,perennial,365,18,570,2042
+sugarcane,Telangana,11,11,perennial,365,30,642,3349
+sugarcane,Uttar Pradesh,2,2,perennial,365,28,797,4411
+sugarcane,Uttar Pradesh,3,3,perennial,365,25,792,2020
+sugarcane,Uttar Pradesh,10,10,perennial,365,25,635,3838
+sugarcane,Uttar Pradesh,11,11,perennial,365,29,580,3827
+sugarcane,West Bengal,2,2,perennial,365,25,350,5854
+sugarcane,West Bengal,3,3,perennial,365,18,576,2140
+sugarcane,West Bengal,10,10,perennial,365,33,589,3357
+sugarcane,West Bengal,11,11,perennial,365,18,795,2372
+sugarcane,Jharkhand,2,2,perennial,365,34,793,5610
+sugarcane,Jharkhand,3,3,perennial,365,29,455,4338
+sugarcane,Jharkhand,10,10,perennial,365,22,443,2105
+sugarcane,Jharkhand,11,11,perennial,365,18,457,3681
+sugarcane,Uttarakhand,2,2,perennial,365,16,732,4636
+sugarcane,Uttarakhand,3,3,perennial,365,18,389,5416
+sugarcane,Uttarakhand,10,10,perennial,365,25,562,5422
+sugarcane,Uttarakhand,11,11,perennial,365,26,373,3062
+sugarcane,Goa,2,2,perennial,365,27,458,5654
+sugarcane,Goa,3,3,perennial,365,31,725,2444
+sugarcane,Goa,10,10,perennial,365,24,739,2035
+sugarcane,Goa,11,11,perennial,365,34,751,5957
+sugarcane,Manipur,2,2,perennial,365,21,609,3408
+sugarcane,Manipur,3,3,perennial,365,26,675,3708
+sugarcane,Manipur,10,10,perennial,365,24,346,4938
+sugarcane,Manipur,11,11,perennial,365,27,674,5989
+sugarcane,Mizoram,2,2,perennial,365,23,325,2520
+sugarcane,Mizoram,3,3,perennial,365,29,309,2983
+sugarcane,Mizoram,10,10,perennial,365,24,371,4199
+sugarcane,Mizoram,11,11,perennial,365,30,348,5225
+sugarcane,Nagaland,2,2,perennial,365,19,367,2049
+sugarcane,Nagaland,3,3,perennial,365,33,399,5131
+sugarcane,Nagaland,10,10,perennial,365,21,501,4904
+sugarcane,Nagaland,11,11,perennial,365,32,702,5747
+sugarcane,Tripura,2,2,perennial,365,24,780,3462
+sugarcane,Tripura,3,3,perennial,365,32,368,4734
+sugarcane,Tripura,10,10,perennial,365,31,782,5179
+sugarcane,Tripura,11,11,perennial,365,16,460,2630
+maize,Andhra Pradesh,6,9,kharif,90,31,449,5503
+maize,Andhra Pradesh,7,10,kharif,90,19,442,4466
+maize,Bihar,6,9,kharif,90,21,459,3546
+maize,Bihar,7,10,kharif,90,24,756,4637
+maize,Chhattisgarh,6,9,kharif,90,27,740,5325
+maize,Chhattisgarh,7,10,kharif,90,16,619,3826
+maize,Karnataka,6,9,kharif,90,21,384,5729
+maize,Karnataka,7,10,kharif,90,17,341,5445
+maize,Madhya Pradesh,6,9,kharif,90,21,724,5824
+maize,Madhya Pradesh,7,10,kharif,90,25,786,5351
+maize,Odisha,6,9,kharif,90,28,318,3603
+maize,Odisha,7,10,kharif,90,20,341,4335
+maize,Punjab,6,9,kharif,90,21,408,3005
+maize,Punjab,7,10,kharif,90,18,531,3764
+maize,Telangana,6,9,kharif,90,15,463,3922
+maize,Telangana,7,10,kharif,90,23,435,3376
+maize,Jharkhand,6,9,kharif,90,20,724,5046
+maize,Jharkhand,7,10,kharif,90,18,568,4608
+maize,Himachal Pradesh,6,9,kharif,90,16,743,4564
+maize,Himachal Pradesh,7,10,kharif,90,26,326,2159
+maize,Manipur,6,9,kharif,90,22,529,3735
+maize,Manipur,7,10,kharif,90,32,366,5061
+maize,Meghalaya,6,9,kharif,90,26,680,2057
+maize,Meghalaya,7,10,kharif,90,17,641,5909
+maize,Mizoram,6,9,kharif,90,16,514,3195
+maize,Mizoram,7,10,kharif,90,16,401,3232
+maize,Nagaland,6,9,kharif,90,17,653,3494
+maize,Nagaland,7,10,kharif,90,34,563,2661
+maize,Sikkim,6,9,kharif,90,26,741,5619
+maize,Sikkim,7,10,kharif,90,19,632,5548
+maize,Arunachal Pradesh,6,9,kharif,90,29,610,2207
+maize,Arunachal Pradesh,7,10,kharif,90,24,745,4717
+soybean,Chhattisgarh,6,9,kharif,100,30,311,2656
+soybean,Chhattisgarh,7,10,kharif,100,30,695,5719
+soybean,Madhya Pradesh,6,9,kharif,100,34,302,3679
+soybean,Madhya Pradesh,7,10,kharif,100,27,578,2347
+soybean,Uttarakhand,6,9,kharif,100,33,403,2629
+soybean,Uttarakhand,7,10,kharif,100,19,767,5943
+groundnut,Andhra Pradesh,6,9,kharif,110,26,620,5704
+groundnut,Andhra Pradesh,7,10,kharif,110,34,753,4453
+groundnut,Chhattisgarh,6,9,kharif,110,32,755,3766
+groundnut,Chhattisgarh,7,10,kharif,110,15,571,4507
+groundnut,Gujarat,6,9,kharif,110,20,799,4785
+groundnut,Gujarat,7,10,kharif,110,28,591,2480
+groundnut,Tamil Nadu,6,9,kharif,110,32,536,3601
+groundnut,Tamil Nadu,7,10,kharif,110,23,640,4817
+mustard,Assam,10,2,rabi,120,23,748,3866
+mustard,Assam,11,3,rabi,120,17,479,3725
+mustard,Haryana,10,2,rabi,120,18,765,2310
+mustard,Haryana,11,3,rabi,120,20,718,2405
+mustard,Madhya Pradesh,10,2,rabi,120,25,442,2341
+mustard,Madhya Pradesh,11,3,rabi,120,19,543,2489
+mustard,Punjab,10,2,rabi,120,26,538,2560
+mustard,Punjab,11,3,rabi,120,24,465,2593
+mustard,Rajasthan,10,2,rabi,120,27,590,5229
+mustard,Rajasthan,11,3,rabi,120,24,457,5533
+mustard,Uttar Pradesh,10,2,rabi,120,20,366,5919
+mustard,Uttar Pradesh,11,3,rabi,120,21,735,5597
+mustard,Uttarakhand,10,2,rabi,120,23,698,3428
+mustard,Uttarakhand,11,3,rabi,120,17,365,4906
+barley,Haryana,11,2,rabi,110,16,718,5537
+barley,Haryana,12,3,rabi,110,28,575,4001
+barley,Punjab,11,2,rabi,110,24,324,3985
+barley,Punjab,12,3,rabi,110,15,463,2094
+barley,Rajasthan,11,2,rabi,110,28,620,3133
+barley,Rajasthan,12,3,rabi,110,30,609,2237
+barley,Uttar Pradesh,11,2,rabi,110,34,686,4530
+barley,Uttar Pradesh,12,3,rabi,110,23,689,3048
+barley,Himachal Pradesh,11,2,rabi,110,27,416,4529
+barley,Himachal Pradesh,12,3,rabi,110,22,704,5041
+barley,Sikkim,11,2,rabi,110,18,324,5150
+barley,Sikkim,12,3,rabi,110,18,472,3979
+barley,Arunachal Pradesh,11,2,rabi,110,26,587,2127
+barley,Arunachal Pradesh,12,3,rabi,110,27,330,2845
+barley,Delhi,11,2,rabi,110,34,445,5036
+barley,Delhi,12,3,rabi,110,20,459,3884
+gram,Haryana,10,2,rabi,120,25,553,5201
+gram,Haryana,11,3,rabi,120,33,586,5058
+gram,Madhya Pradesh,10,2,rabi,120,19,766,3953
+gram,Madhya Pradesh,11,3,rabi,120,24,644,2641
+gram,Rajasthan,10,2,rabi,120,25,477,3276
+gram,Rajasthan,11,3,rabi,120,29,756,2982
+gram,Uttar Pradesh,10,2,rabi,120,33,692,3122
+gram,Uttar Pradesh,11,3,rabi,120,23,455,2189
+potato,Assam,10,1,rabi,90,28,670,4310
+potato,Assam,11,2,rabi,90,30,699,4811
+potato,Bihar,10,1,rabi,90,15,559,3795
+potato,Bihar,11,2,rabi,90,21,339,4832
+potato,Uttar Pradesh,10,1,rabi,90,19,658,3403
+potato,Uttar Pradesh,11,2,rabi,90,34,520,2819
+potato,West Bengal,10,1,rabi,90,18,423,2421
+potato,West Bengal,11,2,rabi,90,21,477,5134
+potato,Jharkhand,10,1,rabi,90,19,415,5774
+potato,Jharkhand,11,2,rabi,90,17,306,4202
+potato,Himachal Pradesh,10,1,rabi,90,28,754,3764
+potato,Himachal Pradesh,11,2,rabi,90,19,482,2385
+potato,Uttarakhand,10,1,rabi,90,20,378,4708
+potato,Uttarakhand,11,2,rabi,90,24,770,5897
+potato,Manipur,10,1,rabi,90,21,688,4112
+potato,Manipur,11,2,rabi,90,27,512,4009
+potato,Meghalaya,10,1,rabi,90,32,792,5284
+potato,Meghalaya,11,2,rabi,90,32,784,2172
+potato,Nagaland,10,1,rabi,90,18,764,5042
+potato,Nagaland,11,2,rabi,90,31,487,4442
+potato,Tripura,10,1,rabi,90,34,555,2182
+potato,Tripura,11,2,rabi,90,18,333,3587
+potato,Arunachal Pradesh,10,1,rabi,90,30,551,2593
+potato,Arunachal Pradesh,11,2,rabi,90,22,526,3768
+onion,Bihar,11,3,rabi,120,34,712,5493
+onion,Bihar,12,4,rabi,120,24,320,4601
+onion,Maharashtra,11,3,rabi,120,27,412,2104
+onion,Maharashtra,12,4,rabi,120,31,419,2392
+chili,Andhra Pradesh,6,11,kharif,150,23,428,5201
+chili,Andhra Pradesh,7,12,kharif,150,30,328,3120
+chili,Telangana,6,11,kharif,150,24,541,5897
+chili,Telangana,7,12,kharif,150,22,576,5355
+turmeric,Andhra Pradesh,5,1,kharif,240,25,546,4849
+turmeric,Andhra Pradesh,6,2,kharif,240,22,742,4773
+turmeric,Kerala,5,1,kharif,240,22,732,2078
+turmeric,Kerala,6,2,kharif,240,31,743,5926
+turmeric,Odisha,5,1,kharif,240,27,766,4628
+turmeric,Odisha,6,2,kharif,240,26,748,4134
+turmeric,Tamil Nadu,5,1,kharif,240,19,307,2844
+turmeric,Tamil Nadu,6,2,kharif,240,22,386,4090
+turmeric,Telangana,5,1,kharif,240,15,408,5506
+turmeric,Telangana,6,2,kharif,240,17,451,5088
+turmeric,Meghalaya,5,1,kharif,240,19,447,4324
+turmeric,Meghalaya,6,2,kharif,240,22,613,3950
+turmeric,Mizoram,5,1,kharif,240,28,527,3674
+turmeric,Mizoram,6,2,kharif,240,34,698,3234

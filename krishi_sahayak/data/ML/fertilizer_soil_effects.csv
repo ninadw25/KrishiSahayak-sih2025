@@ -1,0 +1,16 @@
+Fertilizer_Type,pH_Effect,Nitrogen_Level_Change,Phosphorus_Level_Change,Potassium_Level_Change,Time_to_Effect,Duration_of_Effect
+Urea (46-0-0),Decreases (acidifying),High increase,No change,No change,2-4 weeks,6-12 weeks
+Ammonium Nitrate (34-0-0),Decreases (moderate acidifying),High increase,No change,No change,1-2 weeks,4-8 weeks
+Ammonium Sulfate (21-0-0),Decreases (strong acidifying),Moderate increase,No change,No change,2-3 weeks,8-16 weeks
+DAP (18-46-0),Decreases (acidifying),Moderate increase,High increase,No change,2-4 weeks,8-16 weeks
+MAP (11-52-0),Decreases (acidifying),Moderate increase,Very high increase,No change,2-4 weeks,8-16 weeks
+NPK 10-26-26,Decreases (moderate acidifying),Moderate increase,High increase,High increase,2-4 weeks,8-16 weeks
+NPK 20-20-20,Decreases (moderate acidifying),High increase,High increase,High increase,1-2 weeks,4-8 weeks
+Potassium Chloride (0-0-60),Neutral/minimal effect,No change,No change,Very high increase,1-2 weeks,12-24 weeks
+Potassium Sulfate (0-0-50),Neutral/minimal effect,No change,No change,High increase,1-2 weeks,12-24 weeks
+Calcium Nitrate (15.5-0-0),Increases (alkalizing),Moderate increase,No change,No change,1-2 weeks,6-10 weeks
+Elemental Sulfur,Decreases (strong acidifying),No direct change,No direct change,No direct change,2-6 months,12+ months
+Compost (organic),Neutral to slight increase,Moderate increase,Moderate increase,Moderate increase,4-8 weeks,6-12 months
+Farmyard Manure (organic),Slight increase,Moderate increase,Moderate increase,Moderate increase,6-12 weeks,12-24 months
+Limestone (CaCO3),Increases (strong alkalizing),No direct change,No direct change,No direct change,2-6 months,2-5 years
+Dolomitic Lime,Increases (strong alkalizing),No direct change,No direct change,No direct change,2-6 months,3-7 years
