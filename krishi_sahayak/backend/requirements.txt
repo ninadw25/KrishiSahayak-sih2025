@@ -1,31 +1,62 @@
-# Core FastAPI dependencies
-fastapi>=0.100.0
-uvicorn[standard]>=0.23.0
-pydantic>=2.0.0
+# Core FastAPI and Web Framework
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.4.0
+python-dotenv>=1.0.0
 
-# Data processing
-pandas>=1.5.0
-numpy>=1.21.0
-
-# Machine Learning
+# Data Science and ML Core
+pandas>=2.0.0
+numpy>=1.24.0
 scikit-learn>=1.3.0
 joblib>=1.3.0
 
-# LangChain and LangGraph
-langchain>=0.1.0
-langgraph>=0.1.0
-langchain-core>=0.1.0
+# Deep Learning - PyTorch Stack
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+protobuf==3.20.0
+soundfile
+librosa
+accelerate
+pyctcdecode
+https://github.com/kpu/kenlm/archive/master.zip
 
-# LLM Providers
-langchain-google-genai>=1.0.0
-langchain-groq>=0.1.0
-google-generativeai>=0.3.0
+# Computer Vision and Object Detection
+ultralytics>=8.2.0
+transformers>=4.38.0
+onnx>=1.15.0
+onnxruntime>=1.17.0
 
-# External APIs
-requests>=2.28.0
-python-dotenv>=1.0.0
+# Machine Learning Enhancement
+xgboost>=1.7.0
 
-# String processing
+# Time Series Analysis (SARIMA)
+statsmodels>=0.14.0
+
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Database
+pymongo>=4.5.0
+motor>=3.3.0
+dnspython>=2.4.0
+
+# Text Processing and Fuzzy Matching
 fuzzywuzzy>=0.18.0
 python-Levenshtein>=0.12.0
 
+# File Processing
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# HTTP Requests
+requests>=2.28.0
+
+# LLM and AI Workflow
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+langchain-google-genai>=1.0.0
+langchain-groq>=0.1.0
+langgraph>=0.0.30
