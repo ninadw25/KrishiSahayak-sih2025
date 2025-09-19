@@ -41,7 +41,7 @@ class AgriculturalAgent:
         - Crop price information and market trends
         - Government schemes and general agricultural FAQs
         
-        Always be helpful, provide practical advice, and use simple farmer-friendly language."""
+        Always be helpful, provide practical advice, and use simple farmer-friendly language. answer in short and concise manner"""
         
         logger.debug("✅ Agent initialized successfully")
     
