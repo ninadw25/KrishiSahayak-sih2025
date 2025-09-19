@@ -1,0 +1,103 @@
+Pest_Name,Pesticide_1,Pesticide_2,Pesticide_3
+rice leaf roller,Flubendiamide,Chlorantraniliprole,Abamectin
+rice leaf caterpillar,Chlorantraniliprole,Indoxacarb,Spinosad
+paddy stem maggot,Chlorpyrifos,Fipronil,Cartap Hydrochloride
+asiatic rice borer,Chlorantraniliprole,Fipronil,Spinosad
+yellow rice borer,Fipronil,Cartap Hydrochloride,Chlorantraniliprole
+rice gall midge,Fipronil,Chlorantraniliprole,Cartap Hydrochloride
+Rice Stemfly,Cartap Hydrochloride,Chlorpyrifos,Fipronil
+brown plant hopper,Buprofezin,Imidacloprid,Thiamethoxam
+white backed plant hopper,Imidacloprid,Thiamethoxam,Acetamiprid
+small brown plant hopper,Thiamethoxam,Buprofezin,Imidacloprid
+rice water weevil,Chlorantraniliprole,Fipronil,Spinosad
+rice leafhopper,Imidacloprid,Thiamethoxam,Acetamiprid
+grain spreader thrips,Dimethoate,Malathion,Acetamiprid
+rice shell pest,Quinalphos,Malathion,Carbofuran
+grub,Chlorpyrifos,Quinalphos,Malathion
+mole cricket,Phorate,Carbofuran,Chlorpyrifos
+wireworm,Carbofuran,Phorate,Chlorpyrifos
+white margined moth,Chlorpyrifos,Malathion,Deltamethrin
+black cutworm,Lambda-Cyhalothrin,Cypermethrin,Malathion
+large cutworm,Cypermethrin,Lambda-Cyhalothrin,Chlorpyrifos
+yellow cutworm,Cypermethrin,Malathion,Deltamethrin
+red spider,Abamectin,Spinosad,Chlorantraniliprole
+corn borer,Chlorantraniliprole,Spinosad,Abamectin
+army worm,Spinosad,Chlorantraniliprole,Abamectin
+aphids,Carbofuran,Dimethoate,Malathion
+Potosiabre vitarsis,Chlorantraniliprole,Spinosad,Abamectin
+peach borer,Imidacloprid,Thiamethoxam,Acetamiprid
+english grain aphid,Dimethoate,Imidacloprid,Lambda-Cyhalothrin
+green bug,Imidacloprid,Lambda-Cyhalothrin,Malathion
+bird cherry-oataphid,Dimethoate,Imidacloprid,Lambda-Cyhalothrin
+wheat blossom midge,Malathion,Dimethoate,Lambda-Cyhalothrin
+penthaleus major,Abamectin,Spiromesifen,Chlorantraniliprole
+longlegged spider mite,Lambda-Cyhalothrin,Malathion,Dimethoate
+wheat phloeothrips,Chlorpyrifos,Dimethoate,Malathion
+wheat sawfly,Malathion,Lambda-Cyhalothrin,Cypermethrin
+cerodonta denticornis,Dimethoate,Malathion,Lambda-Cyhalothrin
+beet fly,Malathion,Lambda-Cyhalothrin,Dimethoate
+flea beetle,Carbaryl,Malathion,Lambda-Cyhalothrin
+cabbage army worm,Lambda-Cyhalothrin,Cypermethrin,Malathion
+beet army worm,Cypermethrin,Malathion,Dimethoate
+Beet spot flies,Malathion,Lambda-Cyhalothrin,Cypermethrin
+meadow moth,Chlorpyrifos,Malathion,Lambda-Cyhalothrin
+beet weevil,Imidacloprid,Thiamethoxam,Acetamiprid
+sericaorient alismots chulsky,Acetamiprid,Imidacloprid,Thiamethoxam
+alfalfa weevil,Spinosad,Chlorantraniliprole,Abamectin
+flax budworm,Chlorantraniliprole,Spinosad,Abamectin
+alfalfa plant bug,Abamectin,Spinosad,Chlorantraniliprole
+tarnished plant bug,Imidacloprid,Thiamethoxam,Acetamiprid
+Locustoidea,Acetamiprid,Malathion,Lambda-Cyhalothrin
+lytta polita,Malathion,Spinosad,Abamectin
+legume blister beetle,Spinosad,Chlorantraniliprole,Abamectin
+blister beetle,Lambda-Cyhalothrin,Cypermethrin,Malathion
+therioaphis maculata Buckton,Imidacloprid,Thiamethoxam,Acetamiprid
+odontothrips loti,Chlorantraniliprole,Spinosad,Abamectin
+Thrips,Abamectin,Spiromesifen,Chlorantraniliprole
+alfalfa seed chalcid,Abamectin,Spiromesifen,Chlorantraniliprole
+Pieris canidia,Imidacloprid,Thiamethoxam,Acetamiprid
+Apolygus lucorum,Acetamiprid,Imidacloprid,Thiamethoxam
+Limacodidae,Chlorantraniliprole,Spinosad,Abamectin
+Viteus vitifoliae,Abamectin,Spiromesifen,Chlorantraniliprole
+Colomerus vitis,Sulfur,Abamectin,Spiromesifen
+Brevipoalpus lewisi McGregor,Abamectin,Spiromesifen,Chlorantraniliprole
+oides decempunctata,Spiromesifen,Abamectin,Chlorantraniliprole
+Polyphagotars onemus latus,Chlorantraniliprole,Spinosad,Abamectin
+Pseudococcus comstocki Kuwana,Imidacloprid,Thiamethoxam,Acetamiprid
+parathrene regalis,Imidacloprid,Thiamethoxam,Acetamiprid
+Ampelophaga,Chlorantraniliprole,Spinosad,Abamectin
+Lycorma delicatula,Abamectin,Spiromesifen,Chlorantraniliprole
+Xylotrechus,Imidacloprid,Thiamethoxam,Acetamiprid
+Cicadella viridis,Acetamiprid,Imidacloprid,Thiamethoxam
+Miridae,Imidacloprid,Thiamethoxam,Acetamiprid
+Trialeurodes vaporariorum,Acetamiprid,Imidacloprid,Thiamethoxam
+Erythroneura apicalis,Chlorantraniliprole,Spinosad,Abamectin
+Papilio xuthus,Abamectin,Spiromesifen,Chlorantraniliprole
+Panonchus citri McGregor,Abamectin,Spiromesifen,Chlorantraniliprole
+Phyllocoptes oleiverus ashmead,Abamectin,Spiromesifen,Chlorantraniliprole
+Icerya purchasi Maskell,Imidacloprid,Thiamethoxam,Acetamiprid
+Unaspis yanonensis,Spiromesifen,Abamectin,Chlorantraniliprole
+Ceroplastes rubens,Imidacloprid,Thiamethoxam,Acetamiprid
+Chrysomphalus aonidum,Imidacloprid,Thiamethoxam,Acetamiprid
+Parlatoria zizyphus Lucus,Imidacloprid,Thiamethoxam,Acetamiprid
+Nipaecoccus vastalor,Imidacloprid,Thiamethoxam,Acetamiprid
+Aleurocanthus spiniferus,Acetamiprid,Imidacloprid,Thiamethoxam
+Tetradacus c Bactrocera minax,Malathion,Alpha-Cypermethrin,Dimethoate
+Dacus dorsalis(Hendel),Alpha-Cypermethrin,Fenthion,Clothianidin
+Bactrocera tsuneonis,Fenthion,Malathion,Dimethoate
+Prodenia litura,Acetamiprid,Thiacloprid,Emamectin Benzoate
+Adristyrannus,Chlorantraniliprole,Spinosad,Abamectin
+Phyllocnistis citrella Stainton,Lambda-Cyhalothrin,Cypermethrin,Malathion
+Toxoptera citricidus,Abamectin,Spiromesifen,Chlorantraniliprole
+Toxoptera aurantii,Imidacloprid,Thiamethoxam,Acetamiprid
+Aphis citricola Vander Goot,Imidacloprid,Thiamethoxam,Acetamiprid
+Scirtothrips dorsalis Hood,Abamectin,Spiromesifen,Chlorantraniliprole
+Dasineura sp,Dimethoate,Malathion,Lambda-Cyhalothrin
+Lawana imitata Melichar,Imidacloprid,Thiamethoxam,Acetamiprid
+Salurnis marginella Guerr,Malathion,Dimethoate,Lambda-Cyhalothrin
+Deporaus marginatus Pascoe,Chlorpyrifos,Malathion,Dimethoate
+Chlumetia transversa,Imidacloprid,Thiamethoxam,Acetamiprid
+Mango flat beak leafhopper,Imidacloprid,Thiamethoxam,Acetamiprid
+Rhytidodera bowrinii white,Malathion,Dimethoate,Lambda-Cyhalothrin
+Sternochetus frigidus,Chlorantraniliprole,Spinosad,Abamectin
+Cicadellidae,Imidacloprid,Thiamethoxam,Acetamiprid

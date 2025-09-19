@@ -25,6 +25,7 @@ sys.path.insert(0, str(current_dir))
 # Import route modules
 from routes.fertilizer_routes import fertilizer_router
 from routes.agent_routes import agent_router
+from routes.pest_routes import router as pest_router
 
 # Global variables for system initialization
 app_state = {}
@@ -70,6 +71,7 @@ app.add_middleware(
 # Include route modules
 app.include_router(fertilizer_router, prefix="/api", tags=["Fertilizer"])
 app.include_router(agent_router, prefix="/api/agent", tags=["AI Agent"])
+app.include_router(pest_router, prefix="/api", tags=["Pest Detection & Crop Classification"])
 
 @app.get("/")
 async def root():
@@ -85,11 +87,15 @@ async def root():
             "fertilizer_recommendations",
             "crop_recommendations",
             "soil_analysis",
-            "weather_integration"
+            "weather_integration",
+            "pest_detection",
+            "crop_classification"
         ],
         "endpoints": {
             "ai_agent": "/api/agent/chat",
             "fertilizer": "/api/fertilizer_recommender",
+            "pest_detection": "/api/pest/detect",
+            "crop_classification": "/api/pest/classify-crop",
             "health": "/health",
             "docs": "/docs"
         }
