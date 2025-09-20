@@ -12,12 +12,15 @@ from .fertilizer_schema import SoilProperties
 # Keep old models for backward compatibility
 class CropRecommenderInput(BaseModel):
     """Input model for crop recommendations (legacy)"""
+    latitute:int
+    longitude:int
     state: str
     district: str
     prev_crop: str
     land_size: float
     season: str
     month_before_harvest: int
+    
     soil_properties: SoilProperties
 
 class CropRecommenderOutput(BaseModel):
@@ -28,8 +31,6 @@ class CropRecommenderOutput(BaseModel):
 # New comprehensive models for coordinate-based crop recommendation
 class CropRequest(BaseModel):
     """Request model for crop recommendation with coordinates"""
-    latitude: float = Field(..., description="Latitude coordinate", ge=-90, le=90)
-    longitude: float = Field(..., description="Longitude coordinate", ge=-180, le=180)
     state: str = Field(..., description="State name")
     district: str = Field(..., description="District name")
     previous_crop: str = Field(..., description="Previously grown crop")
@@ -37,6 +38,12 @@ class CropRequest(BaseModel):
     season: str = Field(..., description="Growing season (kharif/rabi/zaid)")
     soil_ph: float = Field(..., description="Soil pH level", ge=0, le=14)
     soil_moisture: float = Field(..., description="Soil moisture percentage", ge=0, le=100)
+    # Weather parameters
+    temperature: float = Field(..., description="Temperature in Celsius", ge=-50, le=60)
+    humidity: float = Field(..., description="Humidity percentage", ge=0, le=100)
+    rainfall_mm: float = Field(..., description="Rainfall in millimeters", ge=0)
+    wind_speed: float = Field(..., description="Wind speed in km/h", ge=0)
+    pressure: float = Field(..., description="Atmospheric pressure in hPa", ge=800, le=1200)
 
 class CropRecommendation(BaseModel):
     """Individual crop recommendation"""
@@ -53,6 +60,9 @@ class WeatherData(BaseModel):
     """Weather data used in prediction"""
     temperature: float = Field(..., description="Temperature in Celsius")
     humidity: float = Field(..., description="Humidity percentage")
+    rainfall_mm: float = Field(..., description="Rainfall in millimeters")
+    wind_speed: float = Field(..., description="Wind speed in km/h")
+    pressure: float = Field(..., description="Atmospheric pressure in hPa")
     weather_condition: Optional[str] = Field(None, description="Weather condition")
 
 class CropResponse(BaseModel):

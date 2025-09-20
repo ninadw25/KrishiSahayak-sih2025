@@ -17,7 +17,6 @@ current_dir = Path(__file__).parent.parent
 sys.path.insert(0, str(current_dir))
 
 from schemas.crop_schema import CropRequest, CropResponse, CropError, CropRecommendation, WeatherData
-from services.weather_service import get_weather
 
 router = APIRouter(prefix="/crop", tags=["Crop Recommendation"])
 
@@ -87,9 +86,10 @@ class SimpleCropPredictor:
             'sugarcane': 80000
         }
     
-    def predict_crops(self, temp: float, humidity: float, soil_ph: float, 
-                     soil_moisture: float, season: str) -> list:
-        """Predict best crops based on conditions"""
+    def predict_crops_enhanced(self, temp: float, humidity: float, rainfall_mm: float,
+                              wind_speed: float, pressure: float, soil_ph: float, 
+                              soil_moisture: float, season: str) -> list:
+        """Enhanced crop prediction using comprehensive weather parameters"""
         recommendations = []
         
         for crop, rule in self.crop_rules.items():
@@ -98,15 +98,37 @@ class SimpleCropPredictor:
             # Temperature check
             tmin, tmax = rule['temp_range']
             if tmin <= temp <= tmax:
-                score += 0.10
+                score += 0.15
             elif abs(temp - tmin) <= 5 or abs(temp - tmax) <= 5:
-                score += 0.05
+                score += 0.08
             else:
                 score -= 0.10
             
             # Humidity check
             if humidity >= rule['humidity_min']:
+                score += 0.08
+            else:
+                score -= 0.05
+            
+            # Rainfall check (based on season and crop needs)
+            if season.lower() == 'kharif':
+                if rainfall_mm >= 50:  # Good rainfall for kharif crops
+                    score += 0.10
+                elif rainfall_mm >= 20:
+                    score += 0.05
+            elif season.lower() == 'rabi':
+                if 10 <= rainfall_mm <= 40:  # Moderate rainfall for rabi
+                    score += 0.08
+            
+            # Wind speed consideration
+            if 5 <= wind_speed <= 15:  # Optimal wind speed
                 score += 0.05
+            elif wind_speed > 20:  # High wind risk
+                score -= 0.05
+            
+            # Atmospheric pressure consideration
+            if 1000 <= pressure <= 1020:  # Normal pressure range
+                score += 0.03
             
             # pH check
             phmin, phmax = rule['ph_range']
@@ -129,15 +151,22 @@ class SimpleCropPredictor:
             # Clamp score between 0 and 1
             score = max(0.0, min(1.0, score))
             
-            # Calculate yield and profit
+            # Calculate yield with weather factors
             yield_t = self.base_yields.get(crop, 3.0)
+            
+            # Weather-based yield adjustments
             if 25 <= soil_moisture <= 45:
                 yield_t *= 1.10
             if 6.0 <= soil_ph <= 7.5:
                 yield_t *= 1.05
+            if season.lower() == 'kharif' and rainfall_mm >= 50:
+                yield_t *= 1.08
+            if 20 <= temp <= 30:  # Optimal temperature
+                yield_t *= 1.05
+            
             yield_t = round(yield_t, 2)
             
-            # Calculate risks
+            # Calculate enhanced risks
             risks = []
             if soil_moisture < mmin:
                 risks.append("Drought risk - irrigation needed")
@@ -147,17 +176,27 @@ class SimpleCropPredictor:
                 risks.append("Soil pH sub-optimal")
             if temp < tmin or temp > tmax:
                 risks.append("Temperature stress possible")
+            if rainfall_mm < 10 and season.lower() == 'kharif':
+                risks.append("Low rainfall - irrigation critical")
+            if wind_speed > 20:
+                risks.append("High wind speed - crop damage risk")
+            if pressure < 990:
+                risks.append("Low pressure - storm risk")
             
-            # Create recommendation
+            # Create recommendation with enhanced reasoning
+            reasoning = (f"Score based on temp({temp}°C), humidity({humidity}%), "
+                        f"rainfall({rainfall_mm}mm), wind({wind_speed}km/h), "
+                        f"pressure({pressure}hPa), pH({soil_ph}), moisture({soil_moisture}%)")
+            
             recommendation = CropRecommendation(
                 crop=crop.title(),
                 suitability_score=round(score, 3),
                 confidence=round(score * 100, 1),
                 predicted_yield_t_per_ha=yield_t,
                 profit_estimate=int(self.base_investments.get(crop, 40000) * 1.5),
-                fertilizer=f"NPK recommended for {crop}",
+                fertilizer=f"NPK recommended for {crop} with weather considerations",
                 risks=risks,
-                reasoning=f"Score based on temp({temp}°C), humidity({humidity}%), pH({soil_ph}), moisture({soil_moisture}%)"
+                reasoning=reasoning
             )
             
             recommendations.append(recommendation)
@@ -175,7 +214,7 @@ async def recommend_crop(request: CropRequest):
     Recommend crops based on location, weather, and soil conditions
     
     This endpoint:
-    1. Gets weather data (temperature, humidity) using coordinates
+    1. Uses provided weather parameters (temperature, humidity, rainfall, etc.)
     2. Analyzes soil conditions and season
     3. Returns ranked crop recommendations with yield predictions
     """
@@ -189,26 +228,22 @@ async def recommend_crop(request: CropRequest):
                 detail="Season must be one of: kharif, rabi, zaid"
             )
         
-        # Get weather data from coordinates
-        weather_data = get_weather(request.latitude, request.longitude)
+        # Use weather data from request
+        temperature = request.temperature
+        humidity = request.humidity
+        rainfall_mm = request.rainfall_mm
+        wind_speed = request.wind_speed
+        pressure = request.pressure
         
-        if not weather_data:
-            raise HTTPException(
-                status_code=503,
-                detail="Could not fetch weather data for given coordinates"
-            )
+        logger.info(f"Weather: {temperature}°C, {humidity}% humidity, {rainfall_mm}mm rainfall")
         
-        # Extract temperature and humidity
-        temperature = weather_data.get('temperature', 25.0)
-        humidity = weather_data.get('humidity', 60.0)
-        weather_condition = weather_data.get('weather_condition', 'Unknown')
-        
-        logger.info(f"Weather: {temperature}°C, {humidity}% humidity")
-        
-        # Get crop recommendations
-        recommendations = predictor.predict_crops(
+        # Get crop recommendations using enhanced prediction
+        recommendations = predictor.predict_crops_enhanced(
             temp=temperature,
             humidity=humidity,
+            rainfall_mm=rainfall_mm,
+            wind_speed=wind_speed,
+            pressure=pressure,
             soil_ph=request.soil_ph,
             soil_moisture=request.soil_moisture,
             season=request.season
@@ -224,7 +259,10 @@ async def recommend_crop(request: CropRequest):
         weather_obj = WeatherData(
             temperature=temperature,
             humidity=humidity,
-            weather_condition=weather_condition
+            rainfall_mm=rainfall_mm,
+            wind_speed=wind_speed,
+            pressure=pressure,
+            weather_condition=request.season.title()
         )
         
         # Create response
@@ -234,8 +272,6 @@ async def recommend_crop(request: CropRequest):
             location={
                 "state": request.state,
                 "district": request.district,
-                "latitude": request.latitude,
-                "longitude": request.longitude,
                 "land_size": request.land_size
             },
             weather_data=weather_obj,
@@ -278,15 +314,18 @@ async def test_crop_endpoint():
     try:
         # Test data for Punjab, India
         test_request = CropRequest(
-            latitude=30.7333,
-            longitude=76.7794,
             state="Punjab",
             district="Chandigarh",
             previous_crop="rice",
             land_size=5.0,
             season="rabi",
             soil_ph=6.8,
-            soil_moisture=35.0
+            soil_moisture=35.0,
+            temperature=22.5,
+            humidity=65.0,
+            rainfall_mm=15.0,
+            wind_speed=8.5,
+            pressure=1013.2
         )
         
         result = await recommend_crop(test_request)
@@ -295,7 +334,17 @@ async def test_crop_endpoint():
             "test_data": {
                 "location": "Punjab, Chandigarh",
                 "season": "rabi",
-                "coordinates": [30.7333, 76.7794]
+                "weather": {
+                    "temperature": 22.5,
+                    "humidity": 65.0,
+                    "rainfall_mm": 15.0,
+                    "wind_speed": 8.5,
+                    "pressure": 1013.2
+                },
+                "soil": {
+                    "ph": 6.8,
+                    "moisture": 35.0
+                }
             },
             "result": result
         }

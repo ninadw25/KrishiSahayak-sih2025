@@ -5,16 +5,22 @@ Agent Schemas - Pydantic models for agentic AI workflow
 
 from pydantic import BaseModel
 from typing import List, Optional, Dict, Any
+from datetime import datetime
 from .fertilizer_schema import SoilProperties
 
-class ChatInput(BaseModel):
-    """Simple input for chatbot - just message"""
+class ChatRequest(BaseModel):
+    """Enhanced input for chatbot - message with optional history and timestamp"""
     message: str
+    chat_history: Optional[List[Dict[str, str]]] = []
+    timestamp: Optional[str] = None
 
-class ChatOutput(BaseModel):
-    """Simple output for chatbot - just response"""
+class ChatResponse(BaseModel):
+    """Enhanced output for chatbot - response with metadata"""
+    success: bool
+    message: str
     response: str
-    session_id: str
+    sources: Optional[List[str]] = []
+    timestamp: Optional[str] = None
 
 class AgentInput(BaseModel):
     """Internal input for the agricultural agent"""
