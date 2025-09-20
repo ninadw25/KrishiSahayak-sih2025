@@ -122,9 +122,7 @@ class AgriculturalAgent:
         
         system_context = """You are an expert Agricultural AI Assistant specializing in Indian farming practices. 
         You have access to:
-        1. Real-time web search results for latest agricultural information
-        2. Crop recommendation tools based on weather and soil conditions
-        3. Fertilizer recommendation tools for optimal nutrition
+        Real-time web search results for latest agricultural information
         
         Your responses should be:
         - Practical and actionable for Indian farmers
@@ -132,8 +130,9 @@ class AgriculturalAgent:
         - Enhanced with tool results when available
         - Clear and easy to understand
         - Focused on sustainable farming practices
+        - Clear and concise and not too long
         
-        Always prioritize farmer safety and sustainable agriculture."""
+        Always prioritize farmer safety and sustainable agriculture. """
         
         # Build the enhanced prompt
         prompt_parts = [system_context]
