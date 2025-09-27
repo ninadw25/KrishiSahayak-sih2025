@@ -1,0 +1,21 @@
+Crop,Disease_Name,Local_Storage_Path,Solution 1,Solution 2,Solution 3
+Rice,Bacterial Leaf Blight,./disease_images/rice/bacterial_leaf_blight.jpg,Copper oxychloride spray,Optimize field drainage,Apply Streptocycline
+Rice,Blast Disease,./disease_images/rice/blast_disease.jpg,Tricyclazole foliar spray,Maintain proper irrigation,Remove diseased leaves
+Rice,Brown Spot,./disease_images/rice/brown_spot.jpg,Mancozeb spray,Balanced potassium fertilization,Rotate crop
+Rice,Sheath Blight,./disease_images/rice/sheath_blight.jpg,Validamycin spray,Improve drainage,Use healthy seedlings
+Rice,False Smut,./disease_images/rice/false_smut.jpg,Propiconazole spray,Reduce nitrogen use,Remove smut balls
+Wheat,Leaf Rust (Brown Rust),./disease_images/wheat/leaf_rust.jpg,Hexaconazole foliar spray,Remove infected leaves,Increase plant spacing
+Wheat,Yellow Rust (Stripe Rust),./disease_images/wheat/yellow_rust.jpg,Triadimefon spray,Avoid sowing under cool wet,Remove lower leaves
+Wheat,Karnal Bunt,./disease_images/wheat/karnal_bunt.jpg,Tebuconazole spray,Sanitize equipment,Deep plough post-harvest
+Wheat,Loose Smut,./disease_images/wheat/loose_smut.jpg,Hot water seed treatment,Seed dressing fungicide,Burn infected seedheads
+Wheat,Powdery Mildew,./disease_images/wheat/powdery_mildew.jpg,Sulfur spray,Improve air flow,Avoid overhead irrigation
+Sugarcane,Red Rot,./disease_images/sugarcane/red_rot.jpg,Carbendazim drench,Harvest residue burning,Field sanitation
+Sugarcane,Wilt,./disease_images/sugarcane/wilt.jpg,Fentin hydroxide soil drench,Field leveling for drainage,Remove wilted stalks
+Sugarcane,Smut,./disease_images/sugarcane/smut.jpg,Systemic fungicide at planting,Destroy smut whips,Sterilize planting tools
+Sugarcane,Pokkah Boeng,./disease_images/sugarcane/pokkah_boeng.jpg,Carbendazim application,Use clean setts,Balanced NPK fertilizer
+Sugarcane,Yellow Leaf Disease,./disease_images/sugarcane/yellow_leaf_disease.jpg,Imidacloprid for aphids,Remove infected leaves,Use clean setts
+Corn,Banded Leaf and Sheath Blight,./disease_images/maize/banded_leaf_blight.jpg,Metalaxyl-mancozeb spray,Proper plant spacing,Sanitize seeds
+Corn,Turcicum Leaf Blight,./disease_images/maize/turcicum_leaf_blight.jpg,Azoxystrobin spray,Remove volunteer plants,Rotate maize
+Corn,Fusarium Stalk Rot,./disease_images/maize/fusarium_stalk_rot.jpg,Carbendazim drench,Crop rotation,Soil solarization
+Corn,Charcoal Rot,./disease_images/maize/charcoal_rot.jpg,Thiophanate-methyl spray,Maintain soil moisture,Avoid drought stress
+Corn,Pythium Stalk Rot,./disease_images/maize/pythium_stalk_rot.jpg,Metalaxyl seed treatment,Avoid waterlogging,Use healthy seed

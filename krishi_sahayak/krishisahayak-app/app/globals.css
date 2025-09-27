@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles for KrishiSahayak app */
+/* Note: React Native doesn't support global font inheritance like CSS */
+/* All text must be wrapped in <Text> components with explicit fontFamily */
+
+/* Custom component styles */
+.btn-primary {
+  @apply bg-green-600 text-white px-6 py-3 rounded-xl font-semibold shadow-lg active:bg-green-700;
+}
+
+.btn-secondary {
+  @apply bg-gray-100 text-gray-700 px-6 py-3 rounded-xl font-semibold border border-gray-200 active:bg-gray-200;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-sm border border-gray-100 p-4;
+}
+
+.input-field {
+  @apply bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-gray-900 placeholder-gray-500 focus:border-green-500 focus:ring-2 focus:ring-green-200;
+}
+
+/* Gradient backgrounds */
+.gradient-green {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.gradient-blue {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+
+.gradient-orange {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+}
+
+.gradient-purple {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+}
+
+/* Font utilities for DM Sans - these work with NativeWind */
+.font-regular {
+  font-family: 'DM-Regular';
+}
+
+.font-medium {
+  font-family: 'DM-Medium';
+}
+
+.font-bold {
+  font-family: 'DM-Bold';
+}
