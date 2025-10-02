@@ -30,14 +30,16 @@ export default {
     },
     plugins: [
       "expo-router",
-      "expo-font"
+      "expo-font",
+      "expo-web-browser"
     ],
     experiments: {
       typedRoutes: true
     },
     extra: {
       geminiApiKey: process.env.EXPO_PUBLIC_GEMINI_API_KEY || "AIzaSyBrEHwOV0v6KMM7oqqOkhLYmugVSKhk9E4",
-      fastapiApiUrl: process.env.EXPO_PUBLIC_FASTAPI_API_URL || "http://localhost:8000/api"
+      // Updated to use IP address instead of localhost for mobile device access
+      fastapiApiUrl: process.env.EXPO_PUBLIC_FASTAPI_API_URL || "http://192.168.0.102:8000/api"
     }
   }
 };

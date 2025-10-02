@@ -24,7 +24,7 @@ def get_response(prompt: str, system_message: str = None) -> str:
         if MAIN_LLM == 'google':
             llm = ChatGoogleGenerativeAI(
                 # model="gemini-pro",
-                model="gemini-1.5-flash",
+                model="gemini-2.0-flash-lite",
                 google_api_key=os.getenv("GOOGLE_API_KEY"),
                 temperature=0.1,
                 convert_system_message_to_human=True

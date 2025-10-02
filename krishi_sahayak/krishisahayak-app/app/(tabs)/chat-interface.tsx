@@ -9,6 +9,7 @@ import {
   Clipboard,
   Image,
   KeyboardAvoidingView,
+  Linking,
   Platform,
   Pressable,
   ScrollView,
@@ -447,6 +448,203 @@ export default function ChatInterface() {
     return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
   }, []);
 
+  // Simple markdown parser for basic formatting
+  const parseMarkdown = useCallback((text: string) => {
+    const lines = text.split('\n');
+    const elements: React.ReactNode[] = [];
+    let key = 0;
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      key++;
+
+      // Empty line
+      if (line.trim() === '') {
+        elements.push(<View key={key} style={{ height: 8 }} />);
+        continue;
+      }
+
+      // Headers
+      if (line.startsWith('### ')) {
+        elements.push(
+          <Text key={key} className="text-base font-bold text-gray-900 mb-2">
+            {line.replace('### ', '')}
+          </Text>
+        );
+        continue;
+      }
+      
+      if (line.startsWith('## ')) {
+        elements.push(
+          <Text key={key} className="text-lg font-bold text-gray-900 mb-2">
+            {line.replace('## ', '')}
+          </Text>
+        );
+        continue;
+      }
+
+      if (line.startsWith('# ')) {
+        elements.push(
+          <Text key={key} className="text-xl font-bold text-gray-900 mb-3">
+            {line.replace('# ', '')}
+          </Text>
+        );
+        continue;
+      }
+
+      // Bullet points
+      if (line.startsWith('- ') || line.startsWith('* ')) {
+        const content = line.replace(/^[*-] /, '');
+        elements.push(
+          <View key={key} className="flex-row mb-1">
+            <Text className="text-green-600 mr-2">•</Text>
+            <Text className="text-gray-900 flex-1">{renderInlineMarkdown(content)}</Text>
+          </View>
+        );
+        continue;
+      }
+
+      // Numbered lists (handles both "1. " and "1.\n" formats)
+      if (/^\d+\.(\s|$)/.test(line)) {
+        const match = line.match(/^(\d+)\.(.*)$/);
+        if (match) {
+          const [, number, content] = match;
+          // If content is empty, it might be a standalone number
+          const displayContent = content.trim() || '';
+          elements.push(
+            <View key={key} className="flex-row mb-1">
+              <Text className="text-green-600 mr-2 font-semibold">{number}.</Text>
+              <Text className="text-gray-900 flex-1">
+                {displayContent ? renderInlineMarkdown(displayContent) : ''}
+              </Text>
+            </View>
+          );
+          continue;
+        }
+      }
+
+      // Indented bullet points (for nested lists like "    *   text")
+      if (/^\s{2,}\*\s+/.test(line)) {
+        const content = line.replace(/^\s+\*\s+/, '');
+        elements.push(
+          <View key={key} className="flex-row mb-1 ml-6">
+            <Text className="text-green-500 mr-2">•</Text>
+            <Text className="text-gray-900 flex-1">{renderInlineMarkdown(content)}</Text>
+          </View>
+        );
+        continue;
+      }
+
+      // Blockquotes
+      if (line.startsWith('> ')) {
+        elements.push(
+          <View key={key} className="bg-green-50 border-l-4 border-green-500 pl-4 py-2 mb-2">
+            <Text className="text-gray-700 italic">
+              {renderInlineMarkdown(line.replace('> ', ''))}
+            </Text>
+          </View>
+        );
+        continue;
+      }
+
+      // Regular paragraphs
+      elements.push(
+        <Text key={key} className="text-gray-900 mb-2 leading-5">
+          {renderInlineMarkdown(line)}
+        </Text>
+      );
+    }
+
+    return elements;
+  }, []);
+
+  // Function to handle inline markdown (bold, italic, inline code, links)
+  const renderInlineMarkdown = useCallback((text: string): React.ReactNode => {
+    const elements: React.ReactNode[] = [];
+    let currentKey = 0;
+    
+    // Split text by markdown patterns while preserving the delimiters
+    const parts = text.split(/(\*\*.*?\*\*|\*.*?\*|`.*?`|\[.*?\]\(.*?\))/g);
+    
+    parts.forEach((part, index) => {
+      if (!part) return;
+      
+      // Bold text **text**
+      if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
+        elements.push(
+          <Text key={`bold-${currentKey++}`} className="font-bold text-green-700">
+            {part.slice(2, -2)}
+          </Text>
+        );
+      }
+      // Italic text *text* (but not bold)
+      else if (part.startsWith('*') && part.endsWith('*') && part.length > 2 && !part.startsWith('**')) {
+        elements.push(
+          <Text key={`italic-${currentKey++}`} className="italic text-gray-700">
+            {part.slice(1, -1)}
+          </Text>
+        );
+      }
+      // Inline code `code`
+      else if (part.startsWith('`') && part.endsWith('`') && part.length > 2) {
+        elements.push(
+          <Text 
+            key={`code-${currentKey++}`} 
+            className="bg-gray-100 text-gray-800 px-1 rounded text-sm"
+            style={{ fontFamily: Platform.OS === 'ios' ? 'Menlo' : 'monospace' }}
+          >
+            {part.slice(1, -1)}
+          </Text>
+        );
+      }
+      // Links [text](url)
+      else if (part.match(/^\[.*?\]\(.*?\)$/)) {
+        const linkMatch = part.match(/^\[(.*?)\]\((.*?)\)$/);
+        if (linkMatch) {
+          const [, linkText, linkUrl] = linkMatch;
+          elements.push(
+            <Text 
+              key={`link-${currentKey++}`} 
+              className="text-blue-600 underline"
+              onPress={async () => {
+                try {
+                  // Check if the URL can be opened
+                  const supported = await Linking.canOpenURL(linkUrl);
+                  if (supported) {
+                    await Linking.openURL(linkUrl);
+                  } else {
+                    console.log('Cannot open URL:', linkUrl);
+                    Alert.alert('Error', 'Cannot open this link');
+                  }
+                } catch (error) {
+                  console.error('Error opening link:', error);
+                  Alert.alert('Error', 'Failed to open link');
+                }
+              }}
+            >
+              {linkText}
+            </Text>
+          );
+        }
+      }
+      // Regular text
+      else if (part.trim()) {
+        elements.push(
+          <Text key={`text-${currentKey++}`}>
+            {part}
+          </Text>
+        );
+      }
+    });
+    
+    // If no markdown was found, return the original text
+    if (elements.length === 0) {
+      return text;
+    }
+    
+    return elements;
+  }, []);
+
   const renderMessage = useCallback((message: Message) => {
     if (message.type === 'image') {
       return (
@@ -472,11 +670,15 @@ export default function ChatInterface() {
             ? 'bg-green-600 rounded-2xl rounded-br-md' 
             : 'bg-white rounded-2xl rounded-bl-md shadow-sm'
         } p-4`}>
-          <Text className={`text-sm leading-5 ${
-            message.isUser ? 'text-white' : 'text-gray-900'
-          }`}>
-            {message.text}
-          </Text>
+          {message.isUser ? (
+            <Text className="text-white text-sm leading-5">
+              {message.text}
+            </Text>
+          ) : (
+            <View>
+              {parseMarkdown(message.text)}
+            </View>
+          )}
           
           <View className="flex-row items-center justify-between mt-2">
             <Text className={`text-xs ${
@@ -665,9 +867,14 @@ export default function ChatInterface() {
                 placeholderTextColor="#9ca3af"
                 multiline
                 className="text-gray-900 text-base max-h-20"
-                onSubmitEditing={handleSendMessage}
+                onSubmitEditing={(event) => {
+                  if (!event.nativeEvent.shiftKey && inputText.trim() !== '') {
+                    handleSendMessage();
+                  }
+                }}
                 returnKeyType="send"
                 blurOnSubmit={false}
+                enablesReturnKeyAutomatically={true}
               />
             </View>
             <TouchableOpacity
