@@ -290,11 +290,17 @@ class FertilizerRecommendationSystem:
 
 # Usage example
 if __name__ == "__main__":
+    from pathlib import Path
+    
+    # Get the path to the fertilizer CSV relative to this file
+    current_dir = Path(__file__).parent.parent.parent
+    csv_path = current_dir / "data" / "ML" / "fertilizer_crop.csv"
+    
     # Initialize system with your CSV data
-    fertilizer_system = FertilizerRecommendationSystem('D:/Work/Coding/SIH 2025/agricultural-ai-platform/data/ML/fertilizer_crop.csv')
+    fertilizer_system = FertilizerRecommendationSystem(str(csv_path))
     
     # Load your crop data  
-    crop_data = pd.read_csv('D:/Work/Coding/SIH 2025/agricultural-ai-platform/data/ML/fertilizer_crop.csv')
+    crop_data = pd.read_csv(str(csv_path))
     
     # Train model
     fertilizer_system.train_model(crop_data)
