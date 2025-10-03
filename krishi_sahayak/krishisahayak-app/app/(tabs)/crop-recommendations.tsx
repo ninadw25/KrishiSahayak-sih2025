@@ -1,11 +1,12 @@
 import { Ionicons } from '@expo/vector-icons';
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, Alert, Platform, ScrollView, TextInput, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, Alert, Modal, Platform, ScrollView, TextInput, TouchableOpacity, View } from 'react-native';
 import { geocodingService, LocationData } from '../utils/geocodingService';
 import Text from '../components/Text';
 import { getLanguageTexts } from '../utils/languages';
 import { CropRecommendation, CropRecommendationRequest, llmService } from '../utils/llmService';
 import { permissionManager } from '../utils/permissions';
+import { chatApiService, FertilizerResponse } from '../utils/chatApiService';
 
 export default function CropRecommendations() {
   const [selectedSeason, setSelectedSeason] = useState('kharif');
@@ -25,6 +26,10 @@ export default function CropRecommendations() {
     farmSize: 'Small' as 'Small' | 'Medium' | 'Large'
   });
   const [lastAnalysisTime, setLastAnalysisTime] = useState<Date | null>(null);
+  const [fertilizerModalVisible, setFertilizerModalVisible] = useState(false);
+  const [fertilizerData, setFertilizerData] = useState<FertilizerResponse | null>(null);
+  const [loadingFertilizer, setLoadingFertilizer] = useState(false);
+  const [selectedCropForFertilizer, setSelectedCropForFertilizer] = useState<string>('');
 
   const t = getLanguageTexts(currentLanguage);
 
@@ -180,6 +185,38 @@ export default function CropRecommendations() {
 
   const handleGetRecommendations = () => {
     generateRecommendations();
+  };
+
+  const handleViewFertilizer = async (cropName: string) => {
+    try {
+      setLoadingFertilizer(true);
+      setSelectedCropForFertilizer(cropName);
+      
+      // Generate random soil values for demonstration
+      const randomN = Math.floor(Math.random() * 50) + 20; // 20-70
+      const randomP = Math.floor(Math.random() * 40) + 15; // 15-55
+      const randomK = Math.floor(Math.random() * 45) + 20; // 20-65
+      const randomPH = Math.round((Math.random() * 3 + 5.5) * 10) / 10; // 5.5-8.5
+      
+      console.log('Getting fertilizer for:', cropName, { N: randomN, P: randomP, K: randomK, ph: randomPH });
+      
+      const fertilizerResponse = await chatApiService.getFertilizerRecommendation(
+        randomN, 
+        randomP, 
+        randomK, 
+        randomPH, 
+        cropName.toLowerCase()
+      );
+      
+      setFertilizerData(fertilizerResponse);
+      setFertilizerModalVisible(true);
+      
+    } catch (error) {
+      console.error('Error getting fertilizer recommendation:', error);
+      Alert.alert('Error', 'Failed to get fertilizer recommendation. Please try again.');
+    } finally {
+      setLoadingFertilizer(false);
+    }
   };
 
   return (
@@ -637,8 +674,19 @@ export default function CropRecommendations() {
                     </View>
                   </View>
 
-                  <TouchableOpacity className="btn-primary mt-4">
-                    <Text className="text-white font-semibold text-center">{t.viewDetails}</Text>
+                  <TouchableOpacity 
+                    className="btn-primary mt-4"
+                    onPress={() => handleViewFertilizer(crop.name)}
+                    disabled={loadingFertilizer}
+                  >
+                    {loadingFertilizer && selectedCropForFertilizer === crop.name ? (
+                      <View className="flex-row items-center justify-center">
+                        <ActivityIndicator size="small" color="white" />
+                        <Text className="text-white font-semibold ml-2">Loading...</Text>
+                      </View>
+                    ) : (
+                      <Text className="text-white font-semibold text-center">View Fertilizer</Text>
+                    )}
                   </TouchableOpacity>
                 </View>
               ))}
@@ -650,6 +698,134 @@ export default function CropRecommendations() {
         {/* Bottom padding for tab bar */}
         <View style={{ height: Platform.OS === 'ios' ? 88 : 64 }} />
       </ScrollView>
+
+      {/* Fertilizer Modal */}
+      <Modal
+        visible={fertilizerModalVisible}
+        animationType="slide"
+        presentationStyle="pageSheet"
+        onRequestClose={() => setFertilizerModalVisible(false)}
+      >
+        <View className="flex-1 bg-gray-50">
+          <View className="bg-white px-6 py-4 border-b border-gray-200">
+            <View className="flex-row items-center justify-between">
+              <Text className="text-xl font-bold text-gray-900">Fertilizer Recommendation</Text>
+              <TouchableOpacity
+                onPress={() => setFertilizerModalVisible(false)}
+                className="w-8 h-8 rounded-full bg-gray-100 items-center justify-center"
+              >
+                <Ionicons name="close" size={20} color="#374151" />
+              </TouchableOpacity>
+            </View>
+          </View>
+
+          <ScrollView className="flex-1 px-6 py-6">
+            {fertilizerData && (
+              <View className="space-y-6">
+                {/* Crop Info */}
+                <View className="bg-white rounded-xl p-6 border border-gray-200">
+                  <Text className="text-lg font-bold text-gray-900 mb-2">
+                    {selectedCropForFertilizer}
+                  </Text>
+                  <Text className="text-gray-600">
+                    Based on soil analysis, here's the recommended fertilizer for optimal growth.
+                  </Text>
+                </View>
+
+                {/* Fertilizer Recommendation */}
+                <View className="bg-white rounded-xl p-6 border border-gray-200">
+                  <View className="flex-row items-center mb-4">
+                    <Ionicons name="leaf" size={24} color="#059669" />
+                    <Text className="text-lg font-bold text-gray-900 ml-2">
+                      Recommended Fertilizer
+                    </Text>
+                  </View>
+                  
+                  <View className="bg-green-50 rounded-lg p-4 mb-4">
+                    <Text className="text-2xl font-bold text-green-800 text-center">
+                      {fertilizerData.fertilizer}
+                    </Text>
+                  </View>
+
+                  <View className="flex-row items-center justify-center bg-blue-50 rounded-lg p-4">
+                    <Ionicons name="scale" size={20} color="#2563eb" />
+                    <Text className="text-lg font-bold text-blue-800 ml-2">
+                      Dosage: {fertilizerData.dosage} kg/hectare
+                    </Text>
+                  </View>
+                </View>
+
+                {/* Soil Analysis */}
+                <View className="bg-white rounded-xl p-6 border border-gray-200">
+                  <Text className="text-lg font-bold text-gray-900 mb-4">
+                    Updated Soil Nutrients
+                  </Text>
+                  
+                  <View className="space-y-3">
+                    <View className="flex-row items-center justify-between p-3 bg-yellow-50 rounded-lg">
+                      <Text className="font-semibold text-gray-700">Nitrogen (N)</Text>
+                      <Text className="font-bold text-yellow-700">
+                        {fertilizerData.updated_soil.N.toFixed(1)}%
+                      </Text>
+                    </View>
+                    
+                    <View className="flex-row items-center justify-between p-3 bg-orange-50 rounded-lg">
+                      <Text className="font-semibold text-gray-700">Phosphorus (P)</Text>
+                      <Text className="font-bold text-orange-700">
+                        {fertilizerData.updated_soil.P.toFixed(1)}%
+                      </Text>
+                    </View>
+                    
+                    <View className="flex-row items-center justify-between p-3 bg-purple-50 rounded-lg">
+                      <Text className="font-semibold text-gray-700">Potassium (K)</Text>
+                      <Text className="font-bold text-purple-700">
+                        {fertilizerData.updated_soil.K.toFixed(1)}%
+                      </Text>
+                    </View>
+                    
+                    <View className="flex-row items-center justify-between p-3 bg-green-50 rounded-lg">
+                      <Text className="font-semibold text-gray-700">pH Level</Text>
+                      <Text className="font-bold text-green-700">
+                        {fertilizerData.updated_soil.ph.toFixed(1)}
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+
+                {/* Usage Instructions */}
+                <View className="bg-white rounded-xl p-6 border border-gray-200">
+                  <Text className="text-lg font-bold text-gray-900 mb-4">
+                    Application Instructions
+                  </Text>
+                  
+                  <View className="space-y-3">
+                    <View className="flex-row items-start">
+                      <Text className="text-green-600 font-bold mr-3">1.</Text>
+                      <Text className="text-gray-700 flex-1">
+                        Apply during early morning or late evening for best results
+                      </Text>
+                    </View>
+                    
+                    <View className="flex-row items-start">
+                      <Text className="text-green-600 font-bold mr-3">2.</Text>
+                      <Text className="text-gray-700 flex-1">
+                        Ensure adequate soil moisture before application
+                      </Text>
+                    </View>
+                    
+                    <View className="flex-row items-start">
+                      <Text className="text-green-600 font-bold mr-3">3.</Text>
+                      <Text className="text-gray-700 flex-1">
+                        Mix thoroughly with soil and water immediately after application
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            )}
+          </ScrollView>
+        </View>
+      </Modal>
     </View>
   );
 }

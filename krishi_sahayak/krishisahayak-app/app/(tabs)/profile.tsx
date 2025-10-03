@@ -7,10 +7,10 @@ import { LocationData, locationService } from '../utils/locationService';
 
 export default function Profile() {
   const [user, setUser] = useState({
-    name: 'Aakarsh Goyal',
-    email: 'aakarshgoyal23@gmail.com',
+    name: 'Ninad Wakode',
+    email: 'ninadwakode2@gmail.com',
     phone: '+91 9999999999',
-    location: 'Kapriwas, Gurgaon',
+    location: 'Hauz Khas, Delhi',
     farmSize: '5.2 hectares',
     experience: '8 years',
     crops: ['Rice', 'Wheat', 'Sugarcane'],

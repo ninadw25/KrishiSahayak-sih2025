@@ -19,6 +19,25 @@ export interface ChatApiResponse {
   suggestions?: string[];
 }
 
+export interface FertilizerRequest {
+  N: number;
+  P: number;
+  K: number;
+  ph: number;
+  crop: string;
+}
+
+export interface FertilizerResponse {
+  fertilizer: string;
+  dosage: number;
+  updated_soil: {
+    N: number;
+    P: number;
+    K: number;
+    ph: number;
+  };
+}
+
 class ChatApiService {
   private static instance: ChatApiService;
   private readonly API_BASE_URL = 'http://localhost:8000/api';  // Force localhost
@@ -28,6 +47,112 @@ class ChatApiService {
       ChatApiService.instance = new ChatApiService();
     }
     return ChatApiService.instance;
+  }
+
+  // Helper function to normalize crop names for fertilizer API
+  private normalizeCropName(cropName: string): string {
+    const name = cropName.toLowerCase().trim();
+    
+    // Map of display names to API names
+    const cropMapping: { [key: string]: string } = {
+      // Handle parenthetical names
+      'pearl millet (bajra)': 'bajra',
+      'finger millet (ragi)': 'ragi',
+      'sorghum (jowar)': 'jowar',
+      'black gram (urad)': 'urad',
+      'green gram (moong)': 'moonggreen_gram',
+      'bengal gram (chana)': 'gram',
+      'pigeon pea (arhar)': 'arhartur',
+      'red gram (tur)': 'arhartur',
+      
+      // Common variations
+      'rice': 'rice',
+      'wheat': 'wheat',
+      'maize': 'maize',
+      'corn': 'maize',
+      'bajra': 'bajra',
+      'jowar': 'jowar',
+      'ragi': 'ragi',
+      'barley': 'barley',
+      'sugarcane': 'sugarcane',
+      'cotton': 'cottonlint',
+      'groundnut': 'groundnut',
+      'peanut': 'groundnut',
+      'soybean': 'soyabean',
+      'soya': 'soyabean',
+      'mustard': 'rapeseed_mustard',
+      'rapeseed': 'rapeseed_mustard',
+      'sunflower': 'sunflower',
+      'safflower': 'safflower',
+      'sesame': 'sesamum',
+      'til': 'sesamum',
+      'potato': 'potato',
+      'onion': 'onion',
+      'tomato': 'tomato',
+      'brinjal': 'brinjal',
+      'eggplant': 'brinjal',
+      'okra': 'bhindi',
+      'bhindi': 'bhindi',
+      'cabbage': 'cabbage',
+      'cauliflower': 'cauliflower',
+      'carrot': 'carrot',
+      'radish': 'redish',
+      'turnip': 'turnip',
+      'banana': 'banana',
+      'mango': 'mango',
+      'apple': 'apple',
+      'grapes': 'grapes',
+      'orange': 'orange',
+      'citrus': 'citrus_fruit',
+      'coconut': 'coconut',
+      'tea': 'tea',
+      'coffee': 'coffee',
+      'rubber': 'rubber',
+      'tobacco': 'tobacco',
+      'jute': 'jute_mesta',
+      'turmeric': 'turmeric',
+      'ginger': 'ginger',
+      'garlic': 'garlic',
+      'coriander': 'coriander',
+      'cumin': 'coriander',
+      'chili': 'dry_chillies',
+      'chilli': 'dry_chillies',
+      'pepper': 'dry_chillies'
+    };
+
+    // First, try direct mapping
+    if (cropMapping[name]) {
+      return cropMapping[name];
+    }
+
+    // Extract crop name from parentheses if present
+    const parenthesesMatch = name.match(/\(([^)]+)\)/);
+    if (parenthesesMatch) {
+      const extractedName = parenthesesMatch[1].toLowerCase();
+      if (cropMapping[extractedName]) {
+        return cropMapping[extractedName];
+      }
+    }
+
+    // Extract main crop name before parentheses
+    const beforeParentheses = name.split('(')[0].trim();
+    if (cropMapping[beforeParentheses]) {
+      return cropMapping[beforeParentheses];
+    }
+
+    // Check if any keyword is contained in the name
+    for (const [key, value] of Object.entries(cropMapping)) {
+      if (name.includes(key) || key.includes(name)) {
+        return value;
+      }
+    }
+
+    // If no mapping found, clean up the name
+    return name
+      .replace(/\([^)]*\)/g, '') // Remove parentheses and content
+      .replace(/[^a-z0-9]/g, '_') // Replace non-alphanumeric with underscore
+      .replace(/_+/g, '_') // Replace multiple underscores with single
+      .replace(/^_|_$/g, ''); // Remove leading/trailing underscores
   }
 
   async sendMessage(
@@ -132,6 +257,48 @@ class ChatApiService {
     } catch (error) {
       console.error('Chat API connection test failed:', error);
       return false;
+    }
+  }
+
+  async getFertilizerRecommendation(N: number, P: number, K: number, ph: number, crop: string): Promise<FertilizerResponse> {
+    try {
+      console.log('Getting fertilizer recommendation...');
+      
+      // Normalize the crop name for the API
+      const normalizedCrop = this.normalizeCropName(crop);
+      console.log('Original crop:', crop, '-> Normalized crop:', normalizedCrop);
+      console.log('Input:', { N, P, K, ph, crop: normalizedCrop });
+      
+      const requestBody: FertilizerRequest = {
+        N,
+        P,
+        K,
+        ph,
+        crop: normalizedCrop
+      };
+
+      const response = await fetch(`${this.API_BASE_URL}/fertilizer_recommender`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(requestBody),
+        mode: 'cors',
+      });
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error('Fertilizer API error response:', errorText);
+        throw new Error(`Fertilizer API error: ${response.status} - ${errorText}`);
+      }
+
+      const responseData = await response.json();
+      console.log('Fertilizer API response:', responseData);
+      
+      return responseData;
+    } catch (error) {
+      console.error('Error calling fertilizer API:', error);
+      throw error;
     }
   }
 
