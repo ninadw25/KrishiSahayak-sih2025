@@ -28,6 +28,7 @@ from routes.agent_routes import agent_router
 from routes.weather_routes import router as weather_router
 from routes.pest_routes import router as pest_router
 from routes.crop_routes import router as crop_router
+# from routes.soil_routes import soil_router
 
 # Global variables for system initialization
 app_state = {}
@@ -76,6 +77,7 @@ app.include_router(agent_router, prefix="/api/agent", tags=["AI Agent"])
 app.include_router(weather_router, prefix="/api", tags=["Weather"])
 app.include_router(pest_router, prefix="/api", tags=["Pest Detection"])
 app.include_router(crop_router, prefix="/api", tags=["Crop Recommendation"])
+# app.include_router(soil_router, prefix="/api", tags=["Soil Data"])
 
 @app.get("/")
 async def root():
@@ -100,6 +102,7 @@ async def root():
         "endpoints": {
             "ai_agent": "/api/agent/chat",
             "fertilizer": "/api/fertilizer_recommender",
+            # "soil_data": "/api/soil_data",
             "pest_detection": "/api/pest/detect",
             "crop_classification": "/api/pest/classify-crop",
             "weather": "/api/weather/get-weather",
@@ -138,7 +141,7 @@ if __name__ == "__main__":
     logger.info("🤖 AI Agent chat at: http://localhost:8000/api/agent/chat")
     
     uvicorn.run(
-        "app.main:app",
+        "main:app",
         host="0.0.0.0",
         port=8000,
         reload=True,

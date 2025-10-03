@@ -21,7 +21,7 @@ export interface ChatApiResponse {
 
 class ChatApiService {
   private static instance: ChatApiService;
-  private readonly API_BASE_URL = Constants.expoConfig?.extra?.fastapiApiUrl || process.env.EXPO_PUBLIC_FASTAPI_API_URL || 'http://localhost:8000/api';
+  private readonly API_BASE_URL = 'http://localhost:8000/api';  // Force localhost
 
   static getInstance(): ChatApiService {
     if (!ChatApiService.instance) {
@@ -36,6 +36,8 @@ class ChatApiService {
     imageUri?: string
   ): Promise<ChatApiResponse> {
     try {
+      console.log('API_BASE_URL:', this.API_BASE_URL);
+      console.log('Full URL:', `${this.API_BASE_URL}/agent/chat`);
       console.log('Sending message to chat API...');
       console.log('Message:', message);
       console.log('Has image:', !!imageUri);
@@ -47,7 +49,7 @@ class ChatApiService {
         image_uri: imageUri
       };
 
-      const response = await fetch(`${this.API_BASE_URL}/agent/agent/chat`, {
+      const response = await fetch(`${this.API_BASE_URL}/agent/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -22,7 +22,7 @@ from schemas.agent_schema import ChatRequest, ChatResponse
 from ai_workflow.agent import process_agricultural_query
 
 # Create router
-agent_router = APIRouter(prefix="/agent", tags=["Agricultural AI Agent"])
+agent_router = APIRouter(tags=["Agricultural AI Agent"])
 
 @agent_router.post("/chat", response_model=ChatResponse)
 async def chat_with_agent(request: ChatRequest):
